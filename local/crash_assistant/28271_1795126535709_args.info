@@ -1,9 +1,9 @@
 -jarPath
-local/crash_assistant/27708_1795125171709_app.jar
+local/crash_assistant/28271_1795126535709_app.jar
 -parentPID
-27708
+28271
 -parentStarted
-1795125171709
+1795126535709
 -platform
 FORGE
 -platformOwerridenData
@@ -23,7 +23,7 @@ L1VzZXJzLzxVU0VSPi9MaWJyYXJ5L0NhY2hlcy9sd2pnbDNpZnkvamFycy9mb3JnZVBhdGNoZXMtNGE3
 -crashAssistantModJarName
 ---CrashAssistant-forge-1.7.10-1.11.12.jar
 -classPath
-local/crash_assistant/27708_1795125171709_app.jar:local/crash_assistant/27708_1795125171709_mod.jar:/Users/timothy/Library/Caches/lwjgl3ify/maven/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar:/Users/timothy/Library/Caches/lwjgl3ify/maven/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar
+local/crash_assistant/28271_1795126535709_app.jar:local/crash_assistant/28271_1795126535709_mod.jar:/Users/timothy/Library/Caches/lwjgl3ify/maven/org/apache/logging/log4j/log4j-api/2.0-beta9/log4j-api-2.0-beta9.jar:/Users/timothy/Library/Caches/lwjgl3ify/maven/org/apache/logging/log4j/log4j-core/2.0-beta9/log4j-core-2.0-beta9.jar
 -minecraftXms
 256m
 -minecraftXmx
@@ -33,11 +33,11 @@ local/crash_assistant/27708_1795125171709_app.jar:local/crash_assistant/27708_17
 -systemUsedRAMAtMinecraftLaunchMoment
 15.6g
 -systemSwapSpace
-2g
+3g
 -systemUsedSwapSpaceAtMinecraftLaunchMoment
-757.7m
+1.8g
 -systemDiskFreeSpaceAtMinecraftLaunchMoment
-95.4g
+94.5g
 -minecraftSunJavaCommand
 com.gtnewhorizons.retrofuturabootstrap.MainStartOnFirstThread
 -processor
