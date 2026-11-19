@@ -1,0 +1,252 @@
+{
+  "recipes": [
+    {
+      "name": "rock.cobble",
+      "inputItem": [
+        ["dict","cobblestone"]
+      ],
+      "inputFluid": [
+        ["WATER",250]
+      ],
+      "outputItem": [
+        [
+          "multi",
+          [["minecraft:gravel"],1.0,95],
+          [["hbm:item.powder_quartz"],1.0,5]
+        ]
+      ],
+      "outputFluid": [
+        ["COLLOID",250]
+      ],
+      "duration": 100,
+      "power": 25,
+      "nameWrapper": "rock.crushing",
+      "autoSwitchGroup": "autoswitch.crushing"
+    },
+    {
+      "name": "rock.gravel",
+      "inputItem": [
+        ["item","minecraft:gravel"]
+      ],
+      "inputFluid": [
+        ["WATER",250]
+      ],
+      "outputItem": [
+        [
+          "multi",
+          [["minecraft:sand"],1.0,75],
+          [["minecraft:flint"],1.0,20],
+          [["hbm:item.powder_boron"],1.0,5]
+        ]
+      ],
+      "outputFluid": [
+        ["COLLOID",250]
+      ],
+      "duration": 100,
+      "power": 25,
+      "nameWrapper": "rock.crushing",
+      "autoSwitchGroup": "autoswitch.crushing"
+    },
+    {
+      "name": "rock.sand",
+      "inputItem": [
+        ["dict","sand"]
+      ],
+      "inputFluid": [
+        ["WATER",250]
+      ],
+      "outputItem": [
+        [
+          "multi",
+          [["hbm:item.dust"],1.0,90],
+          [["hbm:item.powder_calcium"],1.0,5],
+          [["hbm:item.fluorite"],1.0,5]
+        ]
+      ],
+      "outputFluid": [
+        ["COLLOID",250]
+      ],
+      "duration": 100,
+      "power": 25,
+      "nameWrapper": "rock.crushing",
+      "autoSwitchGroup": "autoswitch.crushing"
+    },
+    {
+      "name": "rock.netherrack",
+      "inputItem": [
+        ["item","minecraft:netherrack"]
+      ],
+      "inputFluid": [
+        ["WATER",250]
+      ],
+      "outputItem": [
+        [
+          "multi",
+          [["minecraft:gravel"],1.0,50],
+          [["minecraft:soul_sand"],1.0,25],
+          [["minecraft:glowstone_dust"],1.0,15],
+          [["hbm:item.powder_quartz"],1.0,10]
+        ]
+      ],
+      "outputFluid": [
+        ["LAVA",100]
+      ],
+      "duration": 100,
+      "power": 25,
+      "nameWrapper": "rock.crushing",
+      "autoSwitchGroup": "autoswitch.crushing"
+    },
+    {
+      "name": "rock.soulsand",
+      "inputItem": [
+        ["item","minecraft:soul_sand"]
+      ],
+      "inputFluid": [
+        ["WATER",250]
+      ],
+      "outputItem": [
+        [
+          "multi",
+          [["minecraft:sand"],1.0,50],
+          [["hbm:item.powder_fire"],1.0,25],
+          [["hbm:item.powder_uranium"],1.0,15],
+          [["minecraft:blaze_powder"],1.0,5],
+          [["minecraft:nether_wart"],1.0,5]
+        ]
+      ],
+      "outputFluid": [
+        ["LAVA",100]
+      ],
+      "duration": 100,
+      "power": 25,
+      "nameWrapper": "rock.crushing",
+      "autoSwitchGroup": "autoswitch.crushing"
+    },
+    {
+      "name": "rock.schist",
+      "inputItem": [
+        ["item","hbm:tile.stone_gneiss"]
+      ],
+      "inputFluid": [
+        ["WATER",250]
+      ],
+      "outputItem": [
+        [
+          "multi",
+          [["minecraft:gravel"],1.0,50],
+          [["minecraft:sand"],1.0,10],
+          [["hbm:item.powder_lithium"],1.0,25],
+          [["hbm:item.powder_niobium"],1.0,5],
+          [["hbm:item.powder_uranium"],1.0,5],
+          [["hbm:item.powder_gold"],1.0,5]
+        ]
+      ],
+      "outputFluid": [
+        ["COLLOID",250]
+      ],
+      "duration": 200,
+      "power": 25,
+      "nameWrapper": "rock.crushing",
+      "autoSwitchGroup": "autoswitch.crushing"
+    },
+    {
+      "name": "rock.basalt",
+      "inputItem": [
+        ["item","hbm:tile.basalt"]
+      ],
+      "inputFluid": [
+        ["WATER",250]
+      ],
+      "outputItem": [
+        [
+          "multi",
+          [["minecraft:gravel"],1.0,50],
+          [["hbm:item.powder_ash",1,2],1.0,25],
+          [["hbm:item.powder_quartz"],1.0,15],
+          [["hbm:tile.gravel_obsidian"],1.0,10]
+        ]
+      ],
+      "outputFluid": [
+        ["COLLOID",250]
+      ],
+      "duration": 200,
+      "power": 25,
+      "nameWrapper": "rock.crushing",
+      "autoSwitchGroup": "autoswitch.crushing"
+    },
+    {
+      "name": "rock.hematite",
+      "inputItem": [
+        ["dict","oreHematite"]
+      ],
+      "inputFluid": [
+        ["WATER",250]
+      ],
+      "outputItem": [
+        [
+          "multi",
+          [["minecraft:gravel"],1.0,65],
+          [["hbm:item.powder_iron"],1.0,25],
+          [["hbm:item.powder_titanium"],1.0,10]
+        ]
+      ],
+      "outputFluid": [
+        ["COLLOID",250]
+      ],
+      "duration": 200,
+      "power": 25,
+      "nameWrapper": "rock.crushing",
+      "autoSwitchGroup": "autoswitch.crushing"
+    },
+    {
+      "name": "rock.bauxite",
+      "inputItem": [
+        ["dict","oreBauxite"]
+      ],
+      "inputFluid": [
+        ["WATER",250]
+      ],
+      "outputItem": [
+        [
+          "multi",
+          [["minecraft:gravel"],1.0,25],
+          [["minecraft:clay_ball"],1.0,25],
+          [["hbm:tile.stone_resource",1,2],1.0,25],
+          [["hbm:tile.ore_titanium"],1.0,25]
+        ]
+      ],
+      "outputFluid": [
+        ["COLLOID",250]
+      ],
+      "duration": 200,
+      "power": 25,
+      "nameWrapper": "rock.crushing",
+      "autoSwitchGroup": "autoswitch.crushing"
+    },
+    {
+      "name": "rock.clay",
+      "inputItem": [
+        ["dict","sand",2]
+      ],
+      "inputFluid": [
+        ["COLLOID",2500]
+      ],
+      "outputItem": [
+        ["single",["minecraft:clay_ball",4]]
+      ],
+      "duration": 200,
+      "power": 25
+    },
+    {
+      "name": "rock.colloid",
+      "inputFluid": [
+        ["COLLOID",1000]
+      ],
+      "outputItem": [
+        ["single",["minecraft:sand"]]
+      ],
+      "duration": 100,
+      "power": 25
+    }
+  ]
+}

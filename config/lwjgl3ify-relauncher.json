@@ -1,0 +1,21 @@
+{
+  "javaInstallationsCache": [
+    "/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java",
+    "/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home/bin/java"
+  ],
+  "javaInstallation": 1,
+  "minMemoryMB": 256,
+  "maxMemoryMB": 4096,
+  "garbageCollector": "G1GC",
+  "customOptions": [],
+  "hideSettingsOnLaunch": false,
+  "forwardLogs": false,
+  "allowDebugger": false,
+  "waitForDebugger": false,
+  "mixinDebug": false,
+  "mixinDebugExport": false,
+  "mixinDebugCount": false,
+  "fmlDebugAts": false,
+  "rfbDumpClasses": false,
+  "rfbDumpPerTransformer": false
+}

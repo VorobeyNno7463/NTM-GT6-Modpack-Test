@@ -1,0 +1,716 @@
+{
+  "schemaVersion": 2,
+  "timestamp": 1795098917926,
+  "modsCount": 63,
+  "status": "STARTED",
+  "mods": [
+    {
+      "jarName": "forge-1.7.10-10.13.4.1614-1.7.10-universal.jar (modloader)",
+      "modId": "forge",
+      "name": "forge",
+      "version": "forge-1.7.10-10.13.4.1614-1.7.10-universal.jar",
+      "mixinConfigs": [],
+      "jarJarMods": []
+    },
+    {
+      "jarName": "+unimixins-all-1.7.10-0.3.2.jar",
+      "modId": "unimixins",
+      "name": "UniMixins",
+      "version": "0.3.2",
+      "mixinConfigs": [
+        "mixingasm.mixin.json",
+        "template/mixins.template.early.json",
+        "mixin.mixinbooterlegacy.refmap.json",
+        "mixins.gtnhmixins.json",
+        "mixins.gtnhmixins.refmap.json",
+        "mixin.mixinbooterlegacy.json",
+        "mixingasm.init.mixin.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 1815994285,
+      "modrinthHash": "caae4993fec61965d39a214c7ef9c709a58b5c9d"
+    },
+    {
+      "jarName": "---CrashAssistant-forge-1.7.10-1.11.12.jar",
+      "modId": "crash_assistant",
+      "name": "Crash Assistant",
+      "version": "1.11.12",
+      "mixinConfigs": [],
+      "jarJarMods": [
+        {
+          "jarName": "app.jar",
+          "mixinConfigs": [],
+          "jarJarMods": [],
+          "pathFromJarJar": "/META-INF/jarjar/"
+        }
+      ],
+      "curseForgeHash": 2860059882,
+      "modrinthHash": "7e05e80687bb9909f0eafbc64699fd78404ddff2"
+    },
+    {
+      "jarName": "adventurebackpack-1.4.22-GTNH-git.2+8e9804a838-dirty.jar",
+      "modId": "adventurebackpack",
+      "name": "Adventure Backpack",
+      "version": "1.4.22-GTNH-git.2+8e9804a838-dirty",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3487091098,
+      "modrinthHash": "a583013b16af61ce99d9f3664185422848de61ac"
+    },
+    {
+      "jarName": "ae2fc-1.5.117-gtnh.jar",
+      "modId": "ae2fc",
+      "name": "AE2 Fluid Crafting",
+      "version": "1.5.117-gtnh",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 1185859314,
+      "modrinthHash": "6ca64b27bbf939277878c5af0d5c0b59973e8ae1"
+    },
+    {
+      "jarName": "ae2stuff-0.10.20-GTNH.jar",
+      "modId": "ae2stuff",
+      "name": "AE2 Stuff",
+      "version": "0.10.20-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3080319253,
+      "modrinthHash": "090422d6fdeaa2b707623b4e6fc35305e8dd283f"
+    },
+    {
+      "jarName": "AppleCore-3.3.13.jar",
+      "modId": "AppleCore",
+      "name": "AppleCore",
+      "version": "3.3.13",
+      "mixinConfigs": [
+        "mixins.AppleCore.json",
+        "mixins.AppleCore.late.json",
+        "mixins.AppleCore.refmap.json",
+        "mixins.AppleCore.early.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 1470996734,
+      "modrinthHash": "29d0c494b4034ab8210a03fc2e7a52dfb9f6efc9"
+    },
+    {
+      "jarName": "appliedenergistics2-rv3-beta-1096-NTNH.jar",
+      "modId": "appliedenergistics2",
+      "name": "Applied Energistics 2",
+      "version": "rv3-beta-1096-NTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 2549668102,
+      "modrinthHash": "78c1a7afa535421d024e0343e6aa7d26301daf2c"
+    },
+    {
+      "jarName": "AsieLib-0.7.2.jar",
+      "modId": "asielib",
+      "name": "AsieLib",
+      "version": "0.7.2",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 1144279140,
+      "modrinthHash": "48242767ed2def3da37dfe5cbe1f6976e987c748"
+    },
+    {
+      "jarName": "BaublesExpanded-2.2.27-GTNH.jar",
+      "modId": "Baubles|Expanded",
+      "name": "Baubles Expanded",
+      "version": "2.2.27-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 700217885,
+      "modrinthHash": "35eb20ac5ce8b26ca7dd9df4be572b0b815b5692"
+    },
+    {
+      "jarName": "bdlib-1.11.1-GTNH.jar",
+      "modId": "bdlib",
+      "name": "BD lib",
+      "version": "1.11.1-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 1893324711,
+      "modrinthHash": "16b59426da4da33a0c07c7d8236e0223d5700c61"
+    },
+    {
+      "jarName": "Better HUD by NukeDuck [1.7.10][1.3.5].jar",
+      "modId": "hud",
+      "name": "Better HUD",
+      "version": "1.3.5",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 4261456233,
+      "modrinthHash": "539ce46558d79394ea8e80167a3aa2882402af57"
+    },
+    {
+      "jarName": "BetterAchievements-0.3.3.jar",
+      "modId": "BetterAchievements",
+      "name": "Better Achievements",
+      "version": "0.3.3",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 2184880746,
+      "modrinthHash": "d9e4c4d80026e14ac4014f28fc51d41ef7fd5bb9"
+    },
+    {
+      "jarName": "BetterBuildersWands-0.13.12-GTNH.jar",
+      "modId": "betterbuilderswands",
+      "name": "BetterBuildersWands",
+      "version": "0.13.12-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3305111303,
+      "modrinthHash": "080ccd27d678670e85e92dea89426f0f09abbb4a"
+    },
+    {
+      "jarName": "bettercrashes-1.4.7-GTNH.jar",
+      "modId": "bettercrashes",
+      "name": "BetterCrashes",
+      "version": "1.4.7-GTNH",
+      "mixinConfigs": [
+        "mixins.bettercrashes.refmap.json",
+        "mixins.bettercrashes.json",
+        "mixins.bettercrashes.early.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 351818387,
+      "modrinthHash": "c57f07cd93f31f9030cca7ceebe21f173a3ae2a8"
+    },
+    {
+      "jarName": "betterloadingscreen-1.7.19-GTNH.jar",
+      "modId": "betterloadingscreen",
+      "name": "Better Loading Screen GTNH",
+      "version": "1.7.19-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3351796469,
+      "modrinthHash": "80505ad2311dde7da5f9a614406404ab8ca77acc"
+    },
+    {
+      "jarName": "betterp2p-1.4.8.jar",
+      "modId": "betterp2p",
+      "name": "BetterP2P",
+      "version": "1.4.8",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 1032907007,
+      "modrinthHash": "12581629df46dd50d597a3d2c39607cb6e160c45"
+    },
+    {
+      "jarName": "BetterQuesting-3.0.328.jar",
+      "modId": "betterquesting",
+      "name": "Better Questing",
+      "version": "3.0.328",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 351326832,
+      "modrinthHash": "641e310c136aa1c3d49d72835f24fa32fa71bcb8"
+    },
+    {
+      "jarName": "bogosorter-1.3.56-GTNH.jar",
+      "modId": "bogosorter",
+      "name": "Inventory Bogo Sorter",
+      "version": "1.3.56-GTNH",
+      "mixinConfigs": [
+        "mixins.bogosorter.late.json",
+        "mixins.bogosorter.refmap.json",
+        "mixins.bogosorter.early.json",
+        "mixins.bogosorter.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 1250951668,
+      "modrinthHash": "06b99714157f1312dda1cf5837a123b9acb9cf04"
+    },
+    {
+      "jarName": "CarpentersBlocks-3.7.3-GTNH.jar",
+      "modId": "CarpentersBlocks",
+      "name": "Carpenter\u0027s Blocks",
+      "version": "3.7.3-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3945934926,
+      "modrinthHash": "10a53c62f6eb7bc8eb7ec404cd75da4c56020459"
+    },
+    {
+      "jarName": "chisel-2.17.34-GTNH.jar",
+      "modId": "chisel",
+      "name": "Chisel",
+      "version": "2.17.34-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 1621758901,
+      "modrinthHash": "968650f10b02a9f0fb6e37e9218cae1c64447426"
+    },
+    {
+      "jarName": "CodeChickenCore-1.4.23.jar",
+      "modId": "CodeChickenCore",
+      "name": "CodeChicken Core",
+      "version": "1.4.23",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3963288234,
+      "modrinthHash": "6f0bc31d2996855ac5e7bf12ea6dc1b42aaad390"
+    },
+    {
+      "jarName": "CodeChickenLib-1.3.0.jar",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3987400297,
+      "modrinthHash": "86d55951dcfc8c71f17aa6b718cdfb688ae04177"
+    },
+    {
+      "jarName": "Computronics-1.9.13-GTNH.jar",
+      "modId": "computronics",
+      "name": "Computronics",
+      "version": "1.9.13-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 383722816,
+      "modrinthHash": "a447bafe563e0325aacd6e37e84d51635321e036"
+    },
+    {
+      "jarName": "CookingForBlockheads-1.4.14-GTNH.jar",
+      "modId": "cookingforblockheads",
+      "name": "Cooking For Blockheads",
+      "version": "1.4.14-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3614911400,
+      "modrinthHash": "7aa3fda9d0e8a42697c7f1d8d81ec6eac6ffe1ad"
+    },
+    {
+      "jarName": "coretweaks-0.3.4.7-GTNH.jar",
+      "modId": "coretweaks",
+      "name": "CoreTweaks",
+      "version": "0.3.4.7-GTNH",
+      "mixinConfigs": [
+        "coretweaks.mixin.json",
+        "coretweaks-init.mixin.json",
+        "coretweaks-preinit.mixin.json",
+        "mixins.coretweaks.refmap.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 2670966759,
+      "modrinthHash": "1848c0e5402c5631dbbaa0a76a4ed27eaf0a4f8e"
+    },
+    {
+      "jarName": "CreativeCore v1.3.24 mc1.7.10.jar",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 212126637,
+      "modrinthHash": "5671ec8cc0d164262c34863bfeb2a4de2f60f4bc"
+    },
+    {
+      "jarName": "etfuturum-2.6.65-GTNH.jar",
+      "modId": "etfuturum",
+      "name": "Et Futurum Requiem",
+      "version": "2.6.65-GTNH",
+      "mixinConfigs": [
+        "mixins.etfuturum.early.json",
+        "mixins.etfuturum.refmap.json",
+        "mixins.etfuturum.late.json",
+        "mixins.etfuturum.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 3588979271,
+      "modrinthHash": "e234085d012bafab0003b537dc15ce8566edd67a"
+    },
+    {
+      "jarName": "forgelin-2.0.3-GTNH.jar",
+      "modId": "forgelin",
+      "name": "Forgelin",
+      "version": "2.0.3-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 336065931,
+      "modrinthHash": "e6e1863c3eecb644a3f778717240148be13215a9"
+    },
+    {
+      "jarName": "ForgeMultipart-1.7.11.jar",
+      "modId": "ForgeMultipart",
+      "name": "Forge Multipart",
+      "version": "1.7.11",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3530473266,
+      "modrinthHash": "daf600f5a44efe2c0648b2a2b4b32f601a14b624"
+    },
+    {
+      "jarName": "freecam-gtnh-1.0.12.jar",
+      "modId": "freecam-gtnh",
+      "name": "Freecam",
+      "version": "1.0.12",
+      "mixinConfigs": [
+        "mixins.freecam-gtnh.late.json",
+        "mixins.freecam-gtnh.early.json",
+        "mixins.freecam-gtnh.refmap.json",
+        "mixins.freecam-gtnh.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 2529917037,
+      "modrinthHash": "9625310aeba5664dc630023f5c0fe736399d6320"
+    },
+    {
+      "jarName": "gregtech_1.7.10-6.17.05.jar",
+      "modId": "gregtech",
+      "name": "GregTech",
+      "version": "6.17.05",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3556519547,
+      "modrinthHash": "69a6ffd824bed254a750eafc4b5f79b30c2b82b2"
+    },
+    {
+      "jarName": "gtnhlib-0.11.55.jar",
+      "modId": "gtnhlib",
+      "name": "GTNH Lib",
+      "version": "0.11.55",
+      "mixinConfigs": [
+        "mixins.gtnhlib.late.json",
+        "mixins.gtnhlib.early.json",
+        "mixins.gtnhlib.json",
+        "mixins.gtnhlib.refmap.json",
+        "mixins.gtnhlib.preinit.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 1611699801,
+      "modrinthHash": "db7a3b8f31fdbc3c4aea531cae70f237925f9968"
+    },
+    {
+      "jarName": "HardcoreEnderExpansion-1.12.29-GTNH.jar",
+      "modId": "HardcoreEnderExpansion",
+      "name": "Hardcore Ender Expansion",
+      "version": "1.12.29-GTNH",
+      "mixinConfigs": [
+        "mixins.HardcoreEnderExpansion.early.json",
+        "mixins.HardcoreEnderExpansion.json",
+        "mixins.HardcoreEnderExpansion.refmap.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 2186660007,
+      "modrinthHash": "5e3101c27c76c1f6503e86f8faeb5e007327eaa8"
+    },
+    {
+      "jarName": "HBM-NTM-.1.0.27_X5869_NTNH.jar",
+      "modId": "hbm",
+      "name": "NTM: Space",
+      "version": "1.0.27_X5869_NTNH",
+      "mixinConfigs": [
+        "mixins.hbm.refmap.json",
+        "mixins.hbm.json",
+        "mixins.hbm.late.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 4098439928,
+      "modrinthHash": "0b3123e6d6e1c106f1452ba0c71988533c494d23"
+    },
+    {
+      "jarName": "HungerOverhaul-1.1.0-GTNH.jar",
+      "modId": "HungerOverhaul",
+      "name": "Hunger Overhaul",
+      "version": "1.1.0-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 1637256943,
+      "modrinthHash": "4004ae73afbd1df1f3c86a25fbf5d02b44669e45"
+    },
+    {
+      "jarName": "LunatriusCore-1.2.1-GTNH.jar",
+      "modId": "LunatriusCore",
+      "name": "LunatriusCore",
+      "version": "1.2.1-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3266749524,
+      "modrinthHash": "f53cf96945c881a5039b074fabdc91ad5050c7a4"
+    },
+    {
+      "jarName": "lwjgl3ify-3.0.42.jar",
+      "modId": "lwjgl3ify",
+      "name": "lwjgl3ify",
+      "version": "3.0.42",
+      "mixinConfigs": [
+        "mixins.lwjgl3ify.refmap.json",
+        "mixins.lwjgl3ify.early.json",
+        "mixins.lwjgl3ify.late.json",
+        "mixins.lwjgl3ify.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 170870727,
+      "modrinthHash": "f4787e3faf6bd95c222851667ecaef4cefc1afa0"
+    },
+    {
+      "jarName": "matter-manipulator-0.1.76-GTNH.jar",
+      "modId": "matter-manipulator",
+      "name": "Matter Manipulator",
+      "version": "0.1.76-GTNH",
+      "mixinConfigs": [
+        "mixins.matter-manipulator.refmap.json",
+        "mixins.matter-manipulator.json",
+        "mixins.matter-manipulator.late.json",
+        "mixins.matter-manipulator.early.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 180034043,
+      "modrinthHash": "466958b7b16edf9cdcbda04aed6d9d249697df6a"
+    },
+    {
+      "jarName": "mobsinfo-0.6.0-GTNH.jar",
+      "modId": "mobsinfo",
+      "name": "MobsInfo",
+      "version": "0.6.0-GTNH",
+      "mixinConfigs": [
+        "mixins.mobsinfo.refmap.json",
+        "mixins.mobsinfo.early.json",
+        "mixins.mobsinfo.json",
+        "mixins.mobsinfo.late.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 1826854278,
+      "modrinthHash": "67f755bf6f7e3dcdbbaa31678985705341db802f"
+    },
+    {
+      "jarName": "modularui2-2.4.1-1.7.10.jar",
+      "modId": "modularui2",
+      "name": "Modular UI 2",
+      "version": "2.4.1-1.7.10",
+      "mixinConfigs": [
+        "mixins.modularui2.json",
+        "mixins.modularui2.late.json",
+        "mixins.modularui2.refmap.json",
+        "mixin.modularui.jei.json",
+        "mixins.modularui2.early.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 3305414140,
+      "modrinthHash": "78bb588391aed1463bec85aca190bcbae5077f24"
+    },
+    {
+      "jarName": "MouseTweaks-2.5.4-GTNH.jar",
+      "modId": "MouseTweaks",
+      "name": "Mouse Tweaks",
+      "version": "2.5.4-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 2143752094,
+      "modrinthHash": "2b6d4a899f018af3e7b02d2d565552e8b022f504"
+    },
+    {
+      "jarName": "MrTJPCore-1.3.7.jar",
+      "modId": "MrTJPCoreMod",
+      "name": "MrTJPCore",
+      "version": "1.3.7",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3396674715,
+      "modrinthHash": "33f8746384c31ef85a3cace44562eb096dd7fb12"
+    },
+    {
+      "jarName": "naturescompass-1.5.2-GTNH.jar",
+      "modId": "naturescompass",
+      "name": "Nature\u0027s Compass",
+      "version": "1.5.2-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3363005453,
+      "modrinthHash": "f145adfcaa31e3597057b44844feb007ee066ece"
+    },
+    {
+      "jarName": "NEIAddons-1.18.8.jar",
+      "modId": "NEIAddons",
+      "name": "NEI Addons",
+      "version": "1.18.8",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 371917773,
+      "modrinthHash": "192278be26452486bf9e58355b75d8f2ddb82623"
+    },
+    {
+      "jarName": "NEIIntegration-1.5.3.jar",
+      "modId": "neiintegration",
+      "name": "NEIIntegration",
+      "version": "1.5.3",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 1857932357,
+      "modrinthHash": "e4293d03534e23bda14279e62984507a79fa36b4"
+    },
+    {
+      "jarName": "NotEnoughEnergistics-1.7.50.jar",
+      "modId": "neenergistics",
+      "name": "NotEnoughEnergistics",
+      "version": "1.7.50",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 352577610,
+      "modrinthHash": "41926a22bf99807a8e462a72996e29321ce368bc"
+    },
+    {
+      "jarName": "NotEnoughItems-2.8.172-GTNH.jar",
+      "modId": "NotEnoughItems",
+      "name": "NotEnoughItems",
+      "version": "2.8.172-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 913021311,
+      "modrinthHash": "d7dad8020354668183dfaf9c1cddb7f0792fbef8"
+    },
+    {
+      "jarName": "NotEnoughResources-1.7.10-0.1.0-122.jar",
+      "modId": "neresources",
+      "name": "Not Enough Resources",
+      "version": "",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 4038795344,
+      "modrinthHash": "6e6659973ad7674551d92f27d6bafea9addbbb44"
+    },
+    {
+      "jarName": "oauth-1.3.4-GTNH.jar",
+      "modId": "oauth",
+      "name": "OAuth",
+      "version": "1.3.4-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 1652418934,
+      "modrinthHash": "9e1faf66bfe1a5a06eec142cfa908ab41ce36e07"
+    },
+    {
+      "jarName": "OpenBlocks-1.12.22-GTNH.jar",
+      "modId": "OpenBlocks",
+      "name": "OpenBlocks",
+      "version": "1.12.22-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 2703621184,
+      "modrinthHash": "492677f8297a77c361c8999873f1c0dc22bb2720"
+    },
+    {
+      "jarName": "OpenComputers-1.12.70-GTNH.jar",
+      "modId": "OpenComputers",
+      "name": "OpenComputers",
+      "version": "1.12.70-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3788997263,
+      "modrinthHash": "62f7089ba837e1731f28311e433a59cc55ed57ab"
+    },
+    {
+      "jarName": "OpenModsLibs-0.10.15.jar",
+      "modId": "OpenMods",
+      "name": "OpenMods",
+      "version": "0.10.15",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 1298289204,
+      "modrinthHash": "aa5d2f6b46ef0fff5e2baa3760a49168db6509c7"
+    },
+    {
+      "jarName": "opensecurity-1.2.2-GTNH.jar",
+      "modId": "opensecurity",
+      "name": "OpenSecurity",
+      "version": "1.2.2-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3552250972,
+      "modrinthHash": "b0e94ae6e337174612f55cd87a1c8fa0307e26e3"
+    },
+    {
+      "jarName": "ProjectBlue-1.2.11-GTNH.jar",
+      "modId": "ProjectBlue",
+      "name": "Project Blue",
+      "version": "1.2.11-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 4207843818,
+      "modrinthHash": "ac93aeaf869136d35dc33744b9c5909ab80de3bc"
+    },
+    {
+      "jarName": "ProjRed-4.12.50-GTNH.jar",
+      "modId": "ProjRed|Core",
+      "name": "ProjectRed Core",
+      "version": "4.12.50-GTNH",
+      "mixinConfigs": [
+        "mixins.ProjRed.early.json",
+        "mixins.ProjRed.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 814441515,
+      "modrinthHash": "fc87ea44225ec8a24a60975e85ee64d485649a94"
+    },
+    {
+      "jarName": "RTG-1.2.1-GTNH.jar",
+      "modId": "RTG",
+      "name": "Realistic Terrain Generation",
+      "version": "1.2.1-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 541672945,
+      "modrinthHash": "ea7ede7c02dd56132e8a7f0be5614beb68b5a9d1"
+    },
+    {
+      "jarName": "Schematica-1.12.6-GTNH.jar",
+      "modId": "Schematica",
+      "name": "Schematica",
+      "version": "1.12.6-GTNH",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 1860571239,
+      "modrinthHash": "72721505a5615ecae5664c6d1f8198bdd8711309"
+    },
+    {
+      "jarName": "StorageDrawers-2.2.31-GTNH.jar",
+      "modId": "StorageDrawers",
+      "name": "Storage Drawers",
+      "version": "2.2.31-GTNH",
+      "mixinConfigs": [
+        "mixins.StorageDrawers.json",
+        "mixins.StorageDrawers.early.json",
+        "mixins.StorageDrawers.refmap.json"
+      ],
+      "jarJarMods": [],
+      "curseForgeHash": 3079587451,
+      "modrinthHash": "f0c485e7341bfeedec06d65da94799e13e557749"
+    },
+    {
+      "jarName": "Waystones-mc1.7.10-1.0.12.jar",
+      "modId": "waystones",
+      "name": "Waystones",
+      "version": "1.0.12",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 2544796507,
+      "modrinthHash": "84f33bdf36c749623b5f38d21a20bc92fbb6522d"
+    },
+    {
+      "jarName": "WirelessCraftingTerminal-1.12.17.jar",
+      "modId": "ae2wct",
+      "name": "AE2 Wireless Crafting Terminal",
+      "version": "1.12.17",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 3723746720,
+      "modrinthHash": "ca79e4dfb8ab0cce1393c7c0f2a945bb64691cce"
+    },
+    {
+      "jarName": "Xaeros_Minimap_21.10.44_Forge_1.7.10.jar",
+      "modId": "XaeroMinimap",
+      "name": "Xaero\u0027s Minimap",
+      "version": "21.10.44",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 1882419202,
+      "modrinthHash": "8be058c70fc161077fd84a6e72ba2bf951aa89c4"
+    },
+    {
+      "jarName": "XaerosWorldMap_1.14.1.33_Forge_1.7.10.jar",
+      "modId": "XaeroWorldMap",
+      "name": "Xaero\u0027s World Map",
+      "version": "1.14.1.33",
+      "mixinConfigs": [],
+      "jarJarMods": [],
+      "curseForgeHash": 12239370,
+      "modrinthHash": "19d1262bf9d20f449d0e9c16e9d3f4d9c373b182"
+    }
+  ]
+}
