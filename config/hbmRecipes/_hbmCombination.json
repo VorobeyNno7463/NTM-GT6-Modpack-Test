@@ -1366,11 +1366,6 @@
       "fluid": ["VITRIOL",50]
     },
     {
-      "input": ["item","minecraft:coal",1,1],
-      "output": ["minecraft:coal"],
-      "fluid": ["GAS_COKER",25]
-    },
-    {
       "input": ["item","hbm:item.bedrock_ore",1,4642],
       "output": ["hbm:item.bedrock_ore",1,4898],
       "fluid": ["VITRIOL",50]

@@ -84,19 +84,15 @@
     },
     {
       "input": ["item","hbm:item.bedrock_ore",1,2836],
-      "output1": ["Slag",144],
+      "output1": ["Titanium",1152],
       "byproducts": [
-        ["hbm:item.bedrock_ore_fragment",64,2201],
         ["hbm:item.bedrock_ore",1,3348]
       ],
       "duration": 20
     },
     {
       "input": ["item","hbm:item.bedrock_ore",1,3348],
-      "output1": ["Slag",144],
-      "byproducts": [
-        ["hbm:item.bedrock_ore_fragment",36,2201]
-      ],
+      "output1": ["Titanium",288],
       "duration": 20
     },
     {

@@ -78,6 +78,10 @@
       "output": [["Starmetal",288]]
     },
     {
+      "input": ["item","hbm:item.blades_advanced_alloy"],
+      "output": [["AdvancedAlloy",288]]
+    },
+    {
       "input": ["item","hbm:item.casing",1,2],
       "output": [["WeaponSteel",18]]
     },

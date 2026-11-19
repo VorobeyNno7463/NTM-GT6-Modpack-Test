@@ -164,6 +164,12 @@
       "antimatter": 50
     },
     {
+      "particle": ["hbm:item.part_plutonium"],
+      "input": ["item","hbm:item.cell_antimatter"],
+      "output": ["hbm:item.cell_anti_schrabidium"],
+      "antimatter": 0
+    },
+    {
       "particle": ["hbm:item.part_lithium"],
       "input": ["dict","dustActinium"],
       "output": ["hbm:item.powder_thorium"],

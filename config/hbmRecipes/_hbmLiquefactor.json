@@ -3,7 +3,7 @@
   "recipes": [
     {
       "input": ["dict","dustCoal"],
-      "output": ["COALOIL",250]
+      "output": ["COALOIL",100]
     },
     {
       "input": ["item","minecraft:packed_ice"],
@@ -16,6 +16,10 @@
     {
       "input": ["item","minecraft:obsidian"],
       "output": ["LAVA",500]
+    },
+    {
+      "input": ["dict","logWood"],
+      "output": ["MUG",100]
     },
     {
       "input": ["item","minecraft:fish",1,32767],
@@ -50,10 +54,6 @@
       "output": ["SEEDSLURRY",50]
     },
     {
-      "input": ["item","hbm:tile.laythe_root"],
-      "output": ["MUG",100]
-    },
-    {
       "input": ["item","hbm:tile.plant_flower",1,4],
       "output": ["ETHANOL",50]
     },
@@ -71,7 +71,7 @@
     },
     {
       "input": ["dict","gemCoal"],
-      "output": ["COALOIL",250]
+      "output": ["COALOIL",100]
     },
     {
       "input": ["item","hbm:item.glyphid_gland_empty"],
@@ -92,10 +92,6 @@
     {
       "input": ["dict","ingotLead"],
       "output": ["LEAD",100]
-    },
-    {
-      "input": ["item","minecraft:melon"],
-      "output": ["ETHANOL",100]
     },
     {
       "input": ["dict","cracktar"],
@@ -126,16 +122,12 @@
       "output": ["SEEDSLURRY",100]
     },
     {
-      "input": ["dict","blockLead"],
-      "output": ["LEAD",900]
-    },
-    {
       "input": ["dict","gemLignite"],
-      "output": ["COALOIL",150]
+      "output": ["COALOIL",50]
     },
     {
       "input": ["dict","dustLignite"],
-      "output": ["COALOIL",150]
+      "output": ["COALOIL",50]
     },
     {
       "input": ["dict","oiltar"],
@@ -143,7 +135,7 @@
     },
     {
       "input": ["item","hbm:tile.plant_flower",1,3],
-      "output": ["ETHANOL",100]
+      "output": ["ETHANOL",150]
     },
     {
       "input": ["item","minecraft:snow"],

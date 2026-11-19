@@ -38,7 +38,7 @@
         ["item","hbm:tile.moon_turf"]
       ],
       "outputFluid": [
-        ["HELIUM3",500]
+        ["HELIUM3",125]
       ],
       "duration": 25,
       "power": 2000,
@@ -83,21 +83,6 @@
       ],
       "duration": 200,
       "power": 100
-    },
-    {
-      "name": "chem.ticl4",
-      "inputItem": [
-        ["dict","ingotIlmenite",4],
-        ["dict","gemAnyCoke"]
-      ],
-      "inputFluid": [
-        ["CHLORINE",500]
-      ],
-      "outputFluid": [
-        ["TITANIUM_TETRACHLORIDE",4000]
-      ],
-      "duration": 60,
-      "power": 500
     },
     {
       "name": "chem.ethanol",
@@ -262,35 +247,7 @@
       ],
       "duration": 60,
       "power": 500,
-      "blueprintpool": "discover..stone"
-    },
-    {
-      "name": "chem.obsidian",
-      "inputFluid": [
-        ["WATER",1000],
-        ["LAVA",500],
-        ["AIR",4000]
-      ],
-      "outputItem": [
-        ["single",["minecraft:obsidian"]]
-      ],
-      "duration": 60,
-      "power": 500,
-      "blueprintpool": "discover..stone"
-    },
-    {
-      "name": "chem.aggregate",
-      "inputItem": [
-        ["item","minecraft:cobblestone",16]
-      ],
-      "outputItem": [
-        ["single",["minecraft:gravel",8]],
-        ["single",["minecraft:sand",8]]
-      ],
-      "duration": 320,
-      "power": 500,
-      "named": true,
-      "blueprintpool": "discover..stone"
+      "blueprintpool": "discover."
     },
     {
       "name": "chem.concrete",
@@ -465,32 +422,16 @@
       "power": 100
     },
     {
-      "name": "chem.deshcracked",
-      "inputItem": [
-        ["item","hbm:item.powder_desh_mix"]
-      ],
-      "inputFluid": [
-        ["LIGHTOIL_CRACK",500,1],
-        ["MERCURY",100]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.ingot_desh"]]
-      ],
-      "duration": 100,
-      "power": 100,
-      "named": true
-    },
-    {
       "name": "chem.polymer",
       "inputItem": [
         ["dict","dustCoal",2],
         ["dict","dustFluorite"]
       ],
       "inputFluid": [
-        ["PETROLEUM",1000]
+        ["PETROLEUM",500]
       ],
       "outputItem": [
-        ["single",["hbm:item.ingot_polymer",4]]
+        ["single",["hbm:item.ingot_polymer"]]
       ],
       "duration": 100,
       "power": 100
@@ -517,7 +458,7 @@
         ["UNSATURATEDS",500]
       ],
       "outputItem": [
-        ["single",["hbm:item.ingot_rubber",2]]
+        ["single",["hbm:item.ingot_rubber"]]
       ],
       "duration": 100,
       "power": 200
@@ -529,11 +470,10 @@
         ["UNSATURATEDS",400]
       ],
       "outputItem": [
-        ["single",["hbm:item.ingot_rubber",2]]
+        ["single",["hbm:item.ingot_rubber"]]
       ],
       "duration": 100,
-      "power": 400,
-      "named": true
+      "power": 400
     },
     {
       "name": "chem.hardplastic",
@@ -574,40 +514,6 @@
       ],
       "duration": 60,
       "power": 300
-    },
-    {
-      "name": "chem.lightconstruction",
-      "inputItem": [
-        ["dict","plateDuraSteel",2]
-      ],
-      "inputFluid": [
-        ["XYLENE",1000],
-        ["PHOSGENE",1000],
-        ["SOURGAS",4000]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.part_generic",1,6]]
-      ],
-      "duration": 400,
-      "power": 25000,
-      "named": true
-    },
-    {
-      "name": "chem.carboncarbon",
-      "inputItem": [
-        ["dict","gemAnyCoke",8],
-        ["dict","plateTitanium"]
-      ],
-      "inputFluid": [
-        ["HEAVYOIL_VACUUM",1000],
-        ["SYNGAS",8000]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.part_generic",1,6]]
-      ],
-      "duration": 400,
-      "power": 100000,
-      "named": true
     },
     {
       "name": "chem.meth",
@@ -937,21 +843,6 @@
       "power": 1000
     },
     {
-      "name": "chem.napalm",
-      "inputItem": [
-        ["item","hbm:item.canister_empty"]
-      ],
-      "inputFluid": [
-        ["GASOLINE",100],
-        ["AROMATICS",50]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.canister_napalm"]]
-      ],
-      "duration": 40,
-      "power": 100
-    },
-    {
       "name": "chem.laminate",
       "inputItem": [
         ["dict","blockGlass"],
@@ -1254,9 +1145,9 @@
     {
       "name": "chem.strawberryicecream",
       "inputItem": [
-        ["dict","foodButter",2],
+        ["item","hbm:item.butter",2],
         ["item","minecraft:packed_ice"],
-        ["item","hbm:item.nothing",4]
+        ["item","hbm:item.strawberry",4]
       ],
       "inputFluid": [
         ["CREAM",1000]
@@ -1270,7 +1161,7 @@
     {
       "name": "chem.minmusicecream",
       "inputItem": [
-        ["dict","foodButter",4],
+        ["item","hbm:item.butter",4],
         ["item","hbm:tile.minmus_smooth",2],
         ["item","hbm:tile.minmus_stone",2]
       ],
@@ -1431,68 +1322,6 @@
       "duration": 200,
       "power": 500,
       "named": true
-    },
-    {
-      "name": "chem.sponge",
-      "inputItem": [
-        ["dict","ingotRubber",4]
-      ],
-      "inputFluid": [
-        ["CARBONDIOXIDE",250]
-      ],
-      "outputItem": [
-        ["single",["minecraft:sponge"]]
-      ],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "chem.certus",
-      "inputItem": [
-        ["item","hbm:item.powder_quartz"],
-        ["item","appliedenergistics2:item.ItemCrystalSeed"]
-      ],
-      "inputFluid": [
-        ["WATER",2000]
-      ],
-      "outputItem": [
-        ["single",["appliedenergistics2:item.ItemMultiMaterial"]],
-        ["single",["appliedenergistics2:item.ItemCrystalSeed"]]
-      ],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "chem.fluix",
-      "inputItem": [
-        ["item","hbm:item.powder_quartz"],
-        ["item","hbm:item.ingot_fiberglass"]
-      ],
-      "inputFluid": [
-        ["WATER",2000]
-      ],
-      "outputItem": [
-        ["single",["appliedenergistics2:item.ItemMultiPart",2,140]]
-      ],
-      "duration": 100,
-      "power": 100
-    },
-    {
-      "name": "chem.quartzfiber",
-      "inputItem": [
-        ["item","minecraft:redstone"],
-        ["item","appliedenergistics2:item.ItemMultiMaterial",1,1],
-        ["item","appliedenergistics2:item.ItemCrystalSeed",1,1200]
-      ],
-      "inputFluid": [
-        ["WATER",2000]
-      ],
-      "outputItem": [
-        ["single",["appliedenergistics2:item.ItemMultiMaterial",2,7]],
-        ["single",["appliedenergistics2:item.ItemCrystalSeed",1,1200]]
-      ],
-      "duration": 100,
-      "power": 100
     }
   ]
 }

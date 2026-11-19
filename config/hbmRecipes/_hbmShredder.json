@@ -18,10 +18,6 @@
       "output": ["hbm:item.scrap_plastic",1,9]
     },
     {
-      "input": ["hbm:tile.bobblehead",1,34],
-      "output": ["hbm:item.scrap_plastic",1,15]
-    },
-    {
       "input": ["gregtech:gt.stone.blueschist",1,1],
       "output": ["minecraft:gravel"]
     },
@@ -128,10 +124,6 @@
     {
       "input": ["hbm:tile.deco_pipe_rim_rusted"],
       "output": ["hbm:item.powder_steel"]
-    },
-    {
-      "input": ["hbm:tile.bobblehead",1,35],
-      "output": ["hbm:item.scrap_plastic"]
     },
     {
       "input": ["gregtech:gt.stone.blueschist"],
@@ -426,10 +418,6 @@
       "output": ["hbm:item.ore_enriched",1,16]
     },
     {
-      "input": ["hbm:tile.bobblehead",1,29],
-      "output": ["hbm:item.scrap_plastic",1,15]
-    },
-    {
       "input": ["gregtech:gt.block.sapling.cd",1,8],
       "output": ["minecraft:stick"]
     },
@@ -482,6 +470,10 @@
       "output": ["hbm:item.ore_enriched",1,17]
     },
     {
+      "input": ["hbm:item.coil_advanced_torus"],
+      "output": ["hbm:item.powder_advanced_alloy",2]
+    },
+    {
       "input": ["hbm:item.ore_centrifuged",1,17],
       "output": ["hbm:item.ore_enriched",1,17]
     },
@@ -498,20 +490,8 @@
       "output": ["hbm:item.powder_aluminium",3]
     },
     {
-      "input": ["hbm:tile.bobblehead",1,30],
-      "output": ["hbm:item.scrap_plastic",1,15]
-    },
-    {
-      "input": ["hbm:tile.bobblehead",1,32],
-      "output": ["hbm:item.scrap_plastic",1,15]
-    },
-    {
       "input": ["gregtech:gt.block.planks"],
       "output": ["hbm:item.powder_sawdust"]
-    },
-    {
-      "input": ["gregtech:gt.meta.dust",1,8332],
-      "output": ["hbm:item.powder_cobalt_tiny"]
     },
     {
       "input": ["minecraft:stained_hardened_clay",1,15],
@@ -566,24 +546,12 @@
       "output": ["minecraft:gravel"]
     },
     {
-      "input": ["hbm:tile.laythe_root"],
-      "output": ["hbm:item.powder_sawdust",4]
-    },
-    {
       "input": ["hbm:tile.deco_pipe_framed_rusted"],
       "output": ["hbm:item.powder_steel"]
     },
     {
       "input": ["hbm:item.ore_bedrock",1,18],
       "output": ["hbm:item.ore_enriched",1,18]
-    },
-    {
-      "input": ["hbm:tile.bobblehead",1,31],
-      "output": ["hbm:item.scrap_plastic",1,15]
-    },
-    {
-      "input": ["hbm:tile.bobblehead",1,33],
-      "output": ["hbm:item.scrap_plastic",1,15]
     },
     {
       "input": ["hbm:tile.bobblehead"],
@@ -1206,10 +1174,6 @@
       "output": ["minecraft:gravel"]
     },
     {
-      "input": ["hbm:item.drive",1,3],
-      "output": ["hbm:item.powder_polymer",4]
-    },
-    {
       "input": ["hbm:item.ore_bedrock",1,7],
       "output": ["hbm:item.ore_enriched",1,7]
     },
@@ -1300,10 +1264,6 @@
     {
       "input": ["hbm:item.bedrock_ore",1,32767],
       "output": ["minecraft:gravel"]
-    },
-    {
-      "input": ["hbm:item.drive",1,2],
-      "output": ["hbm:item.powder_polymer",2]
     },
     {
       "input": ["hbm:item.ore_bedrock",1,10],
@@ -1738,6 +1698,10 @@
       "output": ["hbm:item.powder_steel"]
     },
     {
+      "input": ["hbm:item.coil_advanced_alloy"],
+      "output": ["hbm:item.powder_advanced_alloy"]
+    },
+    {
       "input": ["hbm:tile.duna_sands"],
       "output": ["hbm:item.dust",2]
     },
@@ -1944,10 +1908,6 @@
     {
       "input": ["hbm:item.crystal_sulfur"],
       "output": ["hbm:item.sulfur",8]
-    },
-    {
-      "input": ["hbm:item.nothing"],
-      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,45]
     },
     {
       "input": ["minecraft:stained_hardened_clay"],
@@ -2428,10 +2388,6 @@
     {
       "input": ["hbm:tile.bobblehead",1,10],
       "output": ["hbm:item.scrap_plastic",1,10]
-    },
-    {
-      "input": ["minecraft:ender_pearl"],
-      "output": ["appliedenergistics2:item.ItemMultiMaterial",1,46]
     },
     {
       "input": ["minecraft:wool",1,1],

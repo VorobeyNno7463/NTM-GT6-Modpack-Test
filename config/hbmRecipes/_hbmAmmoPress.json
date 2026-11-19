@@ -1246,20 +1246,6 @@
         ["dict","dustAnySmokeless"],
         null
       ]
-    },
-    {
-      "output": ["hbm:item.ammo_dgk"],
-      "input": [
-        null,
-        ["dict","ingotSteel",5],
-        null,
-        null,
-        ["dict","dustAnySmokeless",5],
-        null,
-        null,
-        ["dict","plateGunMetal",5],
-        null
-      ]
     }
   ]
 }

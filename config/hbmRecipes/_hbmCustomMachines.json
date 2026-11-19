@@ -14,8 +14,6 @@
           "outputItems": [
             ["minecraft:paper",3,1.0]
           ],
-          "inputMaterials": [],
-          "outputMaterials": [],
           "duration": 60,
           "consumptionPerTick": 10,
           "pollutionType": "SOOT",

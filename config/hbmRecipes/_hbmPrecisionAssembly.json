@@ -1,40 +1,6 @@
 {
   "recipes": [
     {
-      "name": "precass.crystalcircuit",
-      "inputItem": [
-        ["item","hbm:item.circuit",4,19],
-        ["item","hbm:item.ingot_cft",4],
-        ["item","hbm:item.circuit",16,3],
-        ["dict","wireFineGold",32]
-      ],
-      "outputItem": [
-        [
-          "multi",
-          [["hbm:item.orbital_assembly"],1.0,50],
-          [["hbm:item.broken_item",1,0,"{itemID:\"hbm:item.orbital_assembly\",itemMeta:0}"],1.0,50]
-        ]
-      ],
-      "duration": 600,
-      "power": 20000
-    },
-    {
-      "name": "precass.crystalcircuit.recycle",
-      "inputItem": [
-        ["nbt","hbm:item.broken_item",1,0,"{itemID:\"hbm:item.orbital_assembly\",itemMeta:0}"]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.circuit",4,19]],
-        ["single",["hbm:item.ingot_cft",4]],
-        ["single",["hbm:item.circuit",16,3]],
-        ["single",["hbm:item.wire_fine",32,7900]]
-      ],
-      "duration": 600,
-      "power": 20000,
-      "icon": ["hbm:item.broken_item",1,0,"{itemID:\"hbm:item.orbital_assembly\",itemMeta:0}"],
-      "nameWrapper": "precass.recycle"
-    },
-    {
       "name": "precass.blueprints",
       "inputItem": [
         ["item","minecraft:paper",16],
@@ -67,67 +33,6 @@
       ],
       "duration": 6000,
       "power": 50000
-    },
-    {
-      "name": "precass.rpahelmet",
-      "inputItem": [
-        ["item","hbm:item.plate_armor_ajr",12],
-        ["dict","plateTripleSaturnite",4],
-        ["item","hbm:item.circuit",4,10],
-        ["item","hbm:item.plate_kevlar",8]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.rpa_helmet"]]
-      ],
-      "duration": 3600,
-      "power": 25000,
-      "blueprintpool": "discover..rpa"
-    },
-    {
-      "name": "precass.rpaplate",
-      "inputItem": [
-        ["item","hbm:item.plate_armor_ajr",24],
-        ["dict","plateTripleSaturnite",8],
-        ["dict","gunMechanismSaturnite",8],
-        ["item","hbm:item.motor_desh",8],
-        ["item","hbm:item.plate_kevlar",16],
-        ["item","hbm:item.parts_legendary",1,1]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.rpa_plate"]]
-      ],
-      "duration": 3600,
-      "power": 25000,
-      "blueprintpool": "discover..rpa"
-    },
-    {
-      "name": "precass.rpalegs",
-      "inputItem": [
-        ["item","hbm:item.plate_armor_ajr",24],
-        ["dict","plateTripleSaturnite",8],
-        ["item","hbm:item.motor_desh",8],
-        ["item","hbm:item.plate_kevlar",16]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.rpa_legs"]]
-      ],
-      "duration": 3600,
-      "power": 25000,
-      "blueprintpool": "discover..rpa"
-    },
-    {
-      "name": "precass.rpaboots",
-      "inputItem": [
-        ["item","hbm:item.plate_armor_ajr",12],
-        ["dict","plateTripleSaturnite",4],
-        ["item","hbm:item.plate_kevlar",8]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.rpa_boots"]]
-      ],
-      "duration": 3600,
-      "power": 25000,
-      "blueprintpool": "discover..rpa"
     }
   ]
 }

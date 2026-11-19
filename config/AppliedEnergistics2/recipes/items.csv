@@ -3666,7 +3666,6 @@ etfuturum:cave_vine, Cave Vines
 ForgeRelocation:relocation.blockmovingrow:0, tile.relocation.blockmovingrow|0.name
 MCFrames:mcframes.motor:0, Debug Frame Motor
 MCFrames:mcframes.frame, Frame
-hbm:tile.case, Steel case
 hbm:tile.event_tester, tile.event_tester.name
 hbm:tile.obj_tester, tile.obj_tester.name
 hbm:tile.structure_anchor, tile.structure_anchor.name
@@ -3847,27 +3846,6 @@ hbm:tile.ore_copper:7, Copper Ore
 hbm:tile.ore_copper:8, Copper Ore
 hbm:tile.ore_copper:9, Copper Ore
 hbm:tile.ore_copper:10, Copper Ore
-hbm:tile.ore_rich_iron:7, Rich Iron Ore
-hbm:tile.ore_rich_copper:7, Rich Copper Ore
-hbm:tile.ore_rich_aluminium:7, Rich Aluminium Ore
-hbm:tile.ore_rich_asbestos:7, Rich Asbestos Ore
-hbm:tile.ore_rich_beryllium:7, Rich Beryllium Ore
-hbm:tile.ore_rich_coal:7, Rich Coal Ore
-hbm:tile.ore_rich_diamond:7, Rich Diamond Ore
-hbm:tile.ore_rich_fluorite:7, Rich Fluorite Ore
-hbm:tile.ore_rich_gold:7, Rich Gold Ore
-hbm:tile.ore_rich_lapis:7, Rich Lapis Lazuli Ore
-hbm:tile.ore_rich_lead:7, Rich Lead Ore
-hbm:tile.ore_rich_lignite:7, Rich Lignite Ore
-hbm:tile.ore_rich_lithium:7, Rich Lithium Ore
-hbm:tile.ore_rich_niter:7, Rich Niter Ore
-hbm:tile.ore_rich_redstone:7, Rich Redstone Ore
-hbm:tile.ore_rich_sulfur:7, Rich Sulfur Ore
-hbm:tile.ore_rich_thorium:7, Rich Thorium-232 Ore
-hbm:tile.ore_rich_titanium:7, Rich Titanium Ore
-hbm:tile.ore_rich_tungsten:7, Rich Tungsten Ore
-hbm:tile.ore_rich_uranium:7, Rich hbmmat.uraninite Ore
-hbm:tile.ore_rich_zinc:7, Rich Zinc Ore
 hbm:tile.ore_nickel:0, Nickel Ore
 hbm:tile.ore_nickel:1, Nickel Ore
 hbm:tile.ore_nickel:2, Nickel Ore
@@ -4352,19 +4330,9 @@ hbm:tile.stone_resource:7, Calcium
 hbm:tile.stalagmite:0, Sulfurous Stalagmite
 hbm:tile.stalagmite:1, Asbestos Stalagmite
 hbm:tile.stalagmite:2, Fleshy Spindles
-hbm:tile.stalagmite:3, Icy Stalagmite
-hbm:tile.stalagmite:4, Snowy Stalagmite
-hbm:tile.stalagmite:5, Glyphid Stalagmite
-hbm:tile.stalagmite:6, Bloated Glyphid Stalagmite
-hbm:tile.stalagmite:7, Putrid Glyphid Stalagmite
 hbm:tile.stalactite:0, Sulfurous Stalactite
 hbm:tile.stalactite:1, Asbestos Stalactite
 hbm:tile.stalactite:2, Fleshy Spindles
-hbm:tile.stalactite:3, Icy Stalactite
-hbm:tile.stalactite:4, Snowy Stalactite
-hbm:tile.stalactite:5, Glyphid Stalactite
-hbm:tile.stalactite:6, Bloated Glyphid Stalactite
-hbm:tile.stalactite:7, Putrid Glyphid Stalactite
 hbm:tile.stone_biome:0, tile.stone_biome.desert.name
 hbm:tile.stone_biome:1, tile.stone_biome.woodland.name
 hbm:tile.stone_porous, Porous Stone
@@ -4406,6 +4374,7 @@ hbm:tile.block_niter, Block of Niter
 hbm:tile.block_copper, Block of Copper
 hbm:tile.block_nickel, Block of Nickel
 hbm:tile.block_red_copper, Block of Red Copper
+hbm:tile.block_advanced_alloy, Block of Advanced Alloy
 hbm:tile.block_tungsten, Block of Tungsten
 hbm:tile.block_aluminium, Block of Aluminium
 hbm:tile.block_fluorite, Block of Fluorite
@@ -4434,14 +4403,14 @@ hbm:tile.block_graphite, Block of Graphite
 hbm:tile.block_coke:0, Block of Coal Coke
 hbm:tile.block_coke:1, Block of Lignite Coke
 hbm:tile.block_coke:2, Block of Petroleum Coke
-hbm:tile.block_graphite_drilled, Drilled Graphite (LEGACY)
-hbm:tile.block_graphite_fuel, Pile Fuel (LEGACY)
-hbm:tile.block_graphite_rod, Pile Control Rod (LEGACY)
-hbm:tile.block_graphite_plutonium, Pile Fuel (Bred) (LEGACY)
-hbm:tile.block_graphite_source, Pile Neutron Source (LEGACY)
-hbm:tile.block_graphite_lithium, Pile Lithium Fuel (LEGACY)
-hbm:tile.block_graphite_tritium, Pile Lithium Fuel (Bred) (LEGACY)
-hbm:tile.block_graphite_detector, Pile Neutron Detector (LEGACY)
+hbm:tile.block_graphite_drilled, Drilled Graphite
+hbm:tile.block_graphite_fuel, Pile Fuel
+hbm:tile.block_graphite_rod, Pile Control Rod
+hbm:tile.block_graphite_plutonium, Pile Fuel (Bred)
+hbm:tile.block_graphite_source, Pile Neutron Source
+hbm:tile.block_graphite_lithium, Pile Lithium Fuel
+hbm:tile.block_graphite_tritium, Pile Lithium Fuel (Bred)
+hbm:tile.block_graphite_detector, Pile Neutron Detector
 hbm:tile.block_boron, Block of Boron
 hbm:tile.block_insulator, Roll of Insulation
 hbm:tile.block_fiberglass, Roll of Fiberglass
@@ -4493,21 +4462,6 @@ hbm:tile.deco_steel, Steel Deco Block
 hbm:tile.deco_rusty_steel, Rusty Steel Deco Block
 hbm:tile.deco_lead, Lead Deco Block
 hbm:tile.deco_beryllium, Beryllium Deco Block
-hbm:tile.platemetal:0, Platemetal Block
-hbm:tile.platemetal:1, Black Platemetal Block
-hbm:tile.platemetal:2, White Platemetal Block
-hbm:tile.platemetal:3, Red Platemetal Block
-hbm:tile.platemetal:4, Green Platemetal Block
-hbm:tile.platemetal:5, Light Gray Platemetal Block
-hbm:tile.platemetal:6, Blue Platemetal Block
-hbm:tile.platemetal:7, Purple Platemetal Block
-hbm:tile.platemetal:8, Cyan Platemetal Block
-hbm:tile.platemetal:9, Pink Platemetal Block
-hbm:tile.platemetal:10, Lime Platemetal Block
-hbm:tile.platemetal:11, Yellow Platemetal Block
-hbm:tile.platemetal:12, Light Blue Platemetal Block
-hbm:tile.platemetal:13, Magenta Platemetal Block
-hbm:tile.platemetal:14, Orange Platemetal Block
 hbm:tile.deco_asbestos, Asbestos Roof
 hbm:tile.deco_stainless, Stainless Steel Deco Block
 hbm:tile.deco_emitter, Deco Light Emitter
@@ -4544,28 +4498,18 @@ hbm:tile.bobblehead:25, Bobblehead
 hbm:tile.bobblehead:26, Bobblehead
 hbm:tile.bobblehead:27, Bobblehead
 hbm:tile.bobblehead:28, Bobblehead
-hbm:tile.bobblehead:29, Bobblehead
-hbm:tile.bobblehead:30, Bobblehead
-hbm:tile.bobblehead:31, Bobblehead
-hbm:tile.bobblehead:32, Bobblehead
-hbm:tile.bobblehead:33, Bobblehead
-hbm:tile.bobblehead:34, Bobblehead
-hbm:tile.bobblehead:35, Bobblehead
 hbm:tile.snowglobe:1, Snowglobe
 hbm:tile.snowglobe:2, Snowglobe
 hbm:tile.snowglobe:3, Snowglobe
 hbm:tile.snowglobe:4, Snowglobe
 hbm:tile.snowglobe:5, Snowglobe
-hbm:tile.plushie:1, Bufka2011 Plushie
-hbm:tile.plushie:2, Yomi Plushie
-hbm:tile.plushie:3, Number Nine Plushie
-hbm:tile.plushie:4, Hundun Plushie
-hbm:tile.plushie:5, Kasane Teto Plushie
-hbm:tile.plushie:6, Hatsune Miku Plushie
-hbm:tile.plushie:7, Akita Neru Plushie
-hbm:tile.plushie:8, Dragon Plushie
-hbm:tile.vending_machine:0, Vending Machine
-hbm:tile.vending_machine:1, Vending Machine
+hbm:tile.plushie:1, Yomi Plushie
+hbm:tile.plushie:2, Number Nine Plushie
+hbm:tile.plushie:3, Hundun Plushie
+hbm:tile.plushie:4, Kasane Teto Plushie
+hbm:tile.plushie:5, Hatsune Miku Plushie
+hbm:tile.plushie:6, Akita Neru Plushie
+hbm:tile.plushie:7, Dragon Plushie
 hbm:tile.deco_rbmk, RBMK Deco Block
 hbm:tile.deco_rbmk_smooth, Smooth RBMK Deco Block
 hbm:tile.gravel_obsidian, Crushed Obsidian
@@ -4658,16 +4602,8 @@ hbm:tile.lightstone_tile_stairs, Lightstone Tile Stairs
 hbm:tile.lightstone_bricks_stairs, Lightstone Brick Stairs
 hbm:tile.stones_slab:0, Lightstone Tile Slab
 hbm:tile.stones_slab:1, Lightstone Brick Slab
-hbm:tile.brick_forgotten:0, Block
-hbm:tile.brick_forgotten:1, Block
-hbm:tile.brick_forgotten:2, Block
-hbm:tile.brick_forgotten:3, Block
-hbm:tile.brick_forgotten:4, Block
-hbm:tile.brick_forgotten:5, Block
-hbm:tile.brick_forgotten:6, Block
-hbm:tile.brick_forgotten_lock:0, tile.brick_forgotten_lock.name
-hbm:tile.brick_forgotten_lock:1, tile.brick_forgotten_lock.name
-hbm:tile.brick_forgotten_lock:2, tile.brick_forgotten_lock.name
+hbm:tile.brick_forgotten, tile.brick_forgotten.name
+hbm:tile.brick_forgotten_lock, tile.brick_forgotten_lock.name
 hbm:tile.concrete_slab:0, Concrete Slab
 hbm:tile.concrete_slab:1, Concrete Tile Slab
 hbm:tile.concrete_slab:2, Asbestos Concrete Slab
@@ -4829,7 +4765,8 @@ hbm:tile.plant_flower:2, Deadly Nightshade
 hbm:tile.plant_flower:3, Hemp
 hbm:tile.plant_flower:4, Mustard Willow
 hbm:tile.plant_flower:5, Mustard Willow
-hbm:tile.plant_flower:6, Wild Mint
+hbm:tile.plant_flower:6, Wild Strawberries
+hbm:tile.plant_flower:7, Wild Mint
 hbm:tile.plant_tall:0, Hemp
 hbm:tile.plant_tall:1, Mustard Willow
 hbm:tile.plant_tall:2, Mustard Willow
@@ -4857,6 +4794,7 @@ hbm:tile.rubber_plant:0, Short Rubber Plant
 hbm:tile.rubber_plant:1, Short Rubber Plant
 hbm:tile.rubber_plant:2, Short Rubber Plant
 hbm:tile.plant_reeds, Reeds
+hbm:tile.crop_strawberry, Strawberries
 hbm:tile.crop_mint, Mint
 hbm:tile.crop_paraffin, Wax Crop
 hbm:tile.crop_coffee, Coffee
@@ -4871,8 +4809,8 @@ hbm:tile.glyphid_base:2, Glyphid Hive Block
 hbm:tile.glyphid_spawner:0, Glyphid Hive Spawner
 hbm:tile.glyphid_spawner:1, Glyphid Hive Spawner
 hbm:tile.glyphid_spawner:2, Glyphid Hive Spawner
-hbm:tile.moon_turf, Mun Turf
-hbm:tile.moon_rock, Mun Rock
+hbm:tile.moon_turf, Moon Turf
+hbm:tile.moon_rock, Moon Rock
 hbm:tile.sapling:0, Vinyl Sapling
 hbm:tile.sapling:1, Plastic Sapling
 hbm:tile.duna_sands, Duna Sand
@@ -4883,7 +4821,6 @@ hbm:tile.ferric_clay, Ferric Clay
 hbm:tile.eve_silt, Eve Silt
 hbm:tile.eve_rock, Eve Rock
 hbm:tile.laythe_silt, Laythe Silt
-hbm:tile.laythe_root, Ancient Root
 hbm:tile.ike_regolith, Ike Regolith
 hbm:tile.ike_stone, Ike Stone
 hbm:tile.dres_rock, Dres Rock
@@ -4947,7 +4884,9 @@ hbm:tile.sellafield:2, Boiling Sellafite
 hbm:tile.sellafield:3, Blazing Sellafite
 hbm:tile.sellafield:4, Infernal Sellafite
 hbm:tile.sellafield:5, Sellafite-Corium
+hbm:tile.geysir_water, Steam Geyser
 hbm:tile.geysir_chlorine, Chlorine Geyser
+hbm:tile.geysir_vapor, Vapor Geyser
 hbm:tile.geysir_nether, Volcanic Geyser
 hbm:tile.geysir_volcanic, Volcanic Geyser
 hbm:tile.geysir_electric, Discharge Geyser
@@ -4984,7 +4923,6 @@ hbm:tile.turret_howard, Goalkeeper Twin Chaingun CIWS "Howard"
 hbm:tile.turret_howard_damaged, Goalkeeper Twin Chaingun CIWS "Methusalem"
 hbm:tile.turret_maxwell, High-Energy MASER Turret "Maxwell"
 hbm:tile.turret_fritz, Heavy Flamethrower Turret "Fritz"
-hbm:tile.turret_railgun, Railgun Turret "Louis"
 hbm:tile.turret_arty, Artillery Turret "Greg"
 hbm:tile.turret_himars, Rocket Artillery Turret "Henry"
 hbm:tile.turret_sentry, Sentry Turret "Brown"
@@ -5038,7 +4976,6 @@ hbm:tile.glass_polarized, Polarized Glass
 hbm:tile.seal_frame, Silo Hatch Frame
 hbm:tile.seal_controller, Silo Hatch Opener
 hbm:tile.seal_hatch, Silo Hatch
-hbm:tile.cargo_elevator, Cargo Elevator
 hbm:tile.vault_door, Vault-Tec Blast Door
 hbm:tile.blast_door, Sliding Blast Door
 hbm:tile.fire_door, Fire Door
@@ -5058,11 +4995,11 @@ hbm:tile.qe_sliding_door, QE Sliding Door
 hbm:tile.round_airlock_door, Round Airlock Door
 hbm:tile.sliding_seal_door, Sliding Seal Door
 hbm:tile.water_door, Water Door
-hbm:tile.cargo_door, Cargo Door
 hbm:tile.crate_iron:0, Iron Crate
 hbm:tile.crate_steel:0, Steel Crate
 hbm:tile.crate_desh:0, Desh Crate
 hbm:tile.crate_tungsten:0, Tungsten Crate
+hbm:tile.crate_template:0, Template Crate
 hbm:tile.safe:0, Safe
 hbm:tile.mass_storage:3, Mass Storage Unit
 hbm:tile.mass_storage:0, Mass Storage Unit
@@ -5089,7 +5026,6 @@ hbm:tile.press_preheater, Burner Press Preheater
 hbm:tile.machine_press, Burner Press
 hbm:tile.machine_epress, Electric Press
 hbm:tile.machine_conveyor_press, Conveyor Press
-hbm:tile.machine_selenium, Radial Performance Engine
 hbm:tile.machine_ammo_press, Ammo Press
 hbm:tile.pump_steam, Steam-Powered Groundwater Pump
 hbm:tile.pump_electric, Electric Groundwater Pump
@@ -5121,12 +5057,11 @@ hbm:tile.foundry_slagtap, Foundry Spill Outlet
 hbm:tile.slag, tile.slag.name
 hbm:tile.machine_furnace_brick_off, Bricked Furnace
 hbm:tile.machine_furnace_brick_on, Bricked Furnace
-hbm:tile.machine_difurnace_off, Blast Furnace (LEGACY)
-hbm:tile.machine_difurnace_on, Blast Furnace (LEGACY)
-hbm:tile.machine_difurnace_extension, Blast Furnace Extension (LEGACY)
-hbm:tile.machine_blast_furnace, Blast Furnace
-hbm:tile.machine_difurnace_rtg_off, Nuclear Blast Furnace (LEGACY)
-hbm:tile.machine_difurnace_rtg_on, Nuclear Blast Furnace (LEGACY)
+hbm:tile.machine_difurnace_off, Blast Furnace
+hbm:tile.machine_difurnace_on, Blast Furnace
+hbm:tile.machine_difurnace_extension, Blast Furnace Extension
+hbm:tile.machine_difurnace_rtg_off, Nuclear Blast Furnace
+hbm:tile.machine_difurnace_rtg_on, Nuclear Blast Furnace
 hbm:tile.machine_centrifuge, Centrifuge
 hbm:tile.machine_gascent, Gas Centrifuge
 hbm:tile.machine_fel, FEL
@@ -5135,7 +5070,7 @@ hbm:tile.machine_rotary_furnace, Rotary Furnace
 hbm:tile.machine_crystallizer, Ore Acidizer
 hbm:tile.machine_uf6_tank, Uranium Hexafluoride Tank
 hbm:tile.machine_puf6_tank, Plutonium Hexafluoride Tank
-hbm:tile.machine_reactor, Breeding Reactor (LEGACY)
+hbm:tile.machine_reactor, Breeding Reactor
 hbm:tile.machine_rtg_furnace_off, RTG Furnace
 hbm:tile.machine_rtg_furnace_on, RTG Furnace
 hbm:tile.machine_wood_burner, Wood-Burning Generator
@@ -5143,7 +5078,7 @@ hbm:tile.machine_diesel, Diesel Generator
 hbm:tile.machine_combustion_engine, Industrial Combustion Engine
 hbm:tile.machine_controller, Reactor Remote Control Block
 hbm:tile.dish_control, StarDar Remote Access Console
-hbm:tile.machine_reactor_small, Research Reactor (LEGACY)
+hbm:tile.machine_reactor_small, Research Reactor
 hbm:tile.machine_zirnox, ZIRNOX Nuclear Reactor
 hbm:tile.zirnox_destroyed, Destroyed ZIRNOX
 hbm:tile.machine_industrial_generator, Industrial Generator
@@ -5151,6 +5086,8 @@ hbm:tile.machine_radgen, Radiation-Powered Engine
 hbm:tile.machine_cyclotron, Cyclotron
 hbm:tile.machine_exposure_chamber, Exposure Chamber
 hbm:tile.machine_rtg_grey, RT Generator
+hbm:tile.machine_minirtg, Radio Isotope Cell
+hbm:tile.machine_powerrtg, PT Isotope Cell
 hbm:tile.machine_radiolysis, Radioisotope Thermoelectric Generator and Radiolysis Chamber
 hbm:tile.machine_hephaestus, Geothermal Heat Exchanger
 hbm:tile.machine_solar, Solar Panel
@@ -5192,15 +5129,9 @@ hbm:tile.rbmk_cooler, RBMK Cooler
 hbm:tile.rbmk_heater, RBMK Fluid Heater
 hbm:tile.rbmk_console, RBMK Console
 hbm:tile.rbmk_crane_console, RBMK Crane Console
-hbm:tile.rbmk_display_blank, Blank Redstone-over-Radio Panel
 hbm:tile.rbmk_display, RBMK Display Panel
 hbm:tile.rbmk_key_pad, Redstone-over-Radio Keypad
-hbm:tile.rbmk_lever, Redstone-over-Radio Lever
 hbm:tile.rbmk_gauge, Redstone-over-Radio Gauge
-hbm:tile.rbmk_indicator, Redstone-over-Radio Indicator Lights
-hbm:tile.rbmk_numitron, Redstone-over-Radio Numeric Display
-hbm:tile.rbmk_graph, Redstone-over-Radio Graph
-hbm:tile.rbmk_terminal, Redstone-over-Radio Terminal
 hbm:tile.rbmk_autoloader, RBMK Autoloader
 hbm:tile.rbmk_loader, RBMK Steam Connector
 hbm:tile.rbmk_steam_inlet, RBMK ReaSim Water Inlet
@@ -5209,7 +5140,6 @@ hbm:tile.pribris, RBMK Debris
 hbm:tile.pribris_burning, Flaming RBMK Debris
 hbm:tile.pribris_radiating, Smoldering RBMK Debris
 hbm:tile.pribris_digamma, Blackened RBMK Debris
-hbm:tile.pribris_toxic, Smoking RBMK Debris
 hbm:tile.red_cable, Red Copper Cable
 hbm:tile.red_cable_classic, Red Copper Cable (Classic)
 hbm:tile.red_cable_paintable, Paintable Red Copper Cable
@@ -5222,8 +5152,7 @@ hbm:tile.red_cable_box:4, Red Copper Boxcable
 hbm:tile.red_wire_coated, Coated Red Copper Cable
 hbm:tile.red_connector, Electricity Connector
 hbm:tile.red_connector_super, Heavy Duty Electricity Connector
-hbm:tile.red_pylon, Wooden Electricity Pylon
-hbm:tile.red_pylon_steel, Steel Electricity Pylon
+hbm:tile.red_pylon, Electricity Pylon
 hbm:tile.red_pylon_medium_wood, Medium Wooden Electricity Pylon
 hbm:tile.red_pylon_medium_wood_transformer, Medium Wooden Electricity Pylon with Transformer
 hbm:tile.red_pylon_medium_steel, Medium Steel Electricity Pylon
@@ -5233,7 +5162,6 @@ hbm:tile.substation, Substation
 hbm:tile.cable_switch, Power Switch
 hbm:tile.cable_detector, Redstone Power Switch
 hbm:tile.cable_diode, Red Copper Diode
-hbm:tile.network_separator, Network Separator
 hbm:tile.machine_detector, Power Detector
 hbm:tile.fluid_duct_neo:0, Universal Fluid Duct
 hbm:tile.fluid_duct_neo:1, Universal Fluid Duct
@@ -5261,15 +5189,11 @@ hbm:tile.fluid_duct_exhaust:12, Exhaust Pipe
 hbm:tile.fluid_duct_paintable_block_exhaust, Paintable Coated Exhaust Pipe
 hbm:tile.fluid_duct_paintable, Paintable Coated Universal Fluid Duct
 hbm:tile.pipe_anchor, Pipe Anchor
-hbm:tile.pipe_anchor_exhaust, Exhaust Pipe Anchor
-hbm:tile.pipe_anchor_pneumatic, Pneumatic Tube Anchor
 hbm:tile.fluid_duct_gauge, Flow Gauge Pipe
 hbm:tile.fluid_valve, Fluid Valve
 hbm:tile.fluid_counter_valve, Fluid Valve with Counter
-hbm:tile.fluid_regulator_valve, Fluid Regulator Valve
 hbm:tile.fluid_switch, Redstone Fluid Valve
 hbm:tile.fluid_pump, Flow Control Pump
-hbm:tile.flow_control_pump, Flow Control Pump
 hbm:tile.machine_drain, Drainage Pipe
 hbm:tile.radio_torch_sender, Redstone-over-Radio Transmitter
 hbm:tile.radio_torch_receiver, Redstone-over-Radio Receiver
@@ -5278,7 +5202,6 @@ hbm:tile.radio_torch_logic, Redstone-over-Radio Logic Receiver
 hbm:tile.radio_torch_reader, Redstone-over-Radio Reader
 hbm:tile.radio_torch_controller, Redstone-over-Radio Controller
 hbm:tile.radio_telex, Telex Machine
-hbm:tile.radio_autocal, AUTOCAL Automatic Calculator
 hbm:tile.crane_extractor, Conveyor Ejector
 hbm:tile.crane_inserter, Conveyor Inserter
 hbm:tile.crane_grabber, Conveyor Grabber
@@ -5287,7 +5210,6 @@ hbm:tile.crane_boxer, Conveyor Boxer
 hbm:tile.crane_unboxer, Conveyor Unboxer
 hbm:tile.conveyor, Conveyor Belt
 hbm:tile.conveyor_express, Express Conveyor Belt
-hbm:tile.machine_conveyor_combinator, Conveyor Combinator
 hbm:tile.conveyor_double, Double-Lane Conveyor Belt
 hbm:tile.conveyor_triple, Triple-Lane Conveyor Belt
 hbm:tile.conveyor_chute, Conveyor Chute
@@ -5302,22 +5224,23 @@ hbm:tile.drone_crate_provider, Logistics Provider Crate
 hbm:tile.drone_crate_requester, Logistics Requester Crate
 hbm:tile.pneumatic_tube, Pneumatic Tube
 hbm:tile.pneumatic_tube_paintable, Paintable Pneumatic Tube
-hbm:tile.pneumatic_storage_access, Pneumatic Storage Network - Access Terminal
-hbm:tile.pneumatic_storage_clutter, Pneumatic Storage Network - Clutter Storage
-hbm:tile.pneumatic_storage_mono, Pneumatic Storage Network - Bulk Storage
-hbm:tile.pneumatic_storage_importer, Pneumatic Storage Network - Importer
-hbm:tile.pneumatic_storage_exporter, Pneumatic Storage Network - Exporter
 hbm:tile.fan, Fan
 hbm:tile.piston_inserter, Inserter
 hbm:tile.dungeon_chain, Metal Chain
 hbm:tile.ladder_sturdy, Sturdy Wooden Ladder
+hbm:tile.ladder_iron, Iron Ladder
 hbm:tile.ladder_gold, Golden Ladder
 hbm:tile.ladder_titanium, Titanium Ladder
 hbm:tile.ladder_copper, Copper Ladder
+hbm:tile.ladder_tungsten, Tungsten Ladder
+hbm:tile.ladder_aluminium, Aluminium Ladder
 hbm:tile.ladder_steel, Steel Ladder
+hbm:tile.ladder_lead, Lead Ladder
+hbm:tile.ladder_cobalt, Cobalt Ladder
 hbm:tile.trapdoor_steel, Steel Trapdoor
 hbm:tile.barrel_plastic, Safe Barrel™
 hbm:tile.barrel_corroded, Corroded Barrel
+hbm:tile.barrel_iron, Iron Barrel
 hbm:tile.barrel_steel, Steel Barrel
 hbm:tile.barrel_tcalloy, Technetium Steel Barrel
 hbm:tile.barrel_antimatter, Magnetic Antimatter Container
@@ -5328,6 +5251,7 @@ hbm:tile.machine_battery, Energy Storage Block (LEGACY)
 hbm:tile.machine_lithium_battery, Li-Ion Energy Storage Block (LEGACY)
 hbm:tile.machine_schrabidium_battery, Schrabidium Energy Storage Block (LEGACY)
 hbm:tile.machine_dineutronium_battery, Spark Energy Storage Block (LEGACY)
+hbm:tile.machine_fensu, FEnSU (LEGACY)
 hbm:tile.capacitor_bus, Capacitor Bus (LEGACY)
 hbm:tile.capacitor_copper, Old Capacitor
 hbm:tile.capacitor_gold, Golden Capacitor (LEGACY)
@@ -5341,7 +5265,6 @@ hbm:tile.machine_converter_rf_he, RF to HE Converter
 hbm:tile.machine_electric_furnace_off, Electric Furnace
 hbm:tile.machine_electric_furnace_on, Electric Furnace
 hbm:tile.machine_microwave, Microwave
-hbm:tile.machine_rockmill, Rock Mill
 hbm:tile.machine_assembly_machine, Assembly Machine
 hbm:tile.machine_assembly_factory, Assembly Factory
 hbm:tile.machine_precass, Precision Assembly Machine
@@ -5353,17 +5276,15 @@ hbm:tile.machine_soldering_station, Soldering Station
 hbm:tile.machine_vacuum_circuit, Vacuum Solderer
 hbm:tile.machine_arc_furnace, Electric Arc Furnace
 hbm:tile.machine_mixer, Industrial Mixer
-hbm:tile.machine_supercomputer, Supercomputer
 hbm:tile.machine_fluidtank, Tank
-hbm:tile.machine_bat9000, Big-Ass Tank
-hbm:tile.machine_bigasstank, Big-Ass Tank 9000
+hbm:tile.machine_bat9000, Big-Ass Tank 9000
 hbm:tile.machine_orbus, Heavy Magnetic Storage Tank
 hbm:tile.machine_boiler_off, Old Boiler
 hbm:tile.machine_steam_engine, Steam Engine
+hbm:tile.machine_turbine, Steam Turbine
 hbm:tile.machine_large_turbine, Industrial Steam Turbine (LEGACY)
 hbm:tile.machine_industrial_turbine, Industrial Steam Turbine
 hbm:tile.machine_chungus, Leviathan Steam Turbine
-hbm:tile.machine_chungus_solar, Chungus Solar Array
 hbm:tile.machine_condenser, Steam Condenser
 hbm:tile.machine_tower_small, Auxiliary Cooling Tower
 hbm:tile.machine_tower_large, Cooling Tower
@@ -5401,7 +5322,6 @@ hbm:tile.machine_hydrotreater, Hydrotreater
 hbm:tile.machine_coker, Coker Unit
 hbm:tile.machine_pyrooven, Pyrolysis Oven
 hbm:tile.machine_autosaw, Automatic Buzz Saw
-hbm:tile.machine_thresher, Automatic Thresher
 hbm:tile.machine_excavator, Large Mining Drill
 hbm:tile.machine_ore_slopper, Bedrock Ore Processor
 hbm:tile.machine_annihilator, Annihilator
@@ -5411,6 +5331,7 @@ hbm:tile.machine_turbofan, Turbofan
 hbm:tile.machine_turbinegas, Combined Cycle Gas Turbine
 hbm:tile.machine_lpw2, LPW-2 Station Thruster
 hbm:tile.machine_htr3, LPW-3N Station Thruster
+hbm:tile.machine_htrf4, HTR-F4 Station Thruster (LEGACY)
 hbm:tile.machine_htrf4neo, HTR-F4 NEO Station Thruster
 hbm:tile.machine_xenon_thruster, Xenon Station Thruster
 hbm:tile.machine_magma, Magma Drill
@@ -5419,8 +5340,6 @@ hbm:tile.teleanchor, Teleportation Anchor
 hbm:tile.field_disturber, High Energy Field Jammer
 hbm:tile.troll_disturber, tile.troll_disturber.name
 hbm:tile.machine_satlinker, Satellite ID Manager
-hbm:tile.machine_satlink, Satellite Ground Station
-hbm:tile.machine_tape_drive, Drive Enclosure
 hbm:tile.machine_keyforge, Locksmith Table
 hbm:tile.machine_armor_table, Armor Modification Table
 hbm:tile.machine_weapon_table, Weapon Modification Table
@@ -5435,6 +5354,10 @@ hbm:tile.struct_soyuz_core, Soyuz Launcher Core Component
 hbm:tile.struct_torus_core, Fusion Reactor Vessel Core Component
 hbm:tile.struct_watz_core, Watz Powerplant Core Component
 hbm:tile.struct_icf_core, Inertial Confinement Fusion Reactor Core Component
+hbm:tile.absorber, Radiation Absorber (LEGACY)
+hbm:tile.absorber_red, Enhanced Radiation Absorber (LEGACY)
+hbm:tile.absorber_green, Advanced Radiation Absorber (LEGACY)
+hbm:tile.absorber_pink, Elite Radiation Absorber (LEGACY)
 hbm:tile.rad_absorber:0, Radiation Absorber
 hbm:tile.rad_absorber:1, Enhanced Radiation Absorber
 hbm:tile.rad_absorber:2, Advanced Radiation Absorber
@@ -5442,19 +5365,21 @@ hbm:tile.rad_absorber:3, Elite Radiation Absorber
 hbm:tile.decon, Player Decontaminator
 hbm:tile.machine_solar_boiler, Solar Tower Boiler
 hbm:tile.solar_mirror, Heliostat Mirror
+hbm:tile.factory_titanium_hull, Factory Block
+hbm:tile.factory_advanced_hull, Factory Block
 hbm:tile.cm_block:0, Steel Machine Casing
-hbm:tile.cm_block:1, Bronze Machine Casing
+hbm:tile.cm_block:1, Advanced Alloy Machine Casing
 hbm:tile.cm_block:2, Desh Machine Casing
 hbm:tile.cm_block:3, Technetium Steel Machine Casing
 hbm:tile.cm_sheet:0, Steel Sheet
-hbm:tile.cm_sheet:1, Bronze Sheet
+hbm:tile.cm_sheet:1, Advanced Alloy Sheet
 hbm:tile.cm_sheet:2, Desh Sheet
 hbm:tile.cm_sheet:3, Technetium Steel Sheet
 hbm:tile.cm_engine:0, Motor Block
 hbm:tile.cm_engine:1, Desh Motor Block
 hbm:tile.cm_engine:2, Bismuth Motor Block
 hbm:tile.cm_tank:0, Steel Tank
-hbm:tile.cm_tank:1, Bronze Tank
+hbm:tile.cm_tank:1, Advanced Alloy Tank
 hbm:tile.cm_tank:2, Desh Tank
 hbm:tile.cm_tank:3, Technetium Steel Tank
 hbm:tile.cm_circuit:0, Tier 1 Circuit Block
@@ -5463,17 +5388,12 @@ hbm:tile.cm_circuit:2, Tier 3 Circuit Block
 hbm:tile.cm_circuit:3, Tier 4 Circuit Block
 hbm:tile.cm_circuit:4, Tier 5 Circuit Block
 hbm:tile.cm_port:0, Steel Port
-hbm:tile.cm_port:1, Bronze Port
+hbm:tile.cm_port:1, Advanced Alloy Port
 hbm:tile.cm_port:2, Desh Port
 hbm:tile.cm_port:3, Technetium Steel Port
 hbm:tile.cm_flux, Neutron Flux Receiver
 hbm:tile.cm_heat, Heat Receiver
 hbm:tile.custom_machine_anchor, Custom Machine Structure Positioning Anchor
-hbm:tile.pile_brick, Chicago Pile Graphite Bricks
-hbm:tile.pile_device:0, Chicago Pile Fuel Loader
-hbm:tile.pile_device:1, Chicago Pile Vent
-hbm:tile.pile_device:2, Chicago Pile Control Rod
-hbm:tile.pile_block, Chicago Pile
 hbm:tile.pwr_fuel, PWR Fuel Rod
 hbm:tile.pwr_control, PWR Control Rod
 hbm:tile.pwr_channel, PWR Coolant Channel
@@ -5487,6 +5407,9 @@ hbm:tile.pwr_controller, PWR Controller
 hbm:tile.pwr_block, PWR
 hbm:tile.fusion_heater, Plasma Heater Component
 hbm:tile.fusion_hatch, Duct Deco Block
+hbm:tile.plasma, Plasma
+hbm:tile.iter, Fusion Reactor
+hbm:tile.plasma_heater, Plasma Heater
 hbm:tile.fusion_component:0, Superconducting BSCCO Coils
 hbm:tile.fusion_component:1, Welded BSCCO Coils
 hbm:tile.fusion_component:2, Fusion Reactor Blanket
@@ -5499,7 +5422,6 @@ hbm:tile.fusion_collector, Fusion Reactor Collector Chamber
 hbm:tile.fusion_boiler, Fusion Reactor Boiler
 hbm:tile.fusion_mhdt, MHD Turbine
 hbm:tile.fusion_coupler, Fusion Reactor Plasma Coupler
-hbm:tile.fusion_plasma_forge, Plasma Forge
 hbm:tile.watz_element, Watz Reaction Chamber
 hbm:tile.watz_cooler, Watz Reactor Supercooler
 hbm:tile.watz_end:0, Watz Reactor Stability Element
@@ -5548,11 +5470,9 @@ hbm:tile.launch_pad_large, Launch Pad
 hbm:tile.compact_launcher, Compact Launch Pad
 hbm:tile.launch_table, Large Launch Pad
 hbm:tile.soyuz_launcher, Soyuz Launch Platform
-hbm:tile.launchpad_soyuz, Soyuz Launch Pad
-hbm:tile.launchpad_lambda, Lambda Launch Pad
 hbm:tile.sat_dock, Cargo Landing Pad
 hbm:tile.soyuz_capsule, Cargo Landing Capsule
-hbm:tile.combat_drop, Combat Drop Pod
+hbm:tile.combat_drop, tile.combat_drop.name
 hbm:tile.crate_supply, Supply Crate
 hbm:tile.machine_radar, Radar
 hbm:tile.machine_radar_large, Large Radar
@@ -5602,6 +5522,7 @@ hbm:tile.dummy_plate_compact_launcher, tile.dummy_plate_compact_launcher.name
 hbm:tile.dummy_port_compact_launcher, tile.dummy_port_compact_launcher.name
 hbm:tile.dummy_plate_launch_table, tile.dummy_plate_launch_table.name
 hbm:tile.dummy_port_launch_table, tile.dummy_port_launch_table.name
+hbm:tile.dummy_plate_cargo, tile.dummy_plate_cargo.name
 hbm:tile.oil_pipe, Crude Oil Extraction Pipe
 hbm:tile.vent_chlorine, Chlorine Vent
 hbm:tile.vent_cloud, Cloud Vent
@@ -5617,6 +5538,7 @@ hbm:tile.gas_asbestos, Airborne Asbestos Particles
 hbm:tile.gas_coal, Airborne Coal Dust
 hbm:tile.gas_flammable, Flammable Gas
 hbm:tile.gas_explosive, Explosive Gas
+hbm:tile.vacuum, Vacuum
 hbm:tile.air_vent, Air Vent
 hbm:tile.air_scrubber, CO2 Scrubber
 hbm:tile.algae_film, Microgravity Algae Film
@@ -5625,19 +5547,9 @@ hbm:tile.oc_cable_paintable, Paintable Network Cable
 hbm:tile.crystal_virus, Dark Crystal
 hbm:tile.crystal_hardened, Hardened Dark Crystal
 hbm:tile.crystal_pulsar, Pulsating Crystal
-minecraft:record_13, Music Disc
-minecraft:record_cat, Music Disc
-minecraft:record_blocks, Music Disc
-minecraft:record_chirp, Music Disc
-minecraft:record_far, Music Disc
-minecraft:record_mall, Music Disc
-minecraft:record_mellohi, Music Disc
-minecraft:record_stal, Music Disc
-minecraft:record_strad, Music Disc
-minecraft:record_ward, Music Disc
-minecraft:record_11, Music Disc
-minecraft:record_wait, Music Disc
 hbm:tile.taint, Taint
+hbm:tile.cheater_virus, Gelid Euphemium
+hbm:tile.cheater_virus_seed, Unstable Euphemium Schrabide Block
 hbm:tile.ntm_dirt, Dirt
 hbm:tile.pink_log, Pink Log
 hbm:tile.pink_planks, Pink Wood Planks
@@ -5666,7 +5578,6 @@ hbm:tile.wand_tandem, tile.wand_tandem.name
 hbm:tile.wand_structure:0, Structure Saving Block
 hbm:tile.wand_structure:1, Structure Loading Block
 hbm:tile.logic_block, Dungeon Action Block
-hbm:tile.logic_block_invis, tile.logic_block_invis.name
 OpenBlocks:ladder, Jaded Ladder
 OpenBlocks:guide, Building Guide
 OpenBlocks:builder_guide, Enhanced Building Guide
@@ -5703,6 +5614,18 @@ OpenBlocks:elevator_rotating:13, Rotating Elevator
 OpenBlocks:elevator_rotating:14, Rotating Elevator
 OpenBlocks:elevator_rotating:15, Rotating Elevator
 OpenBlocks:heal, Healer
+minecraft:record_13, Music Disc
+minecraft:record_cat, Music Disc
+minecraft:record_blocks, Music Disc
+minecraft:record_chirp, Music Disc
+minecraft:record_far, Music Disc
+minecraft:record_mall, Music Disc
+minecraft:record_mellohi, Music Disc
+minecraft:record_stal, Music Disc
+minecraft:record_strad, Music Disc
+minecraft:record_ward, Music Disc
+minecraft:record_11, Music Disc
+minecraft:record_wait, Music Disc
 OpenBlocks:target, Target
 OpenBlocks:grave, Grave
 OpenBlocks:flag, Flag
@@ -12207,929 +12130,699 @@ NotEnoughItems:neiFluidDisplay:3, Milk
 NotEnoughItems:neiFluidDisplay:4, Melon Juice
 NotEnoughItems:neiFluidDisplay:5, fluid.mushroomStew
 NotEnoughItems:neiFluidDisplay:6, Ender Goo
-NotEnoughItems:neiFluidDisplay:7, Dissolved Egg
-NotEnoughItems:neiFluidDisplay:8, Mineral Slurry
-NotEnoughItems:neiFluidDisplay:9, Syngas
-NotEnoughItems:neiFluidDisplay:10, Alkyl Bromide
-NotEnoughItems:neiFluidDisplay:11, Xenon Gas
-NotEnoughItems:neiFluidDisplay:12, Leaded Petroil
-NotEnoughItems:neiFluidDisplay:13, Magma
-NotEnoughItems:neiFluidDisplay:14, Brine
-NotEnoughItems:neiFluidDisplay:15, Carbon Tetrachloride
-NotEnoughItems:neiFluidDisplay:16, Hot Air Blast
-NotEnoughItems:neiFluidDisplay:17, Tea
-NotEnoughItems:neiFluidDisplay:18, Vitriol
-NotEnoughItems:neiFluidDisplay:19, Petroil
-NotEnoughItems:neiFluidDisplay:20, Hot Liquid Thorium Salt
-NotEnoughItems:neiFluidDisplay:21, Cholesterol Solution
-NotEnoughItems:neiFluidDisplay:22, Coal Gasoline
-NotEnoughItems:neiFluidDisplay:23, Cracked Oil
-NotEnoughItems:neiFluidDisplay:24, Vacuum Light Oil
-NotEnoughItems:neiFluidDisplay:25, Stellar Flux
-NotEnoughItems:neiFluidDisplay:26, N-MASS(II) Driver Fuel
-NotEnoughItems:neiFluidDisplay:27, Bitumen
-NotEnoughItems:neiFluidDisplay:28, Cold Perfluoromethyl
-NotEnoughItems:neiFluidDisplay:29, Crude Oil
-NotEnoughItems:neiFluidDisplay:30, Ultra Dense Steam
-NotEnoughItems:neiFluidDisplay:31, Hot Coolant
-NotEnoughItems:neiFluidDisplay:32, Cold Perfluoromethyl
-NotEnoughItems:neiFluidDisplay:33, High-Cetane Cracked Diesel
-NotEnoughItems:neiFluidDisplay:34, NITAN© 100 Octane Super Fuel
-NotEnoughItems:neiFluidDisplay:35, Desulfurized Hot Crude Oil
-NotEnoughItems:neiFluidDisplay:36, Industrial Oil
-NotEnoughItems:neiFluidDisplay:37, Modified Booster Pheromone
-NotEnoughItems:neiFluidDisplay:38, Titanium Tetratchloride
-NotEnoughItems:neiFluidDisplay:39, Heating Oil
-NotEnoughItems:neiFluidDisplay:40, Hydrazine
-NotEnoughItems:neiFluidDisplay:41, Hot Mug Root Beer
-NotEnoughItems:neiFluidDisplay:42, Aqueous Copper
-NotEnoughItems:neiFluidDisplay:43, Coker Oil
-NotEnoughItems:neiFluidDisplay:44, Reformate
-NotEnoughItems:neiFluidDisplay:45, Hot Liquid Sodium
-NotEnoughItems:neiFluidDisplay:46, Hot Heavy Water
-NotEnoughItems:neiFluidDisplay:47, Ender Juice
-NotEnoughItems:neiFluidDisplay:48, Deuterated Hydrocarbon
-NotEnoughItems:neiFluidDisplay:49, Schrabidic Acid
-NotEnoughItems:neiFluidDisplay:50, Carbon Dioxide
-NotEnoughItems:neiFluidDisplay:51, Uranium Bromide
-NotEnoughItems:neiFluidDisplay:52, Vacuum Heavy Oil
-NotEnoughItems:neiFluidDisplay:53, Stellar Flux
-NotEnoughItems:neiFluidDisplay:54, Helium-3
-NotEnoughItems:neiFluidDisplay:55, Blood
-NotEnoughItems:neiFluidDisplay:56, Uranium Bromide
-NotEnoughItems:neiFluidDisplay:57, Unsaturated Hydrocarbons
-NotEnoughItems:neiFluidDisplay:58, Dicyanoacetylene
-NotEnoughItems:neiFluidDisplay:59, Hot Liquid Lead
-NotEnoughItems:neiFluidDisplay:60, Coker Naphtha
-NotEnoughItems:neiFluidDisplay:61, Urlum Air
-NotEnoughItems:neiFluidDisplay:62, Krypton Gas
-NotEnoughItems:neiFluidDisplay:63, Desulfurized Hot Cracked Oil
-NotEnoughItems:neiFluidDisplay:64, Lye
-NotEnoughItems:neiFluidDisplay:65, Experience Juice
-NotEnoughItems:neiFluidDisplay:66, Bauxite Solution
-NotEnoughItems:neiFluidDisplay:67, Leaded Coal Gasoline
-NotEnoughItems:neiFluidDisplay:68, Aromatic Hydrocarbons
-NotEnoughItems:neiFluidDisplay:69, High-Cetane Diesel
-NotEnoughItems:neiFluidDisplay:70, Coker Gas
-NotEnoughItems:neiFluidDisplay:71, Chloroethane
-NotEnoughItems:neiFluidDisplay:72, Hot Mug Root Beer
-NotEnoughItems:neiFluidDisplay:73, Desulfurized Hot Crude Oil
-NotEnoughItems:neiFluidDisplay:74, Desulfurized Cracked Oil
-NotEnoughItems:neiFluidDisplay:75, Hot Blood
-NotEnoughItems:neiFluidDisplay:76, Aqueous Nickel
-NotEnoughItems:neiFluidDisplay:77, Light Halocarbons
-NotEnoughItems:neiFluidDisplay:78, Sodium Aluminate
-NotEnoughItems:neiFluidDisplay:79, Scutterblood
-NotEnoughItems:neiFluidDisplay:80, Thorium Bromide
-NotEnoughItems:neiFluidDisplay:81, Hot Cracked Oil
-NotEnoughItems:neiFluidDisplay:82, Cracked Diesel
-NotEnoughItems:neiFluidDisplay:83, Liquid Sodium
-NotEnoughItems:neiFluidDisplay:84, Vacuum Light Oil
-NotEnoughItems:neiFluidDisplay:85, Vacuum Heavy Oil
-NotEnoughItems:neiFluidDisplay:86, Sulfuric Acid
-NotEnoughItems:neiFluidDisplay:87, Solvent
-NotEnoughItems:neiFluidDisplay:88, Jool Air
-NotEnoughItems:neiFluidDisplay:89, Wood Oil
-NotEnoughItems:neiFluidDisplay:90, Gasoline
-NotEnoughItems:neiFluidDisplay:91, Heavy Water
-NotEnoughItems:neiFluidDisplay:92, N-MASS(III) Tetrahexaethanol
-NotEnoughItems:neiFluidDisplay:93, Hydrochloric Acid
-NotEnoughItems:neiFluidDisplay:94, BTX
-NotEnoughItems:neiFluidDisplay:95, Alumina
-NotEnoughItems:neiFluidDisplay:96, Liquid Thorium Salt
-NotEnoughItems:neiFluidDisplay:97, Nitroglycerin
-NotEnoughItems:neiFluidDisplay:98, Liquid Thorium Salt
-NotEnoughItems:neiFluidDisplay:99, Honey
-NotEnoughItems:neiFluidDisplay:100, Natural Gas
-NotEnoughItems:neiFluidDisplay:101, Coker Oil
-NotEnoughItems:neiFluidDisplay:102, Schrabidium Trisulfide
-NotEnoughItems:neiFluidDisplay:103, Vinyl Chloride
-NotEnoughItems:neiFluidDisplay:104, Fluorine
-NotEnoughItems:neiFluidDisplay:105, Pandemonium(III)tantalite Solution
-NotEnoughItems:neiFluidDisplay:106, Desulfurized Light Oil
-NotEnoughItems:neiFluidDisplay:107, Liquid Nitrogen
-NotEnoughItems:neiFluidDisplay:108, Poisonous Mud
-NotEnoughItems:neiFluidDisplay:109, Dense Steam
-NotEnoughItems:neiFluidDisplay:110, Natural Gas
-NotEnoughItems:neiFluidDisplay:111, Oxygen-Rich Air
-NotEnoughItems:neiFluidDisplay:112, Chlorine Gas
-NotEnoughItems:neiFluidDisplay:113, Cracked Naphtha
-NotEnoughItems:neiFluidDisplay:114, Coffee
-NotEnoughItems:neiFluidDisplay:115, Leaded Coal Gasoline
-NotEnoughItems:neiFluidDisplay:116, Hot Coolant
-NotEnoughItems:neiFluidDisplay:117, Chloromethane
-NotEnoughItems:neiFluidDisplay:118, Lithium Bicarbonate Aerosol
-NotEnoughItems:neiFluidDisplay:119, Sunflower Seed Oil
-NotEnoughItems:neiFluidDisplay:120, Cryogel
-NotEnoughItems:neiFluidDisplay:121, Seeding Slurry
-NotEnoughItems:neiFluidDisplay:122, Ammonia
-NotEnoughItems:neiFluidDisplay:123, Liquid Hydrogen
-NotEnoughItems:neiFluidDisplay:124, Phosgene
-NotEnoughItems:neiFluidDisplay:125, Uranium Hexafluoride
-NotEnoughItems:neiFluidDisplay:126, Hydrogen Peroxide
-NotEnoughItems:neiFluidDisplay:127, Jet Fuel
-NotEnoughItems:neiFluidDisplay:128, Depleted Liquid Thorium Salt
-NotEnoughItems:neiFluidDisplay:129, Custom Demo
-NotEnoughItems:neiFluidDisplay:130, Fish Oil
-NotEnoughItems:neiFluidDisplay:131, Duna Air
-NotEnoughItems:neiFluidDisplay:132, Hot Blood
-NotEnoughItems:neiFluidDisplay:133, Tekto Air
-NotEnoughItems:neiFluidDisplay:134, Copper Sulfate
-NotEnoughItems:neiFluidDisplay:135, Tritium
-NotEnoughItems:neiFluidDisplay:136, Cracked Naphtha
-NotEnoughItems:neiFluidDisplay:137, Biofuel
-NotEnoughItems:neiFluidDisplay:138, Helium-3
-NotEnoughItems:neiFluidDisplay:139, Heavy Oil
-NotEnoughItems:neiFluidDisplay:140, Helium-4
-NotEnoughItems:neiFluidDisplay:141, Coal Oil
-NotEnoughItems:neiFluidDisplay:142, Heavy Whipping Cream
-NotEnoughItems:neiFluidDisplay:143, Aqueous Nickel
-NotEnoughItems:neiFluidDisplay:144, Bauxite Solution
-NotEnoughItems:neiFluidDisplay:145, Desulfurized Naphtha
-NotEnoughItems:neiFluidDisplay:146, Perfluoromethyl
-NotEnoughItems:neiFluidDisplay:147, Jet Fuel
-NotEnoughItems:neiFluidDisplay:148, Aqueous Copper
-NotEnoughItems:neiFluidDisplay:149, Argon Gas
-NotEnoughItems:neiFluidDisplay:150, Cracked Light Oil
-NotEnoughItems:neiFluidDisplay:151, Ionic Gel
-NotEnoughItems:neiFluidDisplay:152, Sour Gas
-NotEnoughItems:neiFluidDisplay:153, Coolant
-NotEnoughItems:neiFluidDisplay:154, Conglomera
-NotEnoughItems:neiFluidDisplay:155, Sarnus Air
-NotEnoughItems:neiFluidDisplay:156, Diesel
-NotEnoughItems:neiFluidDisplay:157, Halide Gas
-NotEnoughItems:neiFluidDisplay:158, Hot Heavy Water
-NotEnoughItems:neiFluidDisplay:159, Cracked Diesel
-NotEnoughItems:neiFluidDisplay:160, Heavy Oil
-NotEnoughItems:neiFluidDisplay:161, Oxyhydrogen
-NotEnoughItems:neiFluidDisplay:162, Compressed Air
-NotEnoughItems:neiFluidDisplay:163, Ethanol
-NotEnoughItems:neiFluidDisplay:164, Cracked Light Oil
-NotEnoughItems:neiFluidDisplay:165, Pertechnetic Acid
-NotEnoughItems:neiFluidDisplay:166, BF Rocket Fuel
-NotEnoughItems:neiFluidDisplay:167, Methanol
-NotEnoughItems:neiFluidDisplay:168, Condensed Milk
-NotEnoughItems:neiFluidDisplay:169, Sodium Aluminate
-NotEnoughItems:neiFluidDisplay:170, Fracking Solution
-NotEnoughItems:neiFluidDisplay:171, Nitric Acid
-NotEnoughItems:neiFluidDisplay:172, Booster Pheromone
-NotEnoughItems:neiFluidDisplay:173, Estradiol Solution
-NotEnoughItems:neiFluidDisplay:174, Plutonium Hexafluoride
-NotEnoughItems:neiFluidDisplay:175, LPG
-NotEnoughItems:neiFluidDisplay:176, Modified Booster Pheromone
-NotEnoughItems:neiFluidDisplay:177, Reclaimed Industrial Oil
-NotEnoughItems:neiFluidDisplay:178, Tektonic Crude
-NotEnoughItems:neiFluidDisplay:179, Hot Perfluoromethyl
-NotEnoughItems:neiFluidDisplay:180, Naphtha
-NotEnoughItems:neiFluidDisplay:181, Nitric Acid
-NotEnoughItems:neiFluidDisplay:182, Liquid Lead
-NotEnoughItems:neiFluidDisplay:183, Polythylene
-NotEnoughItems:neiFluidDisplay:184, Antimatter
-NotEnoughItems:neiFluidDisplay:185, Hot Liquid Thorium Salt
-NotEnoughItems:neiFluidDisplay:186, Desulfurized Crude Oil
-NotEnoughItems:neiFluidDisplay:187, Desulfurized Cracked Oil
-NotEnoughItems:neiFluidDisplay:188, Antischrabidium
-NotEnoughItems:neiFluidDisplay:189, Petroil
-NotEnoughItems:neiFluidDisplay:190, Strawberry Milk
-NotEnoughItems:neiFluidDisplay:191, Coker Gas
-NotEnoughItems:neiFluidDisplay:192, Chlorinated Benzenes
-NotEnoughItems:neiFluidDisplay:193, Deuterium
-NotEnoughItems:neiFluidDisplay:194, Leaded Petroil
-NotEnoughItems:neiFluidDisplay:195, Elbow Grease
-NotEnoughItems:neiFluidDisplay:196, Blood Fuel
-NotEnoughItems:neiFluidDisplay:197, Hot Perfluoromethyl
-NotEnoughItems:neiFluidDisplay:198, Neidon Air
-NotEnoughItems:neiFluidDisplay:199, Petroleum Gas
-NotEnoughItems:neiFluidDisplay:200, Liquid Oxygen
-NotEnoughItems:neiFluidDisplay:201, Leaded Gasoline
-NotEnoughItems:neiFluidDisplay:202, Coker Naphtha
-NotEnoughItems:neiFluidDisplay:203, Heavy Heating Oil
-NotEnoughItems:neiFluidDisplay:204, Hot Liquid Sodium
-NotEnoughItems:neiFluidDisplay:205, Desulfurized Crude Oil
-NotEnoughItems:neiFluidDisplay:206, Hot Crude Oil
-NotEnoughItems:neiFluidDisplay:207, Leaded Gasoline
-NotEnoughItems:neiFluidDisplay:208, Heavy Heating Oil
-NotEnoughItems:neiFluidDisplay:209, Carbon Dioxide
-NotEnoughItems:neiFluidDisplay:210, Titanium Tetratchloride
-NotEnoughItems:neiFluidDisplay:211, High-Cetane Cracked Diesel
-NotEnoughItems:neiFluidDisplay:212, Mug Root Beer
-NotEnoughItems:neiFluidDisplay:213, Fullerene Solution
-NotEnoughItems:neiFluidDisplay:214, Sulfuric Acid
-NotEnoughItems:neiFluidDisplay:215, Liquid Concrete
-NotEnoughItems:neiFluidDisplay:216, Evaporated Milk
-NotEnoughItems:neiFluidDisplay:217, Uranium Hexafluoride
-NotEnoughItems:neiFluidDisplay:218, Osmiridic Solution
-NotEnoughItems:neiFluidDisplay:219, Super Dense Steam
-NotEnoughItems:neiFluidDisplay:220, Mercury
-NotEnoughItems:neiFluidDisplay:221, Desulfurized Hot Cracked Oil
-NotEnoughItems:neiFluidDisplay:222, Colloid
-NotEnoughItems:neiFluidDisplay:223, Light Oil
-NotEnoughItems:neiFluidDisplay:224, Depleted Liquid Thorium Salt
-NotEnoughItems:neiFluidDisplay:225, High-Performance Solvent
-NotEnoughItems:neiFluidDisplay:226, Red Mud
-NotEnoughItems:neiFluidDisplay:227, Desulfurized Naphtha
-NotEnoughItems:neiFluidDisplay:228, Ore Slop
-NotEnoughItems:neiFluidDisplay:229, Crude Oil
-NotEnoughItems:neiFluidDisplay:230, Salient Green
-NotEnoughItems:neiFluidDisplay:231, Steam
-NotEnoughItems:neiFluidDisplay:232, Light Oil
-NotEnoughItems:neiFluidDisplay:233, Hot Liquid Lead
-NotEnoughItems:neiFluidDisplay:234, Neon Gas
-NotEnoughItems:neiFluidDisplay:235, Potassium Permanganate Solution
-NotEnoughItems:neiFluidDisplay:236, Desulfurized Light Oil
-NotEnoughItems:neiFluidDisplay:237, Flue Gas
-NotEnoughItems:neiFluidDisplay:238, Biogas
-NotEnoughItems:neiFluidDisplay:239, Coal Tar Creosote
-NotEnoughItems:neiFluidDisplay:240, Lithium Hydroxide Aerosol
-NotEnoughItems:neiFluidDisplay:241, Kerosene
-NotEnoughItems:neiFluidDisplay:242, Reformate Gas
-NotEnoughItems:neiFluidDisplay:243, Mustard Gas
-NotEnoughItems:neiFluidDisplay:244, Eve Air
-NotEnoughItems:neiFluidDisplay:245, Custom Demo
-NotEnoughItems:neiFluidDisplay:246, High-Cetane Diesel
-NotEnoughItems:neiFluidDisplay:247, Thorium Bromide
-NotEnoughItems:neiFluidDisplay:248, Engine Lubricant
-NotEnoughItems:neiFluidDisplay:249, Liquid Nuclear Waste
-NotEnoughItems:neiFluidDisplay:250, Gaseous Nuclear Waste
-NotEnoughItems:neiFluidDisplay:251, Low-Pressure Steam
-NotEnoughItems:neiFluidDisplay:252, Deuterium-Tritium Plasma
-NotEnoughItems:neiFluidDisplay:253, Hydrogen-Deuterium Plasma
-NotEnoughItems:neiFluidDisplay:254, Hydrogen-Tritium Plasma
-NotEnoughItems:neiFluidDisplay:255, Helium-4-Oxygen Plasma
-NotEnoughItems:neiFluidDisplay:256, Balefire Plasma
-NotEnoughItems:neiFluidDisplay:257, Deuterium-Helium-3 Plasma
-NotEnoughItems:neiFluidDisplay:258, Chlorocalcite Solution
-NotEnoughItems:neiFluidDisplay:259, Mixed Chlorocalcite Solution
-NotEnoughItems:neiFluidDisplay:260, Cleaned Chlorocalcite Solution
-NotEnoughItems:neiFluidDisplay:261, Potassiumchloride Solution
-NotEnoughItems:neiFluidDisplay:262, Calciumchloride Solution
-NotEnoughItems:neiFluidDisplay:263, Calcium Solution
-NotEnoughItems:neiFluidDisplay:264, Smoke
-NotEnoughItems:neiFluidDisplay:265, Leaded Smoke
-NotEnoughItems:neiFluidDisplay:266, Poison Smoke
-NotEnoughItems:neiFluidDisplay:267, Superheated Hydrogen
-NotEnoughItems:neiFluidDisplay:268, Gaseous Poisonous Mud
-NotEnoughItems:neiFluidDisplay:269, Gaseous Uranium Bromide
-NotEnoughItems:neiFluidDisplay:270, Gaseous Plutonium Bromide
-NotEnoughItems:neiFluidDisplay:271, Gaseous Schrabidium Bromide
-NotEnoughItems:neiFluidDisplay:272, Gaseous Thorium Bromide
-NotEnoughItems:neiFluidDisplay:273, Poisonous Mud
-NotEnoughItems:neiFluidDisplay:274, Acid
-NotEnoughItems:neiFluidDisplay:275, Stereotypical Green Ooze
-NotEnoughItems:neiFluidDisplay:276, Schrabidic Acid
-NotEnoughItems:neiFluidDisplay:277, Corium
-NotEnoughItems:neiFluidDisplay:278, Volcanic Lava
-NotEnoughItems:neiFluidDisplay:279, Volcanic Lava
-NotEnoughItems:neiFluidDisplay:280, fluid.sulfuric_acid_fluid
-NotEnoughItems:neiFluidDisplay:281, fluid.mercury_fluid
-NotEnoughItems:neiFluidDisplay:282, fluid.bromine_fluid
-NotEnoughItems:neiFluidDisplay:283, fluid.ccl_fluid
-NotEnoughItems:neiFluidDisplay:284, Helium Plasma
-NotEnoughItems:neiFluidDisplay:285, Nitrogen Plasma
-NotEnoughItems:neiFluidDisplay:286, Propane
-NotEnoughItems:neiFluidDisplay:287, Butane
-NotEnoughItems:neiFluidDisplay:288, Propylene
-NotEnoughItems:neiFluidDisplay:289, Ethylene
-NotEnoughItems:neiFluidDisplay:290, Dragon's Breath
-NotEnoughItems:neiFluidDisplay:291, Nether Air
-NotEnoughItems:neiFluidDisplay:292, Ender Air
-NotEnoughItems:neiFluidDisplay:293, Very Heavy Oil
-NotEnoughItems:neiFluidDisplay:294, Heavy Oil
-NotEnoughItems:neiFluidDisplay:295, Raw Oil
-NotEnoughItems:neiFluidDisplay:296, Light Oil
-NotEnoughItems:neiFluidDisplay:297, Soulsand Oil
-NotEnoughItems:neiFluidDisplay:298, Natural Gas
-NotEnoughItems:neiFluidDisplay:299, Liquid Oxygen
-NotEnoughItems:neiFluidDisplay:300, Charged Matter
-NotEnoughItems:neiFluidDisplay:301, Neutral Matter
-NotEnoughItems:neiFluidDisplay:302, UU-Amplifier
-NotEnoughItems:neiFluidDisplay:303, UU-Matter
-NotEnoughItems:neiFluidDisplay:304, C-Foam
-NotEnoughItems:neiFluidDisplay:305, Distilled Water
-NotEnoughItems:neiFluidDisplay:306, Nitro Fuel
-NotEnoughItems:neiFluidDisplay:307, Kerosine
-NotEnoughItems:neiFluidDisplay:308, Petrol
-NotEnoughItems:neiFluidDisplay:309, Biomass
-NotEnoughItems:neiFluidDisplay:310, Biomass
-NotEnoughItems:neiFluidDisplay:311, Industrial Coolant
-NotEnoughItems:neiFluidDisplay:312, Industrial Heatant
-NotEnoughItems:neiFluidDisplay:313, Hot Molten Sodium
-NotEnoughItems:neiFluidDisplay:314, Hot Molten Tin
-NotEnoughItems:neiFluidDisplay:315, Hot Molten Lithium Chloride
-NotEnoughItems:neiFluidDisplay:316, Hot Heavy Water
-NotEnoughItems:neiFluidDisplay:317, Hot Semiheavy Water
-NotEnoughItems:neiFluidDisplay:318, Hot Tritiated Water
-NotEnoughItems:neiFluidDisplay:319, Hot Carbon Dioxide
-NotEnoughItems:neiFluidDisplay:320, Hot Helium
-NotEnoughItems:neiFluidDisplay:321, Pahoehoe Lava
-NotEnoughItems:neiFluidDisplay:322, Ethanol
-NotEnoughItems:neiFluidDisplay:323, Mc Guffium 239
-NotEnoughItems:neiFluidDisplay:324, Hot Frying Oil
-NotEnoughItems:neiFluidDisplay:325, Fiery Blood
-NotEnoughItems:neiFluidDisplay:326, Fiery Tears
-NotEnoughItems:neiFluidDisplay:327, Squid Ink
-NotEnoughItems:neiFluidDisplay:328, Indigo Dye
-NotEnoughItems:neiFluidDisplay:329, Water Mixed Black Dye
-NotEnoughItems:neiFluidDisplay:330, Black Flower Dye
-NotEnoughItems:neiFluidDisplay:331, Chemical Black Dye
-NotEnoughItems:neiFluidDisplay:332, Black C-Foam
-NotEnoughItems:neiFluidDisplay:333, Advanced Black C-Foam
-NotEnoughItems:neiFluidDisplay:334, Water Mixed Red Dye
-NotEnoughItems:neiFluidDisplay:335, Red Flower Dye
-NotEnoughItems:neiFluidDisplay:336, Chemical Red Dye
-NotEnoughItems:neiFluidDisplay:337, Red C-Foam
-NotEnoughItems:neiFluidDisplay:338, Advanced Red C-Foam
-NotEnoughItems:neiFluidDisplay:339, Water Mixed Green Dye
-NotEnoughItems:neiFluidDisplay:340, Green Flower Dye
-NotEnoughItems:neiFluidDisplay:341, Chemical Green Dye
-NotEnoughItems:neiFluidDisplay:342, Green C-Foam
-NotEnoughItems:neiFluidDisplay:343, Advanced Green C-Foam
-NotEnoughItems:neiFluidDisplay:344, Water Mixed Brown Dye
-NotEnoughItems:neiFluidDisplay:345, Brown Flower Dye
-NotEnoughItems:neiFluidDisplay:346, Chemical Brown Dye
-NotEnoughItems:neiFluidDisplay:347, Brown C-Foam
-NotEnoughItems:neiFluidDisplay:348, Advanced Brown C-Foam
-NotEnoughItems:neiFluidDisplay:349, Water Mixed Blue Dye
-NotEnoughItems:neiFluidDisplay:350, Blue Flower Dye
-NotEnoughItems:neiFluidDisplay:351, Chemical Blue Dye
-NotEnoughItems:neiFluidDisplay:352, Blue C-Foam
-NotEnoughItems:neiFluidDisplay:353, Advanced Blue C-Foam
-NotEnoughItems:neiFluidDisplay:354, Water Mixed Purple Dye
-NotEnoughItems:neiFluidDisplay:355, Purple Flower Dye
-NotEnoughItems:neiFluidDisplay:356, Chemical Purple Dye
-NotEnoughItems:neiFluidDisplay:357, Purple C-Foam
-NotEnoughItems:neiFluidDisplay:358, Advanced Purple C-Foam
-NotEnoughItems:neiFluidDisplay:359, Water Mixed Cyan Dye
-NotEnoughItems:neiFluidDisplay:360, Cyan Flower Dye
-NotEnoughItems:neiFluidDisplay:361, Chemical Cyan Dye
-NotEnoughItems:neiFluidDisplay:362, Cyan C-Foam
-NotEnoughItems:neiFluidDisplay:363, Advanced Cyan C-Foam
-NotEnoughItems:neiFluidDisplay:364, Water Mixed Light Gray Dye
-NotEnoughItems:neiFluidDisplay:365, Light Gray Flower Dye
-NotEnoughItems:neiFluidDisplay:366, Chemical Light Gray Dye
-NotEnoughItems:neiFluidDisplay:367, Light Gray C-Foam
-NotEnoughItems:neiFluidDisplay:368, Advanced Light Gray C-Foam
-NotEnoughItems:neiFluidDisplay:369, Water Mixed Gray Dye
-NotEnoughItems:neiFluidDisplay:370, Gray Flower Dye
-NotEnoughItems:neiFluidDisplay:371, Chemical Gray Dye
-NotEnoughItems:neiFluidDisplay:372, Gray C-Foam
-NotEnoughItems:neiFluidDisplay:373, Advanced Gray C-Foam
-NotEnoughItems:neiFluidDisplay:374, Water Mixed Pink Dye
-NotEnoughItems:neiFluidDisplay:375, Pink Flower Dye
-NotEnoughItems:neiFluidDisplay:376, Chemical Pink Dye
-NotEnoughItems:neiFluidDisplay:377, Pink C-Foam
-NotEnoughItems:neiFluidDisplay:378, Advanced Pink C-Foam
-NotEnoughItems:neiFluidDisplay:379, Water Mixed Lime Dye
-NotEnoughItems:neiFluidDisplay:380, Lime Flower Dye
-NotEnoughItems:neiFluidDisplay:381, Chemical Lime Dye
-NotEnoughItems:neiFluidDisplay:382, Lime C-Foam
-NotEnoughItems:neiFluidDisplay:383, Advanced Lime C-Foam
-NotEnoughItems:neiFluidDisplay:384, Water Mixed Yellow Dye
-NotEnoughItems:neiFluidDisplay:385, Yellow Flower Dye
-NotEnoughItems:neiFluidDisplay:386, Chemical Yellow Dye
-NotEnoughItems:neiFluidDisplay:387, Yellow C-Foam
-NotEnoughItems:neiFluidDisplay:388, Advanced Yellow C-Foam
-NotEnoughItems:neiFluidDisplay:389, Water Mixed Light Blue Dye
-NotEnoughItems:neiFluidDisplay:390, Light Blue Flower Dye
-NotEnoughItems:neiFluidDisplay:391, Chemical Light Blue Dye
-NotEnoughItems:neiFluidDisplay:392, Light Blue C-Foam
-NotEnoughItems:neiFluidDisplay:393, Advanced Light Blue C-Foam
-NotEnoughItems:neiFluidDisplay:394, Water Mixed Magenta Dye
-NotEnoughItems:neiFluidDisplay:395, Magenta Flower Dye
-NotEnoughItems:neiFluidDisplay:396, Chemical Magenta Dye
-NotEnoughItems:neiFluidDisplay:397, Magenta C-Foam
-NotEnoughItems:neiFluidDisplay:398, Advanced Magenta C-Foam
-NotEnoughItems:neiFluidDisplay:399, Water Mixed Orange Dye
-NotEnoughItems:neiFluidDisplay:400, Orange Flower Dye
-NotEnoughItems:neiFluidDisplay:401, Chemical Orange Dye
-NotEnoughItems:neiFluidDisplay:402, Orange C-Foam
-NotEnoughItems:neiFluidDisplay:403, Advanced Orange C-Foam
-NotEnoughItems:neiFluidDisplay:404, Water Mixed White Dye
-NotEnoughItems:neiFluidDisplay:405, White Flower Dye
-NotEnoughItems:neiFluidDisplay:406, Chemical White Dye
-NotEnoughItems:neiFluidDisplay:407, White C-Foam
-NotEnoughItems:neiFluidDisplay:408, Advanced White C-Foam
-NotEnoughItems:neiFluidDisplay:409, Blazing Pyrotheum
-NotEnoughItems:neiFluidDisplay:410, Gelid Cryotheum
-NotEnoughItems:neiFluidDisplay:411, Tectonic Petrotheum
-NotEnoughItems:neiFluidDisplay:412, Zephyrean Aerotheum
-NotEnoughItems:neiFluidDisplay:413, Molten Plastic
-NotEnoughItems:neiFluidDisplay:414, Molten Glass
-NotEnoughItems:neiFluidDisplay:415, Molten Enderpearls
-NotEnoughItems:neiFluidDisplay:416, Molten Redstone
-NotEnoughItems:neiFluidDisplay:417, Blazing Goo
-NotEnoughItems:neiFluidDisplay:418, Latex
-NotEnoughItems:neiFluidDisplay:419, Latex
-NotEnoughItems:neiFluidDisplay:420, Molten HSLA Steel
-NotEnoughItems:neiFluidDisplay:421, Molten Chocolate
-NotEnoughItems:neiFluidDisplay:422, Molten Cheese
-NotEnoughItems:neiFluidDisplay:423, Molten Sugar
-NotEnoughItems:neiFluidDisplay:424, Molten Rubber
-NotEnoughItems:neiFluidDisplay:425, Molten Wax
-NotEnoughItems:neiFluidDisplay:426, Molten Bees Wax
-NotEnoughItems:neiFluidDisplay:427, Molten Paraffin Wax
-NotEnoughItems:neiFluidDisplay:428, Molten Plant Wax
-NotEnoughItems:neiFluidDisplay:429, Molten Refractory Wax
-NotEnoughItems:neiFluidDisplay:430, Molten Magic Wax
-NotEnoughItems:neiFluidDisplay:431, Molten Amnesic Wax
-NotEnoughItems:neiFluidDisplay:432, Molten Soulful Wax
-NotEnoughItems:neiFluidDisplay:433, Molten Alumina
-NotEnoughItems:neiFluidDisplay:434, Tainted Brew
-NotEnoughItems:neiFluidDisplay:435, Awkward Brew
-NotEnoughItems:neiFluidDisplay:436, Thick Brew
-NotEnoughItems:neiFluidDisplay:437, Mundane Brew
-NotEnoughItems:neiFluidDisplay:438, Harming Brew
-NotEnoughItems:neiFluidDisplay:439, Strong Harming Brew
-NotEnoughItems:neiFluidDisplay:440, Splash Harming Brew
-NotEnoughItems:neiFluidDisplay:441, Strong Splash Harming Brew
-NotEnoughItems:neiFluidDisplay:442, Healing Brew
-NotEnoughItems:neiFluidDisplay:443, Strong Healing Brew
-NotEnoughItems:neiFluidDisplay:444, Splash Healing Brew
-NotEnoughItems:neiFluidDisplay:445, Strong Splash Healing Brew
-NotEnoughItems:neiFluidDisplay:446, Jumpy Brew
-NotEnoughItems:neiFluidDisplay:447, Strong Jumpy Brew
-NotEnoughItems:neiFluidDisplay:448, Splash Jumpy Brew
-NotEnoughItems:neiFluidDisplay:449, Strong Splash Jumpy Brew
-NotEnoughItems:neiFluidDisplay:450, Swiftness Brew
-NotEnoughItems:neiFluidDisplay:451, Strong Swiftness Brew
-NotEnoughItems:neiFluidDisplay:452, Stretched Swiftness Brew
-NotEnoughItems:neiFluidDisplay:453, Splash Swiftness Brew
-NotEnoughItems:neiFluidDisplay:454, Strong Splash Swiftness Brew
-NotEnoughItems:neiFluidDisplay:455, Stretched Splash Swiftness Brew
-NotEnoughItems:neiFluidDisplay:456, Strength Brew
-NotEnoughItems:neiFluidDisplay:457, Strong Strength Brew
-NotEnoughItems:neiFluidDisplay:458, Stretched Strength Brew
-NotEnoughItems:neiFluidDisplay:459, Splash Strength Brew
-NotEnoughItems:neiFluidDisplay:460, Strong Splash Strength Brew
-NotEnoughItems:neiFluidDisplay:461, Stretched Splash Strength Brew
-NotEnoughItems:neiFluidDisplay:462, Regenerating Brew
-NotEnoughItems:neiFluidDisplay:463, Strong Regenerating Brew
-NotEnoughItems:neiFluidDisplay:464, Stretched Regenerating Brew
-NotEnoughItems:neiFluidDisplay:465, Splash Regenerating Brew
-NotEnoughItems:neiFluidDisplay:466, Strong Splash Regenerating Brew
-NotEnoughItems:neiFluidDisplay:467, Stretched Splash Regenerating Brew
-NotEnoughItems:neiFluidDisplay:468, Poisonous Brew
-NotEnoughItems:neiFluidDisplay:469, Strong Poisonous Brew
-NotEnoughItems:neiFluidDisplay:470, Stretched Poisonous Brew
-NotEnoughItems:neiFluidDisplay:471, Splash Poisonous Brew
-NotEnoughItems:neiFluidDisplay:472, Strong Splash Poisonous Brew
-NotEnoughItems:neiFluidDisplay:473, Stretched Splash Poisonous Brew
-NotEnoughItems:neiFluidDisplay:474, Fire Resistant Brew
-NotEnoughItems:neiFluidDisplay:475, Stretched Fire Resistant Brew
-NotEnoughItems:neiFluidDisplay:476, Splash Fire Resistant Brew
-NotEnoughItems:neiFluidDisplay:477, Stretched Splash Fire Resistant Brew
-NotEnoughItems:neiFluidDisplay:478, Night Vision Brew
-NotEnoughItems:neiFluidDisplay:479, Stretched Night Vision Brew
-NotEnoughItems:neiFluidDisplay:480, Splash Night Vision Brew
-NotEnoughItems:neiFluidDisplay:481, Stretched Splash Night Vision Brew
-NotEnoughItems:neiFluidDisplay:482, Weakening Brew
-NotEnoughItems:neiFluidDisplay:483, Stretched Weakening Brew
-NotEnoughItems:neiFluidDisplay:484, Splash Weakening Brew
-NotEnoughItems:neiFluidDisplay:485, Stretched Splash Weakening Brew
-NotEnoughItems:neiFluidDisplay:486, Lame Brew
-NotEnoughItems:neiFluidDisplay:487, Stretched Lame Brew
-NotEnoughItems:neiFluidDisplay:488, Splash Lame Brew
-NotEnoughItems:neiFluidDisplay:489, Stretched Splash Lame Brew
-NotEnoughItems:neiFluidDisplay:490, Fishy Brew
-NotEnoughItems:neiFluidDisplay:491, Stretched Fishy Brew
-NotEnoughItems:neiFluidDisplay:492, Splash Fishy Brew
-NotEnoughItems:neiFluidDisplay:493, Stretched Splash Fishy Brew
-NotEnoughItems:neiFluidDisplay:494, Invisible Brew
-NotEnoughItems:neiFluidDisplay:495, Stretched Invisible Brew
-NotEnoughItems:neiFluidDisplay:496, Splash Invisible Brew
-NotEnoughItems:neiFluidDisplay:497, Stretched Splash Invisible Brew
-NotEnoughItems:neiFluidDisplay:498, Lingering Harming Brew
-NotEnoughItems:neiFluidDisplay:499, Strong Lingering Harming Brew
-NotEnoughItems:neiFluidDisplay:500, Lingering Healing Brew
-NotEnoughItems:neiFluidDisplay:501, Strong Lingering Healing Brew
-NotEnoughItems:neiFluidDisplay:502, Lingering Jumpy Brew
-NotEnoughItems:neiFluidDisplay:503, Strong Lingering Jumpy Brew
-NotEnoughItems:neiFluidDisplay:504, Lingering Swiftness Brew
-NotEnoughItems:neiFluidDisplay:505, Strong Lingering Swiftness Brew
-NotEnoughItems:neiFluidDisplay:506, Stretched Lingering Swiftness Brew
-NotEnoughItems:neiFluidDisplay:507, Lingering Strength Brew
-NotEnoughItems:neiFluidDisplay:508, Strong Lingering Strength Brew
-NotEnoughItems:neiFluidDisplay:509, Stretched Lingering Strength Brew
-NotEnoughItems:neiFluidDisplay:510, Lingering Regenerating Brew
-NotEnoughItems:neiFluidDisplay:511, Strong Lingering Regenerating Brew
-NotEnoughItems:neiFluidDisplay:512, Stretched Lingering Regenerating Brew
-NotEnoughItems:neiFluidDisplay:513, Lingering Poisonous Brew
-NotEnoughItems:neiFluidDisplay:514, Strong Lingering Poisonous Brew
-NotEnoughItems:neiFluidDisplay:515, Stretched Lingering Poisonous Brew
-NotEnoughItems:neiFluidDisplay:516, Lingering Fire Resistant Brew
-NotEnoughItems:neiFluidDisplay:517, Stretched Lingering Fire Resistant Brew
-NotEnoughItems:neiFluidDisplay:518, Lingering Night Vision Brew
-NotEnoughItems:neiFluidDisplay:519, Stretched Lingering Night Vision Brew
-NotEnoughItems:neiFluidDisplay:520, Lingering Weakening Brew
-NotEnoughItems:neiFluidDisplay:521, Stretched Lingering Weakening Brew
-NotEnoughItems:neiFluidDisplay:522, Lingering Lame Brew
-NotEnoughItems:neiFluidDisplay:523, Stretched Lingering Lame Brew
-NotEnoughItems:neiFluidDisplay:524, Lingering Fishy Brew
-NotEnoughItems:neiFluidDisplay:525, Stretched Lingering Fishy Brew
-NotEnoughItems:neiFluidDisplay:526, Lingering Invisible Brew
-NotEnoughItems:neiFluidDisplay:527, Stretched Lingering Invisible Brew
-NotEnoughItems:neiFluidDisplay:528, Liquid Error
-NotEnoughItems:neiFluidDisplay:529, Riverwater
-NotEnoughItems:neiFluidDisplay:530, Spectral Dew
-NotEnoughItems:neiFluidDisplay:531, Near Frozen Water
-NotEnoughItems:neiFluidDisplay:532, Soda
-NotEnoughItems:neiFluidDisplay:533, Mineral Water
-NotEnoughItems:neiFluidDisplay:534, Mineral Soda
-NotEnoughItems:neiFluidDisplay:535, Hot Spring Water
-NotEnoughItems:neiFluidDisplay:536, Juice
-NotEnoughItems:neiFluidDisplay:537, Strawberry Juice
-NotEnoughItems:neiFluidDisplay:538, Kiwi Juice
-NotEnoughItems:neiFluidDisplay:539, Persimmon Juice
-NotEnoughItems:neiFluidDisplay:540, Currant Juice
-NotEnoughItems:neiFluidDisplay:541, Raspberry Juice
-NotEnoughItems:neiFluidDisplay:542, Blackberry Juice
-NotEnoughItems:neiFluidDisplay:543, Blueberry Juice
-NotEnoughItems:neiFluidDisplay:544, Gooseberry Juice
-NotEnoughItems:neiFluidDisplay:545, Cranberry Juice
-NotEnoughItems:neiFluidDisplay:546, Elderberry Juice
-NotEnoughItems:neiFluidDisplay:547, Hellderberry Juice
-NotEnoughItems:neiFluidDisplay:548, Lemon Juice
-NotEnoughItems:neiFluidDisplay:549, Ananas Juice
-NotEnoughItems:neiFluidDisplay:550, Orange Juice
-NotEnoughItems:neiFluidDisplay:551, Apricot Juice
-NotEnoughItems:neiFluidDisplay:552, Lime Juice
-NotEnoughItems:neiFluidDisplay:553, Pear Juice
-NotEnoughItems:neiFluidDisplay:554, Cherry Juice
-NotEnoughItems:neiFluidDisplay:555, Plum Juice
-NotEnoughItems:neiFluidDisplay:556, Peach Juice
-NotEnoughItems:neiFluidDisplay:557, Grapefruit Juice
-NotEnoughItems:neiFluidDisplay:558, Banana Juice
-NotEnoughItems:neiFluidDisplay:559, Green Grape Juice
-NotEnoughItems:neiFluidDisplay:560, Purple Grape Juice
-NotEnoughItems:neiFluidDisplay:561, Red Grape Juice
-NotEnoughItems:neiFluidDisplay:562, White Grape Juice
-NotEnoughItems:neiFluidDisplay:563, Apple Juice
-NotEnoughItems:neiFluidDisplay:564, Apple Juice
-NotEnoughItems:neiFluidDisplay:565, Fig Juice
-NotEnoughItems:neiFluidDisplay:566, Pomegranate Juice
-NotEnoughItems:neiFluidDisplay:567, Mango Juice
-NotEnoughItems:neiFluidDisplay:568, Starfruit Juice
-NotEnoughItems:neiFluidDisplay:569, Papaya Juice
-NotEnoughItems:neiFluidDisplay:570, Coconut Milk
-NotEnoughItems:neiFluidDisplay:571, Froot Smoothie
-NotEnoughItems:neiFluidDisplay:572, Strawberry Smoothie
-NotEnoughItems:neiFluidDisplay:573, Melon Smoothie
-NotEnoughItems:neiFluidDisplay:574, Kiwi Smoothie
-NotEnoughItems:neiFluidDisplay:575, Currant Smoothie
-NotEnoughItems:neiFluidDisplay:576, Raspberry Smoothie
-NotEnoughItems:neiFluidDisplay:577, Blackberry Smoothie
-NotEnoughItems:neiFluidDisplay:578, Blueberry Smoothie
-NotEnoughItems:neiFluidDisplay:579, Gooseberry Smoothie
-NotEnoughItems:neiFluidDisplay:580, Cranberry Smoothie
-NotEnoughItems:neiFluidDisplay:581, Elderberry Smoothie
-NotEnoughItems:neiFluidDisplay:582, Lemon Smoothie
-NotEnoughItems:neiFluidDisplay:583, Ananas Smoothie
-NotEnoughItems:neiFluidDisplay:584, Orange Smoothie
-NotEnoughItems:neiFluidDisplay:585, Persimmon Smoothie
-NotEnoughItems:neiFluidDisplay:586, Apricot Smoothie
-NotEnoughItems:neiFluidDisplay:587, Lime Smoothie
-NotEnoughItems:neiFluidDisplay:588, Pear Smoothie
-NotEnoughItems:neiFluidDisplay:589, Cherry Smoothie
-NotEnoughItems:neiFluidDisplay:590, Plum Smoothie
-NotEnoughItems:neiFluidDisplay:591, Peach Smoothie
-NotEnoughItems:neiFluidDisplay:592, Grapefruit Smoothie
-NotEnoughItems:neiFluidDisplay:593, Banana Smoothie
-NotEnoughItems:neiFluidDisplay:594, Grape Smoothie
-NotEnoughItems:neiFluidDisplay:595, Grape Smoothie
-NotEnoughItems:neiFluidDisplay:596, Grape Smoothie
-NotEnoughItems:neiFluidDisplay:597, Grape Smoothie
-NotEnoughItems:neiFluidDisplay:598, Apple Smoothie
-NotEnoughItems:neiFluidDisplay:599, Fig Smoothie
-NotEnoughItems:neiFluidDisplay:600, Pomegranate Smoothie
-NotEnoughItems:neiFluidDisplay:601, Mango Smoothie
-NotEnoughItems:neiFluidDisplay:602, Starfruit Smoothie
-NotEnoughItems:neiFluidDisplay:603, Papaya Smoothie
-NotEnoughItems:neiFluidDisplay:604, Coconut Smoothie
-NotEnoughItems:neiFluidDisplay:605, Tomato Juice
-NotEnoughItems:neiFluidDisplay:606, Carrot Juice
-NotEnoughItems:neiFluidDisplay:607, Beet Juice
-NotEnoughItems:neiFluidDisplay:608, Pumpkin Juice
-NotEnoughItems:neiFluidDisplay:609, Potato Juice
-NotEnoughItems:neiFluidDisplay:610, Hops Mash
-NotEnoughItems:neiFluidDisplay:611, Wheat-Hops Mash
-NotEnoughItems:neiFluidDisplay:612, Wheat Mash
-NotEnoughItems:neiFluidDisplay:613, Corn Mash
-NotEnoughItems:neiFluidDisplay:614, Grain Mash
-NotEnoughItems:neiFluidDisplay:615, Rye Mash
-NotEnoughItems:neiFluidDisplay:616, Ricewater
-NotEnoughItems:neiFluidDisplay:617, Reedwater
-NotEnoughItems:neiFluidDisplay:618, Cactuswater
-NotEnoughItems:neiFluidDisplay:619, Maple Sap
-NotEnoughItems:neiFluidDisplay:620, Rainbow Sap
-NotEnoughItems:neiFluidDisplay:621, Wine
-NotEnoughItems:neiFluidDisplay:622, Ricardo Sanchez
-NotEnoughItems:neiFluidDisplay:623, Red Wine
-NotEnoughItems:neiFluidDisplay:624, White Wine
-NotEnoughItems:neiFluidDisplay:625, Limoncello
-NotEnoughItems:neiFluidDisplay:626, Sake
-NotEnoughItems:neiFluidDisplay:627, Beer
-NotEnoughItems:neiFluidDisplay:628, Dark Beer
-NotEnoughItems:neiFluidDisplay:629, Dragon Blood
-NotEnoughItems:neiFluidDisplay:630, Scotch
-NotEnoughItems:neiFluidDisplay:631, Glen McKenner
-NotEnoughItems:neiFluidDisplay:632, Rum
-NotEnoughItems:neiFluidDisplay:633, Pirate Brew
-NotEnoughItems:neiFluidDisplay:634, Piña Colada
-NotEnoughItems:neiFluidDisplay:635, Ananas Cider
-NotEnoughItems:neiFluidDisplay:636, Cider
-NotEnoughItems:neiFluidDisplay:637, Vodka
-NotEnoughItems:neiFluidDisplay:638, Leninade
-NotEnoughItems:neiFluidDisplay:639, Alcopops
-NotEnoughItems:neiFluidDisplay:640, Short Mead
-NotEnoughItems:neiFluidDisplay:641, Mead
-NotEnoughItems:neiFluidDisplay:642, Grape Vinegar
-NotEnoughItems:neiFluidDisplay:643, Apple Cider Vinegar
-NotEnoughItems:neiFluidDisplay:644, Cane Vinegar
-NotEnoughItems:neiFluidDisplay:645, Rice Vinegar
-NotEnoughItems:neiFluidDisplay:646, Chili Sauce
-NotEnoughItems:neiFluidDisplay:647, Hot Sauce
-NotEnoughItems:neiFluidDisplay:648, Diabolo Sauce
-NotEnoughItems:neiFluidDisplay:649, Diablo Sauce
-NotEnoughItems:neiFluidDisplay:650, There is no Cow Sauce
-NotEnoughItems:neiFluidDisplay:651, Honey (GrowthCraft)
-NotEnoughItems:neiFluidDisplay:652, Honey (Forestry, most other Mods)
-NotEnoughItems:neiFluidDisplay:653, Honeydew
-NotEnoughItems:neiFluidDisplay:654, Ambrosia
-NotEnoughItems:neiFluidDisplay:655, Royal Jelly
-NotEnoughItems:neiFluidDisplay:656, Nut Oil
-NotEnoughItems:neiFluidDisplay:657, Olive Oil
-NotEnoughItems:neiFluidDisplay:658, Seed Oil
-NotEnoughItems:neiFluidDisplay:659, Lin Oil
-NotEnoughItems:neiFluidDisplay:660, Hemp Oil
-NotEnoughItems:neiFluidDisplay:661, Whale Oil
-NotEnoughItems:neiFluidDisplay:662, Mayonnaise
-NotEnoughItems:neiFluidDisplay:663, Dressing
-NotEnoughItems:neiFluidDisplay:664, Heavy Cream
-NotEnoughItems:neiFluidDisplay:665, Coconut Cream
-NotEnoughItems:neiFluidDisplay:666, Tomato Ketchup
-NotEnoughItems:neiFluidDisplay:667, Barbecue Sauce
-NotEnoughItems:neiFluidDisplay:668, Chocolate Cream
-NotEnoughItems:neiFluidDisplay:669, Nutella
-NotEnoughItems:neiFluidDisplay:670, Peanut Butter
-NotEnoughItems:neiFluidDisplay:671, Maple Syrup
-NotEnoughItems:neiFluidDisplay:672, Purple Drink
-NotEnoughItems:neiFluidDisplay:673, Lemonade
-NotEnoughItems:neiFluidDisplay:674, Golden Carrot Juice
-NotEnoughItems:neiFluidDisplay:675, Golden Apple Juice
-NotEnoughItems:neiFluidDisplay:676, Golden Cider
-NotEnoughItems:neiFluidDisplay:677, Idun's Apple Juice
-NotEnoughItems:neiFluidDisplay:678, Notches Brew
-NotEnoughItems:neiFluidDisplay:679, Cave Johnson's Grenade Juice
-NotEnoughItems:neiFluidDisplay:680, Holy Water
-NotEnoughItems:neiFluidDisplay:681, Glue
-NotEnoughItems:neiFluidDisplay:682, Sluice Juice
-NotEnoughItems:neiFluidDisplay:683, Soy Milk
-NotEnoughItems:neiFluidDisplay:684, Milk
-NotEnoughItems:neiFluidDisplay:685, Milk
-NotEnoughItems:neiFluidDisplay:686, Rotten Drink
-NotEnoughItems:neiFluidDisplay:687, Mushroom Stew
-NotEnoughItems:neiFluidDisplay:688, Slime
-NotEnoughItems:neiFluidDisplay:689, BAWLS
-NotEnoughItems:neiFluidDisplay:690, Dark Coffee
-NotEnoughItems:neiFluidDisplay:691, Dark Cafe au lait
-NotEnoughItems:neiFluidDisplay:692, Coffee
-NotEnoughItems:neiFluidDisplay:693, Cafe au lait
-NotEnoughItems:neiFluidDisplay:694, Lait au cafe
-NotEnoughItems:neiFluidDisplay:695, Bitter Chocolate Milk
-NotEnoughItems:neiFluidDisplay:696, Chocolate Milk
-NotEnoughItems:neiFluidDisplay:697, Sweet Tea
-NotEnoughItems:neiFluidDisplay:698, Ice Tea
-NotEnoughItems:neiFluidDisplay:699, Medicine
-NotEnoughItems:neiFluidDisplay:700, Laxative
-NotEnoughItems:neiFluidDisplay:701, Molten Lithium
-NotEnoughItems:neiFluidDisplay:702, Molten Lithium-6
-NotEnoughItems:neiFluidDisplay:703, Molten Beryllium
-NotEnoughItems:neiFluidDisplay:704, Molten Beryllium-7
-NotEnoughItems:neiFluidDisplay:705, Molten Beryllium-8
-NotEnoughItems:neiFluidDisplay:706, Molten Boron
-NotEnoughItems:neiFluidDisplay:707, Molten Boron-11
-NotEnoughItems:neiFluidDisplay:708, Molten Carbon
-NotEnoughItems:neiFluidDisplay:709, Molten Carbon-13
-NotEnoughItems:neiFluidDisplay:710, Molten Carbon-14
-NotEnoughItems:neiFluidDisplay:711, Molten Sodium
-NotEnoughItems:neiFluidDisplay:712, Molten Magnesium
-NotEnoughItems:neiFluidDisplay:713, Molten Aluminium
-NotEnoughItems:neiFluidDisplay:714, Molten Silicon
-NotEnoughItems:neiFluidDisplay:715, Molten Sulfur
-NotEnoughItems:neiFluidDisplay:716, Molten Potassium
-NotEnoughItems:neiFluidDisplay:717, Molten Calcium
-NotEnoughItems:neiFluidDisplay:718, Molten Titanium
-NotEnoughItems:neiFluidDisplay:719, Molten Schrabidium
-NotEnoughItems:neiFluidDisplay:720, Molten Vanadium
-NotEnoughItems:neiFluidDisplay:721, Molten Chromium
-NotEnoughItems:neiFluidDisplay:722, Molten Manganese
-NotEnoughItems:neiFluidDisplay:723, Molten Iron
-NotEnoughItems:neiFluidDisplay:724, Molten Cobalt
-NotEnoughItems:neiFluidDisplay:725, Molten Nickel
-NotEnoughItems:neiFluidDisplay:726, Molten Euphemium
-NotEnoughItems:neiFluidDisplay:727, Molten Copper
-NotEnoughItems:neiFluidDisplay:728, Molten Zinc
-NotEnoughItems:neiFluidDisplay:729, Molten Germanium
-NotEnoughItems:neiFluidDisplay:730, Molten Arsenic
-NotEnoughItems:neiFluidDisplay:731, Molten Rubidium
-NotEnoughItems:neiFluidDisplay:732, Molten Strontium
-NotEnoughItems:neiFluidDisplay:733, Molten Molybdenum
-NotEnoughItems:neiFluidDisplay:734, Molten Silver
-NotEnoughItems:neiFluidDisplay:735, Molten Tin
-NotEnoughItems:neiFluidDisplay:736, Molten Antimony
-NotEnoughItems:neiFluidDisplay:737, Molten Tellurium
-NotEnoughItems:neiFluidDisplay:738, Molten Caesium
-NotEnoughItems:neiFluidDisplay:739, Molten Barium
-NotEnoughItems:neiFluidDisplay:740, Molten Neodymium
-NotEnoughItems:neiFluidDisplay:741, Molten Tungsten
-NotEnoughItems:neiFluidDisplay:742, Molten Osmium
-NotEnoughItems:neiFluidDisplay:743, Molten Iridium
-NotEnoughItems:neiFluidDisplay:744, Molten Platinum
-NotEnoughItems:neiFluidDisplay:745, Molten Gold
-NotEnoughItems:neiFluidDisplay:746, Molten Gold-198
-NotEnoughItems:neiFluidDisplay:747, Molten Lead
-NotEnoughItems:neiFluidDisplay:748, Molten Bismuth
-NotEnoughItems:neiFluidDisplay:749, Molten Astatine
-NotEnoughItems:neiFluidDisplay:750, Astatine
-NotEnoughItems:neiFluidDisplay:751, Radon
-NotEnoughItems:neiFluidDisplay:752, Molten Francium
-NotEnoughItems:neiFluidDisplay:753, Molten Radium
-NotEnoughItems:neiFluidDisplay:754, Molten Uranium
-NotEnoughItems:neiFluidDisplay:755, Molten Uranium-235
-NotEnoughItems:neiFluidDisplay:756, Molten Elemental Tritanium
-NotEnoughItems:neiFluidDisplay:757, Molten Trinium
-NotEnoughItems:neiFluidDisplay:758, Molten Elemental Duranium
-NotEnoughItems:neiFluidDisplay:759, Molten Naquadah
-NotEnoughItems:neiFluidDisplay:760, Molten Enriched Naquadah
-NotEnoughItems:neiFluidDisplay:761, Molten Naquadria
-NotEnoughItems:neiFluidDisplay:762, Molten Abyssalnite
-NotEnoughItems:neiFluidDisplay:763, Molten Coralium
-NotEnoughItems:neiFluidDisplay:764, Molten Dreadium
-NotEnoughItems:neiFluidDisplay:765, Molten Ethaxium
-NotEnoughItems:neiFluidDisplay:766, Molten Atlarus
-NotEnoughItems:neiFluidDisplay:767, Molten Adamantium
-NotEnoughItems:neiFluidDisplay:768, Semiheavy Water
-NotEnoughItems:neiFluidDisplay:769, Tritiated Water
-NotEnoughItems:neiFluidDisplay:770, Sea Water
-NotEnoughItems:neiFluidDisplay:771, Dirty Water
-NotEnoughItems:neiFluidDisplay:772, Hydrogen Peroxide
-NotEnoughItems:neiFluidDisplay:773, Hydrochloric Acid
-NotEnoughItems:neiFluidDisplay:774, Hydrogen Fluoride
-NotEnoughItems:neiFluidDisplay:775, Helium-Neon
-NotEnoughItems:neiFluidDisplay:776, Nitrogen Monoxide
-NotEnoughItems:neiFluidDisplay:777, Nitrogen Dioxide
-NotEnoughItems:neiFluidDisplay:778, Carbon Monoxide
-NotEnoughItems:neiFluidDisplay:779, Carbon Trioxide
-NotEnoughItems:neiFluidDisplay:780, Methane
-NotEnoughItems:neiFluidDisplay:781, Glycerol
-NotEnoughItems:neiFluidDisplay:782, Glyceryl
-NotEnoughItems:neiFluidDisplay:783, Sulfur Dioxide
-NotEnoughItems:neiFluidDisplay:784, Sulfur Trioxide
-NotEnoughItems:neiFluidDisplay:785, Hydrosulfuric Acid
-NotEnoughItems:neiFluidDisplay:786, Disulfuric Acid
-NotEnoughItems:neiFluidDisplay:787, Hexafluorosilicic Acid
-NotEnoughItems:neiFluidDisplay:788, Molten Tungsten Trioxide
-NotEnoughItems:neiFluidDisplay:789, Molten Aluminium Fluoride
-NotEnoughItems:neiFluidDisplay:790, Molten Rutile
-NotEnoughItems:neiFluidDisplay:791, Molten Manganese Chloride
-NotEnoughItems:neiFluidDisplay:792, Molten Hematite
-NotEnoughItems:neiFluidDisplay:793, Molten Ferrous Chloride
-NotEnoughItems:neiFluidDisplay:794, Molten Magnesium Chloride
-NotEnoughItems:neiFluidDisplay:795, Molten Magnesium Carbonate
-NotEnoughItems:neiFluidDisplay:796, Molten Calcium Chloride
-NotEnoughItems:neiFluidDisplay:797, Molten Calcite
-NotEnoughItems:neiFluidDisplay:798, Molten Fluorite
-NotEnoughItems:neiFluidDisplay:799, Molten Lithium Chloride
-NotEnoughItems:neiFluidDisplay:800, Molten Lithium Chlorate
-NotEnoughItems:neiFluidDisplay:801, Molten Lithium Perchlorate
-NotEnoughItems:neiFluidDisplay:802, Molten Sodium Carbonate
-NotEnoughItems:neiFluidDisplay:803, Molten Cryolite
-NotEnoughItems:neiFluidDisplay:804, Saltwater
-NotEnoughItems:neiFluidDisplay:805, Molten Potassium Carbonate
-NotEnoughItems:neiFluidDisplay:806, Salted Water
-NotEnoughItems:neiFluidDisplay:807, Chloroauric Acid
-NotEnoughItems:neiFluidDisplay:808, Chloroplatinic Acid
-NotEnoughItems:neiFluidDisplay:809, Stannic Chloride
-NotEnoughItems:neiFluidDisplay:810, Black Vitriol
-NotEnoughItems:neiFluidDisplay:811, Blue Vitriol
-NotEnoughItems:neiFluidDisplay:812, Green Vitriol
-NotEnoughItems:neiFluidDisplay:813, Red Vitriol
-NotEnoughItems:neiFluidDisplay:814, Pink Vitriol
-NotEnoughItems:neiFluidDisplay:815, Cyan Vitriol
-NotEnoughItems:neiFluidDisplay:816, White Vitriol
-NotEnoughItems:neiFluidDisplay:817, Gray Vitriol
-NotEnoughItems:neiFluidDisplay:818, Martian Vitriol
-NotEnoughItems:neiFluidDisplay:819, Vitriol Of Clay
-NotEnoughItems:neiFluidDisplay:820, Molten Uranium Tetrafluoride
-NotEnoughItems:neiFluidDisplay:821, Uranium Hexafluoride
-NotEnoughItems:neiFluidDisplay:822, Molten Uranium-238 Tetrafluoride
-NotEnoughItems:neiFluidDisplay:823, Uranium-238 Hexafluoride
-NotEnoughItems:neiFluidDisplay:824, Molten Uranium-235 Tetrafluoride
-NotEnoughItems:neiFluidDisplay:825, Uranium-235 Hexafluoride
-NotEnoughItems:neiFluidDisplay:826, Aqua Regia
-NotEnoughItems:neiFluidDisplay:827, Creosote
-NotEnoughItems:neiFluidDisplay:828, Molten Asphalt
-NotEnoughItems:neiFluidDisplay:829, Molten Magic Tallow
-NotEnoughItems:neiFluidDisplay:830, Ectoplasm
-NotEnoughItems:neiFluidDisplay:831, Molten Nikolite
-NotEnoughItems:neiFluidDisplay:832, Molten Glowstone
-NotEnoughItems:neiFluidDisplay:833, Molten Ceres Glowstone
-NotEnoughItems:neiFluidDisplay:834, Molten Io Glowstone
-NotEnoughItems:neiFluidDisplay:835, Molten Enceladus Glowstone
-NotEnoughItems:neiFluidDisplay:836, Molten Proteus Glowstone
-NotEnoughItems:neiFluidDisplay:837, Molten Pluto Glowstone
-NotEnoughItems:neiFluidDisplay:838, Molten Gloomstone
-NotEnoughItems:neiFluidDisplay:839, Molten Stone
-NotEnoughItems:neiFluidDisplay:840, Molten Wrought Iron
-NotEnoughItems:neiFluidDisplay:841, Molten Annealed Copper
-NotEnoughItems:neiFluidDisplay:842, Molten Orichalcum
-NotEnoughItems:neiFluidDisplay:843, Molten Astral Silver
-NotEnoughItems:neiFluidDisplay:844, Molten Midasium
-NotEnoughItems:neiFluidDisplay:845, Molten Mithril
-NotEnoughItems:neiFluidDisplay:846, Molten Celenegil
-NotEnoughItems:neiFluidDisplay:847, Molten Electrum
-NotEnoughItems:neiFluidDisplay:848, Molten Sterling Silver
-NotEnoughItems:neiFluidDisplay:849, Molten Rose Gold
-NotEnoughItems:neiFluidDisplay:850, Molten Angmallen
-NotEnoughItems:neiFluidDisplay:851, Molten Inductive Alloy
-NotEnoughItems:neiFluidDisplay:852, Molten Brass
-NotEnoughItems:neiFluidDisplay:853, Molten Cobalt Brass
-NotEnoughItems:neiFluidDisplay:854, Molten Bronze
-NotEnoughItems:neiFluidDisplay:855, Molten Black Bronze
-NotEnoughItems:neiFluidDisplay:856, Molten Bismuth Bronze
-NotEnoughItems:neiFluidDisplay:857, Molten Hepatizon
-NotEnoughItems:neiFluidDisplay:858, Molten Arsenic Copper
-NotEnoughItems:neiFluidDisplay:859, Molten Arsenic Bronze
-NotEnoughItems:neiFluidDisplay:860, Molten Steel
-NotEnoughItems:neiFluidDisplay:861, Molten Black Steel
-NotEnoughItems:neiFluidDisplay:862, Molten Blue Steel
-NotEnoughItems:neiFluidDisplay:863, Molten Red Steel
-NotEnoughItems:neiFluidDisplay:864, Molten Damascus Steel
-NotEnoughItems:neiFluidDisplay:865, Molten Vanadiumsteel
-NotEnoughItems:neiFluidDisplay:866, Molten Tungstensteel
-NotEnoughItems:neiFluidDisplay:867, Molten Pig Iron
-NotEnoughItems:neiFluidDisplay:868, Molten Titanium-Gold
-NotEnoughItems:neiFluidDisplay:869, Molten Meteoric Iron
-NotEnoughItems:neiFluidDisplay:870, Molten Meteoric Steel
-NotEnoughItems:neiFluidDisplay:871, Molten Meteoric Black Steel
-NotEnoughItems:neiFluidDisplay:872, Molten Meteoric Blue Steel
-NotEnoughItems:neiFluidDisplay:873, Molten Meteoric Red Steel
-NotEnoughItems:neiFluidDisplay:874, Molten Red Alloy
-NotEnoughItems:neiFluidDisplay:875, Molten Blue Alloy
-NotEnoughItems:neiFluidDisplay:876, Molten Purple Alloy
-NotEnoughItems:neiFluidDisplay:877, Molten Redstone Alloy
-NotEnoughItems:neiFluidDisplay:878, Molten Nikoline Alloy
-NotEnoughItems:neiFluidDisplay:879, Molten Electrotine Alloy
-NotEnoughItems:neiFluidDisplay:880, Molten Invar
-NotEnoughItems:neiFluidDisplay:881, Molten Constantan
-NotEnoughItems:neiFluidDisplay:882, Molten Nichrome
-NotEnoughItems:neiFluidDisplay:883, Molten Kanthal
-NotEnoughItems:neiFluidDisplay:884, Molten Magnalium
-NotEnoughItems:neiFluidDisplay:885, Molten Stainless Steel
-NotEnoughItems:neiFluidDisplay:886, Molten Ultimet
-NotEnoughItems:neiFluidDisplay:887, Molten Tin Alloy
-NotEnoughItems:neiFluidDisplay:888, Molten Battery Alloy
-NotEnoughItems:neiFluidDisplay:889, Molten Soldering Alloy
-NotEnoughItems:neiFluidDisplay:890, Molten Ironwood
-NotEnoughItems:neiFluidDisplay:891, Molten Knightmetal
-NotEnoughItems:neiFluidDisplay:892, Molten Fiery Steel
-NotEnoughItems:neiFluidDisplay:893, Molten Meteoflame Steel
-NotEnoughItems:neiFluidDisplay:894, Molten Meteoflame Black Steel
-NotEnoughItems:neiFluidDisplay:895, Molten Meteoflame Blue Steel
-NotEnoughItems:neiFluidDisplay:896, Molten Meteoflame Red Steel
-NotEnoughItems:neiFluidDisplay:897, Molten Flamascus Steel
-NotEnoughItems:neiFluidDisplay:898, Molten Thaumium
-NotEnoughItems:neiFluidDisplay:899, Molten Dark Thaumium
-NotEnoughItems:neiFluidDisplay:900, Molten Void Metal
-NotEnoughItems:neiFluidDisplay:901, Molten Osmiridium
-NotEnoughItems:neiFluidDisplay:902, Molten Aluminium Brass
-NotEnoughItems:neiFluidDisplay:903, Molten Ardite
-NotEnoughItems:neiFluidDisplay:904, Molten Alumite
-NotEnoughItems:neiFluidDisplay:905, Molten Manyullyn
-NotEnoughItems:neiFluidDisplay:906, Molten Signalum
-NotEnoughItems:neiFluidDisplay:907, Molten Lumium
-NotEnoughItems:neiFluidDisplay:908, Molten Enderium Base
-NotEnoughItems:neiFluidDisplay:909, Molten Enderium
-NotEnoughItems:neiFluidDisplay:910, Molten Spectre Iron
-NotEnoughItems:neiFluidDisplay:911, Molten Ancient Debris
-NotEnoughItems:neiFluidDisplay:912, Molten Netherite
-NotEnoughItems:neiFluidDisplay:913, Molten Efrine
-NotEnoughItems:neiFluidDisplay:914, Molten Desh
-NotEnoughItems:neiFluidDisplay:915, Molten Workers Alloy
-NotEnoughItems:neiFluidDisplay:916, Molten Meteorite
-NotEnoughItems:neiFluidDisplay:917, Molten Kreknorite
-NotEnoughItems:neiFluidDisplay:918, Molten Syrmorite
-NotEnoughItems:neiFluidDisplay:919, Molten Octine
-NotEnoughItems:neiFluidDisplay:920, Molten HSS-G
-NotEnoughItems:neiFluidDisplay:921, Molten HSS-E
-NotEnoughItems:neiFluidDisplay:922, Molten HSS-S
-NotEnoughItems:neiFluidDisplay:923, Molten Draconium
-NotEnoughItems:neiFluidDisplay:924, Molten Awakened Draconium
-NotEnoughItems:neiFluidDisplay:925, Molten Space
-NotEnoughItems:neiFluidDisplay:926, Molten Moon
-NotEnoughItems:neiFluidDisplay:927, Molten Mars
-NotEnoughItems:neiFluidDisplay:928, Molten Vanadium Magnetite
-NotEnoughItems:neiFluidDisplay:929, Molten Ilmenite
+NotEnoughItems:neiFluidDisplay:7, Poisonous Mud
+NotEnoughItems:neiFluidDisplay:8, Acid
+NotEnoughItems:neiFluidDisplay:9, Stereotypical Green Ooze
+NotEnoughItems:neiFluidDisplay:10, Schrabidic Acid
+NotEnoughItems:neiFluidDisplay:11, Corium
+NotEnoughItems:neiFluidDisplay:12, Volcanic Lava
+NotEnoughItems:neiFluidDisplay:13, Volcanic Lava
+NotEnoughItems:neiFluidDisplay:14, fluid.sulfuric_acid_fluid
+NotEnoughItems:neiFluidDisplay:15, fluid.mercury_fluid
+NotEnoughItems:neiFluidDisplay:16, fluid.bromine_fluid
+NotEnoughItems:neiFluidDisplay:17, fluid.ccl_fluid
+NotEnoughItems:neiFluidDisplay:18, Liquid XP
+NotEnoughItems:neiFluidDisplay:19, Helium Plasma
+NotEnoughItems:neiFluidDisplay:20, Nitrogen Plasma
+NotEnoughItems:neiFluidDisplay:21, Propane
+NotEnoughItems:neiFluidDisplay:22, Butane
+NotEnoughItems:neiFluidDisplay:23, Propylene
+NotEnoughItems:neiFluidDisplay:24, Ethylene
+NotEnoughItems:neiFluidDisplay:25, Dragon's Breath
+NotEnoughItems:neiFluidDisplay:26, Nether Air
+NotEnoughItems:neiFluidDisplay:27, Ender Air
+NotEnoughItems:neiFluidDisplay:28, Steam
+NotEnoughItems:neiFluidDisplay:29, Very Heavy Oil
+NotEnoughItems:neiFluidDisplay:30, Heavy Oil
+NotEnoughItems:neiFluidDisplay:31, Raw Oil
+NotEnoughItems:neiFluidDisplay:32, Light Oil
+NotEnoughItems:neiFluidDisplay:33, Soulsand Oil
+NotEnoughItems:neiFluidDisplay:34, Natural Gas
+NotEnoughItems:neiFluidDisplay:35, Liquid Oxygen
+NotEnoughItems:neiFluidDisplay:36, Charged Matter
+NotEnoughItems:neiFluidDisplay:37, Neutral Matter
+NotEnoughItems:neiFluidDisplay:38, UU-Amplifier
+NotEnoughItems:neiFluidDisplay:39, UU-Matter
+NotEnoughItems:neiFluidDisplay:40, C-Foam
+NotEnoughItems:neiFluidDisplay:41, Distilled Water
+NotEnoughItems:neiFluidDisplay:42, Nitro Fuel
+NotEnoughItems:neiFluidDisplay:43, Oil
+NotEnoughItems:neiFluidDisplay:44, Fuel Oil
+NotEnoughItems:neiFluidDisplay:45, Kerosene
+NotEnoughItems:neiFluidDisplay:46, Kerosine
+NotEnoughItems:neiFluidDisplay:47, Diesel
+NotEnoughItems:neiFluidDisplay:48, Petrol
+NotEnoughItems:neiFluidDisplay:49, Biomass
+NotEnoughItems:neiFluidDisplay:50, Biomass
+NotEnoughItems:neiFluidDisplay:51, Industrial Coolant
+NotEnoughItems:neiFluidDisplay:52, Industrial Heatant
+NotEnoughItems:neiFluidDisplay:53, Hot Molten Sodium
+NotEnoughItems:neiFluidDisplay:54, Hot Molten Tin
+NotEnoughItems:neiFluidDisplay:55, Hot Molten Lithium Chloride
+NotEnoughItems:neiFluidDisplay:56, Hot Heavy Water
+NotEnoughItems:neiFluidDisplay:57, Hot Semiheavy Water
+NotEnoughItems:neiFluidDisplay:58, Hot Tritiated Water
+NotEnoughItems:neiFluidDisplay:59, Hot Carbon Dioxide
+NotEnoughItems:neiFluidDisplay:60, Hot Helium
+NotEnoughItems:neiFluidDisplay:61, Molten Thorium Salt
+NotEnoughItems:neiFluidDisplay:62, Pahoehoe Lava
+NotEnoughItems:neiFluidDisplay:63, Ethanol
+NotEnoughItems:neiFluidDisplay:64, Ethanol
+NotEnoughItems:neiFluidDisplay:65, Mc Guffium 239
+NotEnoughItems:neiFluidDisplay:66, Hot Frying Oil
+NotEnoughItems:neiFluidDisplay:67, Fiery Blood
+NotEnoughItems:neiFluidDisplay:68, Fiery Tears
+NotEnoughItems:neiFluidDisplay:69, Squid Ink
+NotEnoughItems:neiFluidDisplay:70, Indigo Dye
+NotEnoughItems:neiFluidDisplay:71, Water Mixed Black Dye
+NotEnoughItems:neiFluidDisplay:72, Black Flower Dye
+NotEnoughItems:neiFluidDisplay:73, Chemical Black Dye
+NotEnoughItems:neiFluidDisplay:74, Black C-Foam
+NotEnoughItems:neiFluidDisplay:75, Advanced Black C-Foam
+NotEnoughItems:neiFluidDisplay:76, Water Mixed Red Dye
+NotEnoughItems:neiFluidDisplay:77, Red Flower Dye
+NotEnoughItems:neiFluidDisplay:78, Chemical Red Dye
+NotEnoughItems:neiFluidDisplay:79, Red C-Foam
+NotEnoughItems:neiFluidDisplay:80, Advanced Red C-Foam
+NotEnoughItems:neiFluidDisplay:81, Water Mixed Green Dye
+NotEnoughItems:neiFluidDisplay:82, Green Flower Dye
+NotEnoughItems:neiFluidDisplay:83, Chemical Green Dye
+NotEnoughItems:neiFluidDisplay:84, Green C-Foam
+NotEnoughItems:neiFluidDisplay:85, Advanced Green C-Foam
+NotEnoughItems:neiFluidDisplay:86, Water Mixed Brown Dye
+NotEnoughItems:neiFluidDisplay:87, Brown Flower Dye
+NotEnoughItems:neiFluidDisplay:88, Chemical Brown Dye
+NotEnoughItems:neiFluidDisplay:89, Brown C-Foam
+NotEnoughItems:neiFluidDisplay:90, Advanced Brown C-Foam
+NotEnoughItems:neiFluidDisplay:91, Water Mixed Blue Dye
+NotEnoughItems:neiFluidDisplay:92, Blue Flower Dye
+NotEnoughItems:neiFluidDisplay:93, Chemical Blue Dye
+NotEnoughItems:neiFluidDisplay:94, Blue C-Foam
+NotEnoughItems:neiFluidDisplay:95, Advanced Blue C-Foam
+NotEnoughItems:neiFluidDisplay:96, Water Mixed Purple Dye
+NotEnoughItems:neiFluidDisplay:97, Purple Flower Dye
+NotEnoughItems:neiFluidDisplay:98, Chemical Purple Dye
+NotEnoughItems:neiFluidDisplay:99, Purple C-Foam
+NotEnoughItems:neiFluidDisplay:100, Advanced Purple C-Foam
+NotEnoughItems:neiFluidDisplay:101, Water Mixed Cyan Dye
+NotEnoughItems:neiFluidDisplay:102, Cyan Flower Dye
+NotEnoughItems:neiFluidDisplay:103, Chemical Cyan Dye
+NotEnoughItems:neiFluidDisplay:104, Cyan C-Foam
+NotEnoughItems:neiFluidDisplay:105, Advanced Cyan C-Foam
+NotEnoughItems:neiFluidDisplay:106, Water Mixed Light Gray Dye
+NotEnoughItems:neiFluidDisplay:107, Light Gray Flower Dye
+NotEnoughItems:neiFluidDisplay:108, Chemical Light Gray Dye
+NotEnoughItems:neiFluidDisplay:109, Light Gray C-Foam
+NotEnoughItems:neiFluidDisplay:110, Advanced Light Gray C-Foam
+NotEnoughItems:neiFluidDisplay:111, Water Mixed Gray Dye
+NotEnoughItems:neiFluidDisplay:112, Gray Flower Dye
+NotEnoughItems:neiFluidDisplay:113, Chemical Gray Dye
+NotEnoughItems:neiFluidDisplay:114, Gray C-Foam
+NotEnoughItems:neiFluidDisplay:115, Advanced Gray C-Foam
+NotEnoughItems:neiFluidDisplay:116, Water Mixed Pink Dye
+NotEnoughItems:neiFluidDisplay:117, Pink Flower Dye
+NotEnoughItems:neiFluidDisplay:118, Chemical Pink Dye
+NotEnoughItems:neiFluidDisplay:119, Pink C-Foam
+NotEnoughItems:neiFluidDisplay:120, Advanced Pink C-Foam
+NotEnoughItems:neiFluidDisplay:121, Water Mixed Lime Dye
+NotEnoughItems:neiFluidDisplay:122, Lime Flower Dye
+NotEnoughItems:neiFluidDisplay:123, Chemical Lime Dye
+NotEnoughItems:neiFluidDisplay:124, Lime C-Foam
+NotEnoughItems:neiFluidDisplay:125, Advanced Lime C-Foam
+NotEnoughItems:neiFluidDisplay:126, Water Mixed Yellow Dye
+NotEnoughItems:neiFluidDisplay:127, Yellow Flower Dye
+NotEnoughItems:neiFluidDisplay:128, Chemical Yellow Dye
+NotEnoughItems:neiFluidDisplay:129, Yellow C-Foam
+NotEnoughItems:neiFluidDisplay:130, Advanced Yellow C-Foam
+NotEnoughItems:neiFluidDisplay:131, Water Mixed Light Blue Dye
+NotEnoughItems:neiFluidDisplay:132, Light Blue Flower Dye
+NotEnoughItems:neiFluidDisplay:133, Chemical Light Blue Dye
+NotEnoughItems:neiFluidDisplay:134, Light Blue C-Foam
+NotEnoughItems:neiFluidDisplay:135, Advanced Light Blue C-Foam
+NotEnoughItems:neiFluidDisplay:136, Water Mixed Magenta Dye
+NotEnoughItems:neiFluidDisplay:137, Magenta Flower Dye
+NotEnoughItems:neiFluidDisplay:138, Chemical Magenta Dye
+NotEnoughItems:neiFluidDisplay:139, Magenta C-Foam
+NotEnoughItems:neiFluidDisplay:140, Advanced Magenta C-Foam
+NotEnoughItems:neiFluidDisplay:141, Water Mixed Orange Dye
+NotEnoughItems:neiFluidDisplay:142, Orange Flower Dye
+NotEnoughItems:neiFluidDisplay:143, Chemical Orange Dye
+NotEnoughItems:neiFluidDisplay:144, Orange C-Foam
+NotEnoughItems:neiFluidDisplay:145, Advanced Orange C-Foam
+NotEnoughItems:neiFluidDisplay:146, Water Mixed White Dye
+NotEnoughItems:neiFluidDisplay:147, White Flower Dye
+NotEnoughItems:neiFluidDisplay:148, Chemical White Dye
+NotEnoughItems:neiFluidDisplay:149, White C-Foam
+NotEnoughItems:neiFluidDisplay:150, Advanced White C-Foam
+NotEnoughItems:neiFluidDisplay:151, Blazing Pyrotheum
+NotEnoughItems:neiFluidDisplay:152, Gelid Cryotheum
+NotEnoughItems:neiFluidDisplay:153, Tectonic Petrotheum
+NotEnoughItems:neiFluidDisplay:154, Zephyrean Aerotheum
+NotEnoughItems:neiFluidDisplay:155, Molten Plastic
+NotEnoughItems:neiFluidDisplay:156, Molten Glass
+NotEnoughItems:neiFluidDisplay:157, Molten Enderpearls
+NotEnoughItems:neiFluidDisplay:158, Molten Redstone
+NotEnoughItems:neiFluidDisplay:159, Blazing Goo
+NotEnoughItems:neiFluidDisplay:160, Wet Concrete
+NotEnoughItems:neiFluidDisplay:161, Latex
+NotEnoughItems:neiFluidDisplay:162, Latex
+NotEnoughItems:neiFluidDisplay:163, Molten HSLA Steel
+NotEnoughItems:neiFluidDisplay:164, Molten Chocolate
+NotEnoughItems:neiFluidDisplay:165, Molten Cheese
+NotEnoughItems:neiFluidDisplay:166, Molten Sugar
+NotEnoughItems:neiFluidDisplay:167, Molten Rubber
+NotEnoughItems:neiFluidDisplay:168, Molten Wax
+NotEnoughItems:neiFluidDisplay:169, Molten Bees Wax
+NotEnoughItems:neiFluidDisplay:170, Molten Paraffin Wax
+NotEnoughItems:neiFluidDisplay:171, Molten Plant Wax
+NotEnoughItems:neiFluidDisplay:172, Molten Refractory Wax
+NotEnoughItems:neiFluidDisplay:173, Molten Magic Wax
+NotEnoughItems:neiFluidDisplay:174, Molten Amnesic Wax
+NotEnoughItems:neiFluidDisplay:175, Molten Soulful Wax
+NotEnoughItems:neiFluidDisplay:176, Molten Alumina
+NotEnoughItems:neiFluidDisplay:177, Tainted Brew
+NotEnoughItems:neiFluidDisplay:178, Awkward Brew
+NotEnoughItems:neiFluidDisplay:179, Thick Brew
+NotEnoughItems:neiFluidDisplay:180, Mundane Brew
+NotEnoughItems:neiFluidDisplay:181, Harming Brew
+NotEnoughItems:neiFluidDisplay:182, Strong Harming Brew
+NotEnoughItems:neiFluidDisplay:183, Splash Harming Brew
+NotEnoughItems:neiFluidDisplay:184, Strong Splash Harming Brew
+NotEnoughItems:neiFluidDisplay:185, Healing Brew
+NotEnoughItems:neiFluidDisplay:186, Strong Healing Brew
+NotEnoughItems:neiFluidDisplay:187, Splash Healing Brew
+NotEnoughItems:neiFluidDisplay:188, Strong Splash Healing Brew
+NotEnoughItems:neiFluidDisplay:189, Jumpy Brew
+NotEnoughItems:neiFluidDisplay:190, Strong Jumpy Brew
+NotEnoughItems:neiFluidDisplay:191, Splash Jumpy Brew
+NotEnoughItems:neiFluidDisplay:192, Strong Splash Jumpy Brew
+NotEnoughItems:neiFluidDisplay:193, Swiftness Brew
+NotEnoughItems:neiFluidDisplay:194, Strong Swiftness Brew
+NotEnoughItems:neiFluidDisplay:195, Stretched Swiftness Brew
+NotEnoughItems:neiFluidDisplay:196, Splash Swiftness Brew
+NotEnoughItems:neiFluidDisplay:197, Strong Splash Swiftness Brew
+NotEnoughItems:neiFluidDisplay:198, Stretched Splash Swiftness Brew
+NotEnoughItems:neiFluidDisplay:199, Strength Brew
+NotEnoughItems:neiFluidDisplay:200, Strong Strength Brew
+NotEnoughItems:neiFluidDisplay:201, Stretched Strength Brew
+NotEnoughItems:neiFluidDisplay:202, Splash Strength Brew
+NotEnoughItems:neiFluidDisplay:203, Strong Splash Strength Brew
+NotEnoughItems:neiFluidDisplay:204, Stretched Splash Strength Brew
+NotEnoughItems:neiFluidDisplay:205, Regenerating Brew
+NotEnoughItems:neiFluidDisplay:206, Strong Regenerating Brew
+NotEnoughItems:neiFluidDisplay:207, Stretched Regenerating Brew
+NotEnoughItems:neiFluidDisplay:208, Splash Regenerating Brew
+NotEnoughItems:neiFluidDisplay:209, Strong Splash Regenerating Brew
+NotEnoughItems:neiFluidDisplay:210, Stretched Splash Regenerating Brew
+NotEnoughItems:neiFluidDisplay:211, Poisonous Brew
+NotEnoughItems:neiFluidDisplay:212, Strong Poisonous Brew
+NotEnoughItems:neiFluidDisplay:213, Stretched Poisonous Brew
+NotEnoughItems:neiFluidDisplay:214, Splash Poisonous Brew
+NotEnoughItems:neiFluidDisplay:215, Strong Splash Poisonous Brew
+NotEnoughItems:neiFluidDisplay:216, Stretched Splash Poisonous Brew
+NotEnoughItems:neiFluidDisplay:217, Fire Resistant Brew
+NotEnoughItems:neiFluidDisplay:218, Stretched Fire Resistant Brew
+NotEnoughItems:neiFluidDisplay:219, Splash Fire Resistant Brew
+NotEnoughItems:neiFluidDisplay:220, Stretched Splash Fire Resistant Brew
+NotEnoughItems:neiFluidDisplay:221, Night Vision Brew
+NotEnoughItems:neiFluidDisplay:222, Stretched Night Vision Brew
+NotEnoughItems:neiFluidDisplay:223, Splash Night Vision Brew
+NotEnoughItems:neiFluidDisplay:224, Stretched Splash Night Vision Brew
+NotEnoughItems:neiFluidDisplay:225, Weakening Brew
+NotEnoughItems:neiFluidDisplay:226, Stretched Weakening Brew
+NotEnoughItems:neiFluidDisplay:227, Splash Weakening Brew
+NotEnoughItems:neiFluidDisplay:228, Stretched Splash Weakening Brew
+NotEnoughItems:neiFluidDisplay:229, Lame Brew
+NotEnoughItems:neiFluidDisplay:230, Stretched Lame Brew
+NotEnoughItems:neiFluidDisplay:231, Splash Lame Brew
+NotEnoughItems:neiFluidDisplay:232, Stretched Splash Lame Brew
+NotEnoughItems:neiFluidDisplay:233, Fishy Brew
+NotEnoughItems:neiFluidDisplay:234, Stretched Fishy Brew
+NotEnoughItems:neiFluidDisplay:235, Splash Fishy Brew
+NotEnoughItems:neiFluidDisplay:236, Stretched Splash Fishy Brew
+NotEnoughItems:neiFluidDisplay:237, Invisible Brew
+NotEnoughItems:neiFluidDisplay:238, Stretched Invisible Brew
+NotEnoughItems:neiFluidDisplay:239, Splash Invisible Brew
+NotEnoughItems:neiFluidDisplay:240, Stretched Splash Invisible Brew
+NotEnoughItems:neiFluidDisplay:241, Lingering Harming Brew
+NotEnoughItems:neiFluidDisplay:242, Strong Lingering Harming Brew
+NotEnoughItems:neiFluidDisplay:243, Lingering Healing Brew
+NotEnoughItems:neiFluidDisplay:244, Strong Lingering Healing Brew
+NotEnoughItems:neiFluidDisplay:245, Lingering Jumpy Brew
+NotEnoughItems:neiFluidDisplay:246, Strong Lingering Jumpy Brew
+NotEnoughItems:neiFluidDisplay:247, Lingering Swiftness Brew
+NotEnoughItems:neiFluidDisplay:248, Strong Lingering Swiftness Brew
+NotEnoughItems:neiFluidDisplay:249, Stretched Lingering Swiftness Brew
+NotEnoughItems:neiFluidDisplay:250, Lingering Strength Brew
+NotEnoughItems:neiFluidDisplay:251, Strong Lingering Strength Brew
+NotEnoughItems:neiFluidDisplay:252, Stretched Lingering Strength Brew
+NotEnoughItems:neiFluidDisplay:253, Lingering Regenerating Brew
+NotEnoughItems:neiFluidDisplay:254, Strong Lingering Regenerating Brew
+NotEnoughItems:neiFluidDisplay:255, Stretched Lingering Regenerating Brew
+NotEnoughItems:neiFluidDisplay:256, Lingering Poisonous Brew
+NotEnoughItems:neiFluidDisplay:257, Strong Lingering Poisonous Brew
+NotEnoughItems:neiFluidDisplay:258, Stretched Lingering Poisonous Brew
+NotEnoughItems:neiFluidDisplay:259, Lingering Fire Resistant Brew
+NotEnoughItems:neiFluidDisplay:260, Stretched Lingering Fire Resistant Brew
+NotEnoughItems:neiFluidDisplay:261, Lingering Night Vision Brew
+NotEnoughItems:neiFluidDisplay:262, Stretched Lingering Night Vision Brew
+NotEnoughItems:neiFluidDisplay:263, Lingering Weakening Brew
+NotEnoughItems:neiFluidDisplay:264, Stretched Lingering Weakening Brew
+NotEnoughItems:neiFluidDisplay:265, Lingering Lame Brew
+NotEnoughItems:neiFluidDisplay:266, Stretched Lingering Lame Brew
+NotEnoughItems:neiFluidDisplay:267, Lingering Fishy Brew
+NotEnoughItems:neiFluidDisplay:268, Stretched Lingering Fishy Brew
+NotEnoughItems:neiFluidDisplay:269, Lingering Invisible Brew
+NotEnoughItems:neiFluidDisplay:270, Stretched Lingering Invisible Brew
+NotEnoughItems:neiFluidDisplay:271, Liquid Error
+NotEnoughItems:neiFluidDisplay:272, Riverwater
+NotEnoughItems:neiFluidDisplay:273, Spectral Dew
+NotEnoughItems:neiFluidDisplay:274, Near Frozen Water
+NotEnoughItems:neiFluidDisplay:275, Soda
+NotEnoughItems:neiFluidDisplay:276, Mineral Water
+NotEnoughItems:neiFluidDisplay:277, Mineral Soda
+NotEnoughItems:neiFluidDisplay:278, Hot Spring Water
+NotEnoughItems:neiFluidDisplay:279, Juice
+NotEnoughItems:neiFluidDisplay:280, Strawberry Juice
+NotEnoughItems:neiFluidDisplay:281, Kiwi Juice
+NotEnoughItems:neiFluidDisplay:282, Persimmon Juice
+NotEnoughItems:neiFluidDisplay:283, Currant Juice
+NotEnoughItems:neiFluidDisplay:284, Raspberry Juice
+NotEnoughItems:neiFluidDisplay:285, Blackberry Juice
+NotEnoughItems:neiFluidDisplay:286, Blueberry Juice
+NotEnoughItems:neiFluidDisplay:287, Gooseberry Juice
+NotEnoughItems:neiFluidDisplay:288, Cranberry Juice
+NotEnoughItems:neiFluidDisplay:289, Elderberry Juice
+NotEnoughItems:neiFluidDisplay:290, Hellderberry Juice
+NotEnoughItems:neiFluidDisplay:291, Lemon Juice
+NotEnoughItems:neiFluidDisplay:292, Ananas Juice
+NotEnoughItems:neiFluidDisplay:293, Orange Juice
+NotEnoughItems:neiFluidDisplay:294, Apricot Juice
+NotEnoughItems:neiFluidDisplay:295, Lime Juice
+NotEnoughItems:neiFluidDisplay:296, Pear Juice
+NotEnoughItems:neiFluidDisplay:297, Cherry Juice
+NotEnoughItems:neiFluidDisplay:298, Plum Juice
+NotEnoughItems:neiFluidDisplay:299, Peach Juice
+NotEnoughItems:neiFluidDisplay:300, Grapefruit Juice
+NotEnoughItems:neiFluidDisplay:301, Banana Juice
+NotEnoughItems:neiFluidDisplay:302, Green Grape Juice
+NotEnoughItems:neiFluidDisplay:303, Purple Grape Juice
+NotEnoughItems:neiFluidDisplay:304, Red Grape Juice
+NotEnoughItems:neiFluidDisplay:305, White Grape Juice
+NotEnoughItems:neiFluidDisplay:306, Apple Juice
+NotEnoughItems:neiFluidDisplay:307, Apple Juice
+NotEnoughItems:neiFluidDisplay:308, Fig Juice
+NotEnoughItems:neiFluidDisplay:309, Pomegranate Juice
+NotEnoughItems:neiFluidDisplay:310, Mango Juice
+NotEnoughItems:neiFluidDisplay:311, Starfruit Juice
+NotEnoughItems:neiFluidDisplay:312, Papaya Juice
+NotEnoughItems:neiFluidDisplay:313, Coconut Milk
+NotEnoughItems:neiFluidDisplay:314, Froot Smoothie
+NotEnoughItems:neiFluidDisplay:315, Strawberry Smoothie
+NotEnoughItems:neiFluidDisplay:316, Melon Smoothie
+NotEnoughItems:neiFluidDisplay:317, Kiwi Smoothie
+NotEnoughItems:neiFluidDisplay:318, Currant Smoothie
+NotEnoughItems:neiFluidDisplay:319, Raspberry Smoothie
+NotEnoughItems:neiFluidDisplay:320, Blackberry Smoothie
+NotEnoughItems:neiFluidDisplay:321, Blueberry Smoothie
+NotEnoughItems:neiFluidDisplay:322, Gooseberry Smoothie
+NotEnoughItems:neiFluidDisplay:323, Cranberry Smoothie
+NotEnoughItems:neiFluidDisplay:324, Elderberry Smoothie
+NotEnoughItems:neiFluidDisplay:325, Lemon Smoothie
+NotEnoughItems:neiFluidDisplay:326, Ananas Smoothie
+NotEnoughItems:neiFluidDisplay:327, Orange Smoothie
+NotEnoughItems:neiFluidDisplay:328, Persimmon Smoothie
+NotEnoughItems:neiFluidDisplay:329, Apricot Smoothie
+NotEnoughItems:neiFluidDisplay:330, Lime Smoothie
+NotEnoughItems:neiFluidDisplay:331, Pear Smoothie
+NotEnoughItems:neiFluidDisplay:332, Cherry Smoothie
+NotEnoughItems:neiFluidDisplay:333, Plum Smoothie
+NotEnoughItems:neiFluidDisplay:334, Peach Smoothie
+NotEnoughItems:neiFluidDisplay:335, Grapefruit Smoothie
+NotEnoughItems:neiFluidDisplay:336, Banana Smoothie
+NotEnoughItems:neiFluidDisplay:337, Grape Smoothie
+NotEnoughItems:neiFluidDisplay:338, Grape Smoothie
+NotEnoughItems:neiFluidDisplay:339, Grape Smoothie
+NotEnoughItems:neiFluidDisplay:340, Grape Smoothie
+NotEnoughItems:neiFluidDisplay:341, Apple Smoothie
+NotEnoughItems:neiFluidDisplay:342, Fig Smoothie
+NotEnoughItems:neiFluidDisplay:343, Pomegranate Smoothie
+NotEnoughItems:neiFluidDisplay:344, Mango Smoothie
+NotEnoughItems:neiFluidDisplay:345, Starfruit Smoothie
+NotEnoughItems:neiFluidDisplay:346, Papaya Smoothie
+NotEnoughItems:neiFluidDisplay:347, Coconut Smoothie
+NotEnoughItems:neiFluidDisplay:348, Tomato Juice
+NotEnoughItems:neiFluidDisplay:349, Carrot Juice
+NotEnoughItems:neiFluidDisplay:350, Beet Juice
+NotEnoughItems:neiFluidDisplay:351, Pumpkin Juice
+NotEnoughItems:neiFluidDisplay:352, Potato Juice
+NotEnoughItems:neiFluidDisplay:353, Hops Mash
+NotEnoughItems:neiFluidDisplay:354, Wheat-Hops Mash
+NotEnoughItems:neiFluidDisplay:355, Wheat Mash
+NotEnoughItems:neiFluidDisplay:356, Corn Mash
+NotEnoughItems:neiFluidDisplay:357, Grain Mash
+NotEnoughItems:neiFluidDisplay:358, Rye Mash
+NotEnoughItems:neiFluidDisplay:359, Ricewater
+NotEnoughItems:neiFluidDisplay:360, Reedwater
+NotEnoughItems:neiFluidDisplay:361, Cactuswater
+NotEnoughItems:neiFluidDisplay:362, Maple Sap
+NotEnoughItems:neiFluidDisplay:363, Rainbow Sap
+NotEnoughItems:neiFluidDisplay:364, Wine
+NotEnoughItems:neiFluidDisplay:365, Ricardo Sanchez
+NotEnoughItems:neiFluidDisplay:366, Red Wine
+NotEnoughItems:neiFluidDisplay:367, White Wine
+NotEnoughItems:neiFluidDisplay:368, Limoncello
+NotEnoughItems:neiFluidDisplay:369, Sake
+NotEnoughItems:neiFluidDisplay:370, Beer
+NotEnoughItems:neiFluidDisplay:371, Dark Beer
+NotEnoughItems:neiFluidDisplay:372, Dragon Blood
+NotEnoughItems:neiFluidDisplay:373, Scotch
+NotEnoughItems:neiFluidDisplay:374, Glen McKenner
+NotEnoughItems:neiFluidDisplay:375, Rum
+NotEnoughItems:neiFluidDisplay:376, Pirate Brew
+NotEnoughItems:neiFluidDisplay:377, Piña Colada
+NotEnoughItems:neiFluidDisplay:378, Ananas Cider
+NotEnoughItems:neiFluidDisplay:379, Cider
+NotEnoughItems:neiFluidDisplay:380, Vodka
+NotEnoughItems:neiFluidDisplay:381, Leninade
+NotEnoughItems:neiFluidDisplay:382, Alcopops
+NotEnoughItems:neiFluidDisplay:383, Short Mead
+NotEnoughItems:neiFluidDisplay:384, Mead
+NotEnoughItems:neiFluidDisplay:385, Grape Vinegar
+NotEnoughItems:neiFluidDisplay:386, Apple Cider Vinegar
+NotEnoughItems:neiFluidDisplay:387, Cane Vinegar
+NotEnoughItems:neiFluidDisplay:388, Rice Vinegar
+NotEnoughItems:neiFluidDisplay:389, Chili Sauce
+NotEnoughItems:neiFluidDisplay:390, Hot Sauce
+NotEnoughItems:neiFluidDisplay:391, Diabolo Sauce
+NotEnoughItems:neiFluidDisplay:392, Diablo Sauce
+NotEnoughItems:neiFluidDisplay:393, There is no Cow Sauce
+NotEnoughItems:neiFluidDisplay:394, Honey (Biomes o'Plenty, Erebus)
+NotEnoughItems:neiFluidDisplay:395, Honey (GrowthCraft)
+NotEnoughItems:neiFluidDisplay:396, Honey (Forestry, most other Mods)
+NotEnoughItems:neiFluidDisplay:397, Honeydew
+NotEnoughItems:neiFluidDisplay:398, Ambrosia
+NotEnoughItems:neiFluidDisplay:399, Royal Jelly
+NotEnoughItems:neiFluidDisplay:400, Sunflower Oil
+NotEnoughItems:neiFluidDisplay:401, Nut Oil
+NotEnoughItems:neiFluidDisplay:402, Olive Oil
+NotEnoughItems:neiFluidDisplay:403, Seed Oil
+NotEnoughItems:neiFluidDisplay:404, Lin Oil
+NotEnoughItems:neiFluidDisplay:405, Hemp Oil
+NotEnoughItems:neiFluidDisplay:406, Fish Oil
+NotEnoughItems:neiFluidDisplay:407, Whale Oil
+NotEnoughItems:neiFluidDisplay:408, Mayonnaise
+NotEnoughItems:neiFluidDisplay:409, Dressing
+NotEnoughItems:neiFluidDisplay:410, Heavy Cream
+NotEnoughItems:neiFluidDisplay:411, Coconut Cream
+NotEnoughItems:neiFluidDisplay:412, Tomato Ketchup
+NotEnoughItems:neiFluidDisplay:413, Barbecue Sauce
+NotEnoughItems:neiFluidDisplay:414, Chocolate Cream
+NotEnoughItems:neiFluidDisplay:415, Nutella
+NotEnoughItems:neiFluidDisplay:416, Peanut Butter
+NotEnoughItems:neiFluidDisplay:417, Maple Syrup
+NotEnoughItems:neiFluidDisplay:418, Purple Drink
+NotEnoughItems:neiFluidDisplay:419, Lemonade
+NotEnoughItems:neiFluidDisplay:420, Golden Carrot Juice
+NotEnoughItems:neiFluidDisplay:421, Golden Apple Juice
+NotEnoughItems:neiFluidDisplay:422, Golden Cider
+NotEnoughItems:neiFluidDisplay:423, Idun's Apple Juice
+NotEnoughItems:neiFluidDisplay:424, Notches Brew
+NotEnoughItems:neiFluidDisplay:425, Cave Johnson's Grenade Juice
+NotEnoughItems:neiFluidDisplay:426, Holy Water
+NotEnoughItems:neiFluidDisplay:427, Glue
+NotEnoughItems:neiFluidDisplay:428, Lubricant
+NotEnoughItems:neiFluidDisplay:429, Mercury
+NotEnoughItems:neiFluidDisplay:430, Sluice Juice
+NotEnoughItems:neiFluidDisplay:431, Soy Milk
+NotEnoughItems:neiFluidDisplay:432, Milk
+NotEnoughItems:neiFluidDisplay:433, Milk
+NotEnoughItems:neiFluidDisplay:434, Rotten Drink
+NotEnoughItems:neiFluidDisplay:435, Mushroom Stew
+NotEnoughItems:neiFluidDisplay:436, Slime
+NotEnoughItems:neiFluidDisplay:437, BAWLS
+NotEnoughItems:neiFluidDisplay:438, Dark Coffee
+NotEnoughItems:neiFluidDisplay:439, Dark Cafe au lait
+NotEnoughItems:neiFluidDisplay:440, Coffee
+NotEnoughItems:neiFluidDisplay:441, Cafe au lait
+NotEnoughItems:neiFluidDisplay:442, Lait au cafe
+NotEnoughItems:neiFluidDisplay:443, Bitter Chocolate Milk
+NotEnoughItems:neiFluidDisplay:444, Chocolate Milk
+NotEnoughItems:neiFluidDisplay:445, Tea
+NotEnoughItems:neiFluidDisplay:446, Sweet Tea
+NotEnoughItems:neiFluidDisplay:447, Ice Tea
+NotEnoughItems:neiFluidDisplay:448, Medicine
+NotEnoughItems:neiFluidDisplay:449, Laxative
+NotEnoughItems:neiFluidDisplay:450, Hydrogen
+NotEnoughItems:neiFluidDisplay:451, Deuterium
+NotEnoughItems:neiFluidDisplay:452, Tritium
+NotEnoughItems:neiFluidDisplay:453, Helium
+NotEnoughItems:neiFluidDisplay:454, Helium-3
+NotEnoughItems:neiFluidDisplay:455, Molten Lithium
+NotEnoughItems:neiFluidDisplay:456, Molten Lithium-6
+NotEnoughItems:neiFluidDisplay:457, Molten Beryllium
+NotEnoughItems:neiFluidDisplay:458, Molten Beryllium-7
+NotEnoughItems:neiFluidDisplay:459, Molten Beryllium-8
+NotEnoughItems:neiFluidDisplay:460, Molten Boron
+NotEnoughItems:neiFluidDisplay:461, Molten Boron-11
+NotEnoughItems:neiFluidDisplay:462, Molten Carbon
+NotEnoughItems:neiFluidDisplay:463, Molten Carbon-13
+NotEnoughItems:neiFluidDisplay:464, Molten Carbon-14
+NotEnoughItems:neiFluidDisplay:465, Nitrogen
+NotEnoughItems:neiFluidDisplay:466, Oxygen
+NotEnoughItems:neiFluidDisplay:467, Fluorine
+NotEnoughItems:neiFluidDisplay:468, Neon
+NotEnoughItems:neiFluidDisplay:469, Molten Sodium
+NotEnoughItems:neiFluidDisplay:470, Molten Magnesium
+NotEnoughItems:neiFluidDisplay:471, Molten Aluminium
+NotEnoughItems:neiFluidDisplay:472, Molten Silicon
+NotEnoughItems:neiFluidDisplay:473, Molten Sulfur
+NotEnoughItems:neiFluidDisplay:474, Chlorine
+NotEnoughItems:neiFluidDisplay:475, Argon
+NotEnoughItems:neiFluidDisplay:476, Molten Potassium
+NotEnoughItems:neiFluidDisplay:477, Molten Calcium
+NotEnoughItems:neiFluidDisplay:478, Molten Titanium
+NotEnoughItems:neiFluidDisplay:479, Molten Schrabidium
+NotEnoughItems:neiFluidDisplay:480, Molten Vanadium
+NotEnoughItems:neiFluidDisplay:481, Molten Chromium
+NotEnoughItems:neiFluidDisplay:482, Molten Manganese
+NotEnoughItems:neiFluidDisplay:483, Molten Iron
+NotEnoughItems:neiFluidDisplay:484, Molten Cobalt
+NotEnoughItems:neiFluidDisplay:485, Molten Nickel
+NotEnoughItems:neiFluidDisplay:486, Molten Euphemium
+NotEnoughItems:neiFluidDisplay:487, Molten Copper
+NotEnoughItems:neiFluidDisplay:488, Molten Zinc
+NotEnoughItems:neiFluidDisplay:489, Molten Germanium
+NotEnoughItems:neiFluidDisplay:490, Molten Arsenic
+NotEnoughItems:neiFluidDisplay:491, Bromine
+NotEnoughItems:neiFluidDisplay:492, Krypton
+NotEnoughItems:neiFluidDisplay:493, Molten Rubidium
+NotEnoughItems:neiFluidDisplay:494, Molten Strontium
+NotEnoughItems:neiFluidDisplay:495, Molten Molybdenum
+NotEnoughItems:neiFluidDisplay:496, Molten Silver
+NotEnoughItems:neiFluidDisplay:497, Molten Tin
+NotEnoughItems:neiFluidDisplay:498, Molten Antimony
+NotEnoughItems:neiFluidDisplay:499, Molten Tellurium
+NotEnoughItems:neiFluidDisplay:500, Xenon
+NotEnoughItems:neiFluidDisplay:501, Molten Caesium
+NotEnoughItems:neiFluidDisplay:502, Molten Barium
+NotEnoughItems:neiFluidDisplay:503, Molten Neodymium
+NotEnoughItems:neiFluidDisplay:504, Molten Tungsten
+NotEnoughItems:neiFluidDisplay:505, Molten Osmium
+NotEnoughItems:neiFluidDisplay:506, Molten Iridium
+NotEnoughItems:neiFluidDisplay:507, Molten Platinum
+NotEnoughItems:neiFluidDisplay:508, Molten Gold
+NotEnoughItems:neiFluidDisplay:509, Molten Gold-198
+NotEnoughItems:neiFluidDisplay:510, Molten Lead
+NotEnoughItems:neiFluidDisplay:511, Molten Bismuth
+NotEnoughItems:neiFluidDisplay:512, Molten Astatine
+NotEnoughItems:neiFluidDisplay:513, Astatine
+NotEnoughItems:neiFluidDisplay:514, Radon
+NotEnoughItems:neiFluidDisplay:515, Molten Francium
+NotEnoughItems:neiFluidDisplay:516, Molten Radium
+NotEnoughItems:neiFluidDisplay:517, Molten Uranium
+NotEnoughItems:neiFluidDisplay:518, Molten Uranium-235
+NotEnoughItems:neiFluidDisplay:519, Molten Elemental Tritanium
+NotEnoughItems:neiFluidDisplay:520, Molten Trinium
+NotEnoughItems:neiFluidDisplay:521, Molten Elemental Duranium
+NotEnoughItems:neiFluidDisplay:522, Molten Naquadah
+NotEnoughItems:neiFluidDisplay:523, Molten Enriched Naquadah
+NotEnoughItems:neiFluidDisplay:524, Molten Naquadria
+NotEnoughItems:neiFluidDisplay:525, Molten Abyssalnite
+NotEnoughItems:neiFluidDisplay:526, Molten Coralium
+NotEnoughItems:neiFluidDisplay:527, Molten Dreadium
+NotEnoughItems:neiFluidDisplay:528, Molten Ethaxium
+NotEnoughItems:neiFluidDisplay:529, Molten Atlarus
+NotEnoughItems:neiFluidDisplay:530, Molten Adamantium
+NotEnoughItems:neiFluidDisplay:531, Semiheavy Water
+NotEnoughItems:neiFluidDisplay:532, Heavy Water
+NotEnoughItems:neiFluidDisplay:533, Tritiated Water
+NotEnoughItems:neiFluidDisplay:534, Sea Water
+NotEnoughItems:neiFluidDisplay:535, Dirty Water
+NotEnoughItems:neiFluidDisplay:536, Hydrogen Peroxide
+NotEnoughItems:neiFluidDisplay:537, Hydrochloric Acid
+NotEnoughItems:neiFluidDisplay:538, Hydrogen Fluoride
+NotEnoughItems:neiFluidDisplay:539, Helium-Neon
+NotEnoughItems:neiFluidDisplay:540, Air
+NotEnoughItems:neiFluidDisplay:541, Nitrogen Monoxide
+NotEnoughItems:neiFluidDisplay:542, Nitrogen Dioxide
+NotEnoughItems:neiFluidDisplay:543, Ammonia
+NotEnoughItems:neiFluidDisplay:544, Nitric Acid
+NotEnoughItems:neiFluidDisplay:545, Carbon Monoxide
+NotEnoughItems:neiFluidDisplay:546, Carbon Dioxide
+NotEnoughItems:neiFluidDisplay:547, Carbon Trioxide
+NotEnoughItems:neiFluidDisplay:548, Methane
+NotEnoughItems:neiFluidDisplay:549, Glycerol
+NotEnoughItems:neiFluidDisplay:550, Glyceryl
+NotEnoughItems:neiFluidDisplay:551, Sulfur Dioxide
+NotEnoughItems:neiFluidDisplay:552, Sulfur Trioxide
+NotEnoughItems:neiFluidDisplay:553, Hydrosulfuric Acid
+NotEnoughItems:neiFluidDisplay:554, Sulfuric Acid
+NotEnoughItems:neiFluidDisplay:555, Disulfuric Acid
+NotEnoughItems:neiFluidDisplay:556, Hexafluorosilicic Acid
+NotEnoughItems:neiFluidDisplay:557, Molten Tungsten Trioxide
+NotEnoughItems:neiFluidDisplay:558, Molten Aluminium Fluoride
+NotEnoughItems:neiFluidDisplay:559, Molten Rutile
+NotEnoughItems:neiFluidDisplay:560, Titanium Tetrachloride
+NotEnoughItems:neiFluidDisplay:561, Molten Manganese Chloride
+NotEnoughItems:neiFluidDisplay:562, Molten Hematite
+NotEnoughItems:neiFluidDisplay:563, Molten Ferrous Chloride
+NotEnoughItems:neiFluidDisplay:564, Molten Magnesium Chloride
+NotEnoughItems:neiFluidDisplay:565, Molten Magnesium Carbonate
+NotEnoughItems:neiFluidDisplay:566, Molten Calcium Chloride
+NotEnoughItems:neiFluidDisplay:567, Molten Calcite
+NotEnoughItems:neiFluidDisplay:568, Molten Fluorite
+NotEnoughItems:neiFluidDisplay:569, Molten Lithium Chloride
+NotEnoughItems:neiFluidDisplay:570, Molten Lithium Chlorate
+NotEnoughItems:neiFluidDisplay:571, Molten Lithium Perchlorate
+NotEnoughItems:neiFluidDisplay:572, Molten Sodium Carbonate
+NotEnoughItems:neiFluidDisplay:573, Molten Cryolite
+NotEnoughItems:neiFluidDisplay:574, Saltwater
+NotEnoughItems:neiFluidDisplay:575, Molten Potassium Carbonate
+NotEnoughItems:neiFluidDisplay:576, Salted Water
+NotEnoughItems:neiFluidDisplay:577, Chloroauric Acid
+NotEnoughItems:neiFluidDisplay:578, Chloroplatinic Acid
+NotEnoughItems:neiFluidDisplay:579, Stannic Chloride
+NotEnoughItems:neiFluidDisplay:580, Black Vitriol
+NotEnoughItems:neiFluidDisplay:581, Blue Vitriol
+NotEnoughItems:neiFluidDisplay:582, Green Vitriol
+NotEnoughItems:neiFluidDisplay:583, Red Vitriol
+NotEnoughItems:neiFluidDisplay:584, Pink Vitriol
+NotEnoughItems:neiFluidDisplay:585, Cyan Vitriol
+NotEnoughItems:neiFluidDisplay:586, White Vitriol
+NotEnoughItems:neiFluidDisplay:587, Gray Vitriol
+NotEnoughItems:neiFluidDisplay:588, Martian Vitriol
+NotEnoughItems:neiFluidDisplay:589, Vitriol Of Clay
+NotEnoughItems:neiFluidDisplay:590, Molten Uranium Tetrafluoride
+NotEnoughItems:neiFluidDisplay:591, Uranium Hexafluoride
+NotEnoughItems:neiFluidDisplay:592, Molten Uranium-238 Tetrafluoride
+NotEnoughItems:neiFluidDisplay:593, Uranium-238 Hexafluoride
+NotEnoughItems:neiFluidDisplay:594, Molten Uranium-235 Tetrafluoride
+NotEnoughItems:neiFluidDisplay:595, Uranium-235 Hexafluoride
+NotEnoughItems:neiFluidDisplay:596, Aqua Regia
+NotEnoughItems:neiFluidDisplay:597, Creosote
+NotEnoughItems:neiFluidDisplay:598, Molten Asphalt
+NotEnoughItems:neiFluidDisplay:599, Molten Magic Tallow
+NotEnoughItems:neiFluidDisplay:600, Ectoplasm
+NotEnoughItems:neiFluidDisplay:601, Molten Nikolite
+NotEnoughItems:neiFluidDisplay:602, Molten Glowstone
+NotEnoughItems:neiFluidDisplay:603, Molten Ceres Glowstone
+NotEnoughItems:neiFluidDisplay:604, Molten Io Glowstone
+NotEnoughItems:neiFluidDisplay:605, Molten Enceladus Glowstone
+NotEnoughItems:neiFluidDisplay:606, Molten Proteus Glowstone
+NotEnoughItems:neiFluidDisplay:607, Molten Pluto Glowstone
+NotEnoughItems:neiFluidDisplay:608, Molten Gloomstone
+NotEnoughItems:neiFluidDisplay:609, Molten Stone
+NotEnoughItems:neiFluidDisplay:610, Molten Wrought Iron
+NotEnoughItems:neiFluidDisplay:611, Molten Annealed Copper
+NotEnoughItems:neiFluidDisplay:612, Molten Orichalcum
+NotEnoughItems:neiFluidDisplay:613, Molten Astral Silver
+NotEnoughItems:neiFluidDisplay:614, Molten Midasium
+NotEnoughItems:neiFluidDisplay:615, Molten Mithril
+NotEnoughItems:neiFluidDisplay:616, Molten Celenegil
+NotEnoughItems:neiFluidDisplay:617, Molten Electrum
+NotEnoughItems:neiFluidDisplay:618, Molten Sterling Silver
+NotEnoughItems:neiFluidDisplay:619, Molten Rose Gold
+NotEnoughItems:neiFluidDisplay:620, Molten Angmallen
+NotEnoughItems:neiFluidDisplay:621, Molten Inductive Alloy
+NotEnoughItems:neiFluidDisplay:622, Molten Brass
+NotEnoughItems:neiFluidDisplay:623, Molten Cobalt Brass
+NotEnoughItems:neiFluidDisplay:624, Molten Bronze
+NotEnoughItems:neiFluidDisplay:625, Molten Black Bronze
+NotEnoughItems:neiFluidDisplay:626, Molten Bismuth Bronze
+NotEnoughItems:neiFluidDisplay:627, Molten Hepatizon
+NotEnoughItems:neiFluidDisplay:628, Molten Arsenic Copper
+NotEnoughItems:neiFluidDisplay:629, Molten Arsenic Bronze
+NotEnoughItems:neiFluidDisplay:630, Molten Steel
+NotEnoughItems:neiFluidDisplay:631, Molten Black Steel
+NotEnoughItems:neiFluidDisplay:632, Molten Blue Steel
+NotEnoughItems:neiFluidDisplay:633, Molten Red Steel
+NotEnoughItems:neiFluidDisplay:634, Molten Damascus Steel
+NotEnoughItems:neiFluidDisplay:635, Molten Vanadiumsteel
+NotEnoughItems:neiFluidDisplay:636, Molten Tungstensteel
+NotEnoughItems:neiFluidDisplay:637, Molten Pig Iron
+NotEnoughItems:neiFluidDisplay:638, Molten Titanium-Gold
+NotEnoughItems:neiFluidDisplay:639, Molten Meteoric Iron
+NotEnoughItems:neiFluidDisplay:640, Molten Meteoric Steel
+NotEnoughItems:neiFluidDisplay:641, Molten Meteoric Black Steel
+NotEnoughItems:neiFluidDisplay:642, Molten Meteoric Blue Steel
+NotEnoughItems:neiFluidDisplay:643, Molten Meteoric Red Steel
+NotEnoughItems:neiFluidDisplay:644, Molten Red Alloy
+NotEnoughItems:neiFluidDisplay:645, Molten Blue Alloy
+NotEnoughItems:neiFluidDisplay:646, Molten Purple Alloy
+NotEnoughItems:neiFluidDisplay:647, Molten Redstone Alloy
+NotEnoughItems:neiFluidDisplay:648, Molten Nikoline Alloy
+NotEnoughItems:neiFluidDisplay:649, Molten Electrotine Alloy
+NotEnoughItems:neiFluidDisplay:650, Molten Invar
+NotEnoughItems:neiFluidDisplay:651, Molten Constantan
+NotEnoughItems:neiFluidDisplay:652, Molten Nichrome
+NotEnoughItems:neiFluidDisplay:653, Molten Kanthal
+NotEnoughItems:neiFluidDisplay:654, Molten Magnalium
+NotEnoughItems:neiFluidDisplay:655, Molten Stainless Steel
+NotEnoughItems:neiFluidDisplay:656, Molten Ultimet
+NotEnoughItems:neiFluidDisplay:657, Molten Tin Alloy
+NotEnoughItems:neiFluidDisplay:658, Molten Battery Alloy
+NotEnoughItems:neiFluidDisplay:659, Molten Soldering Alloy
+NotEnoughItems:neiFluidDisplay:660, Molten Ironwood
+NotEnoughItems:neiFluidDisplay:661, Molten Knightmetal
+NotEnoughItems:neiFluidDisplay:662, Molten Fiery Steel
+NotEnoughItems:neiFluidDisplay:663, Molten Meteoflame Steel
+NotEnoughItems:neiFluidDisplay:664, Molten Meteoflame Black Steel
+NotEnoughItems:neiFluidDisplay:665, Molten Meteoflame Blue Steel
+NotEnoughItems:neiFluidDisplay:666, Molten Meteoflame Red Steel
+NotEnoughItems:neiFluidDisplay:667, Molten Flamascus Steel
+NotEnoughItems:neiFluidDisplay:668, Molten Thaumium
+NotEnoughItems:neiFluidDisplay:669, Molten Dark Thaumium
+NotEnoughItems:neiFluidDisplay:670, Molten Void Metal
+NotEnoughItems:neiFluidDisplay:671, Molten Osmiridium
+NotEnoughItems:neiFluidDisplay:672, Molten Aluminium Brass
+NotEnoughItems:neiFluidDisplay:673, Molten Ardite
+NotEnoughItems:neiFluidDisplay:674, Molten Alumite
+NotEnoughItems:neiFluidDisplay:675, Molten Manyullyn
+NotEnoughItems:neiFluidDisplay:676, Molten Signalum
+NotEnoughItems:neiFluidDisplay:677, Molten Lumium
+NotEnoughItems:neiFluidDisplay:678, Molten Enderium Base
+NotEnoughItems:neiFluidDisplay:679, Molten Enderium
+NotEnoughItems:neiFluidDisplay:680, Molten Spectre Iron
+NotEnoughItems:neiFluidDisplay:681, Molten Ancient Debris
+NotEnoughItems:neiFluidDisplay:682, Molten Netherite
+NotEnoughItems:neiFluidDisplay:683, Molten Efrine
+NotEnoughItems:neiFluidDisplay:684, Molten Desh
+NotEnoughItems:neiFluidDisplay:685, Molten Workers Alloy
+NotEnoughItems:neiFluidDisplay:686, Molten Meteorite
+NotEnoughItems:neiFluidDisplay:687, Molten Kreknorite
+NotEnoughItems:neiFluidDisplay:688, Molten Syrmorite
+NotEnoughItems:neiFluidDisplay:689, Molten Octine
+NotEnoughItems:neiFluidDisplay:690, Molten HSS-G
+NotEnoughItems:neiFluidDisplay:691, Molten HSS-E
+NotEnoughItems:neiFluidDisplay:692, Molten HSS-S
+NotEnoughItems:neiFluidDisplay:693, Molten Draconium
+NotEnoughItems:neiFluidDisplay:694, Molten Awakened Draconium
+NotEnoughItems:neiFluidDisplay:695, Molten Space
+NotEnoughItems:neiFluidDisplay:696, Molten Moon
+NotEnoughItems:neiFluidDisplay:697, Molten Mars
+NotEnoughItems:neiFluidDisplay:698, Molten Vanadium Magnetite
+NotEnoughItems:neiFluidDisplay:699, Molten Ilmenite
 adventurebackpack:machete, Machete
 adventurebackpack:clockworkCrossbow, Clockwork Crossbow
 adventurebackpack:adventureHat, Adventurer's Fedora
@@ -15564,27 +15257,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Copper Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Copper Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Copper Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Iron Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Copper Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Aluminium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Asbestos Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Beryllium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Coal Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Diamond Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Fluorite Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Gold Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Lapis Lazuli Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Lead Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Lignite Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Lithium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Niter Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Redstone Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Sulfur Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Thorium-232 Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Titanium Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Tungsten Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich hbmmat.uraninite Ore
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Rich Zinc Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nickel Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nickel Ore
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nickel Ore
@@ -16089,6 +15761,7 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Niter
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Copper
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Nickel
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Red Copper
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Advanced Alloy
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Tungsten
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Aluminium
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Fluorite
@@ -16117,9 +15790,9 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Graphite
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Coal Coke
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Lignite Coke
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Petroleum Coke
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Drilled Graphite (LEGACY)
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Pile Control Rod (LEGACY)
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Pile Lithium Fuel (Bred) (LEGACY)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Drilled Graphite
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Pile Control Rod
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Pile Lithium Fuel (Bred)
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Boron
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Roll of Insulation
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Roll of Fiberglass
@@ -16161,6 +15834,16 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of C-4
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of S'more
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Slag
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Titanium Deco Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Titanium Deco Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Titanium Deco Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Titanium Deco Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Titanium Deco Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Titanium Deco Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Titanium Deco Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Titanium Deco Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Titanium Deco Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Titanium Deco Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Titanium Deco Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Copper Deco Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Tungsten Deco Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Aluminium Deco Block
@@ -16168,21 +15851,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Steel Deco Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Rusty Steel Deco Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Lead Deco Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Beryllium Deco Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Platemetal Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Black Platemetal Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - White Platemetal Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Red Platemetal Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Green Platemetal Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Light Gray Platemetal Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Blue Platemetal Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Purple Platemetal Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Cyan Platemetal Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Pink Platemetal Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Lime Platemetal Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Yellow Platemetal Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Light Blue Platemetal Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Magenta Platemetal Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Orange Platemetal Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Stainless Steel Deco Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - RBMK Deco Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Smooth RBMK Deco Block
@@ -16248,15 +15916,7 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Lightstone Tile
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Lightstone Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Lightstone Chiseled Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Lightstone
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.brick_forgotten_lock.name
-appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.brick_forgotten_lock.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.brick_forgotten.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.brick_forgotten_lock.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - CMB Steel Tile
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Reinforced CMB Bricks
@@ -16311,8 +15971,8 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.mush_block_stem.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Glyphid Hive Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Glyphid Hive Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Glyphid Hive Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mun Turf
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Mun Rock
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Moon Turf
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Moon Rock
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Duna Sand
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Duna Cobblestone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Duna Rock
@@ -16321,7 +15981,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Ferric Clay
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Eve Silt
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Eve Rock
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Laythe Silt
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Ancient Root
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Ike Regolith
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Ike Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Dres Rock
@@ -16406,12 +16065,18 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Armor Modification Table
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Weapon Modification Table
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Launch Pad Component Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Launch Pad Scaffold Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Radiation Absorber (LEGACY)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Enhanced Radiation Absorber (LEGACY)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Advanced Radiation Absorber (LEGACY)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Elite Radiation Absorber (LEGACY)
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Factory Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Factory Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Steel Machine Casing
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Bronze Machine Casing
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Advanced Alloy Machine Casing
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Desh Machine Casing
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Technetium Steel Machine Casing
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Steel Sheet
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Bronze Sheet
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Advanced Alloy Sheet
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Desh Sheet
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Technetium Steel Sheet
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Motor Block
@@ -16425,7 +16090,6 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Tier 5 Circuit Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Neutron Flux Receiver
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Heat Receiver
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Custom Machine Structure Positioning Anchor
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Chicago Pile Graphite Bricks
 appliedenergistics2:item.ItemFacade:0, Cable Facade - PWR Fuel Rod
 appliedenergistics2:item.ItemFacade:0, Cable Facade - PWR Control Rod
 appliedenergistics2:item.ItemFacade:0, Cable Facade - PWR Coolant Channel
@@ -17810,11 +17474,9 @@ ForgeMicroblock:sawStone, Stone Saw
 ForgeMicroblock:sawIron, Iron Saw
 ForgeMicroblock:sawDiamond, Diamond Saw
 ForgeMicroblock:stoneRod, Stone Rod
-hbm:ntm_fluid_compat, item.ntm_fluid_compat.name
 hbm:item.redstone_sword, Redstone Sword
 hbm:item.big_sword, Great Sword
 hbm:item.butter_sword, item.butter_sword.name
-hbm:item.maraca, Maraca
 hbm:item.ingot_uranium, Uranium Ingot
 hbm:item.ingot_u233, Uranium-233 Ingot
 hbm:item.ingot_u235, Uranium-235 Ingot
@@ -17853,9 +17515,10 @@ hbm:item.ingot_pb209, Lead-209 Ingot
 hbm:item.ingot_ra226, Radium-226 Ingot
 hbm:item.ingot_titanium, Titanium Ingot
 hbm:item.ingot_nickel, Nickel Ingot
-hbm:item.ingot_copper, Industrial Grade Copper Ingot
-hbm:item.ingot_red_copper, Minecraft Grade Copper Ingot
+hbm:item.ingot_copper, Industrial Grade Copper
+hbm:item.ingot_red_copper, Minecraft Grade Copper
 hbm:item.billet_red_copper, Minecraft Grade Copper Billet
+hbm:item.ingot_advanced_alloy, Advanced Alloy Ingot
 hbm:item.ingot_zinc, Zinc Ingot
 hbm:item.ingot_tungsten, Tungsten Ingot
 hbm:item.ingot_gallium, Gallium Ingot
@@ -17864,7 +17527,6 @@ hbm:item.ingot_tt, Techtactium Ingot
 hbm:item.ingot_ttas, Techtactium Arsenide Ingot
 hbm:item.ingot_iridium, Iridium Ingot
 hbm:item.ingot_palladium, Palladium Ingot
-hbm:item.ingot_tungsten_carbide, Tungsten Carbide Ingot
 hbm:item.ingot_aluminium, Aluminium Ingot
 hbm:item.ingot_steel, Steel Ingot
 hbm:item.ingot_stainless, Stainless Steel Ingot
@@ -17964,18 +17626,6 @@ hbm:item.ingot_raw:1100, Sodium Ingot
 hbm:item.ingot_raw:3800, Strontium Ingot
 hbm:item.ingot_raw:7700, Iridium Ingot
 hbm:item.ingot_raw:41, Slag Ingot
-hbm:item.nugget_raw:2200, Titanium Nugget
-hbm:item.nugget_raw:2900, Copper Nugget
-hbm:item.nugget_raw:7400, Tungsten Nugget
-hbm:item.nugget_raw:1300, Aluminium Nugget
-hbm:item.nugget_raw:500, Boron Nugget
-hbm:item.nugget_raw:1100, Sodium Nugget
-hbm:item.nugget_raw:3800, Strontium Nugget
-hbm:item.nugget_raw:300, Lithium Nugget
-hbm:item.nugget_raw:2800, Nickel Nugget
-hbm:item.nugget_raw:3100, Gallium Nugget
-hbm:item.nugget_raw:3000, Zinc Nugget
-hbm:item.nugget_raw:24000, Gallium Arsenide Nugget
 hbm:item.billet_uranium, Uranium Billet
 hbm:item.billet_u233, Uranium-233 Billet
 hbm:item.billet_u235, Uranium-235 Billet
@@ -18058,7 +17708,6 @@ hbm:item.powder_coke:1, Lignite Coke Powder
 hbm:item.powder_coke:2, Petroleum Coke Powder
 hbm:item.lignite, Lignite
 hbm:item.coal_infernal, Infernal Coal
-hbm:item.coal_eternal, Eternal Coal
 hbm:item.briquette:0, Coal Briquette
 hbm:item.briquette:1, Lignite Briquette
 hbm:item.briquette:2, Sawdust Briquette
@@ -18100,6 +17749,7 @@ hbm:item.powder_zinc, Zinc Powder
 hbm:item.powder_gallium_tiny, Tiny Pile of Gallium Powder
 hbm:item.powder_gallium, Gallium Powder
 hbm:item.powder_red_copper, Red Copper Powder
+hbm:item.powder_advanced_alloy, Advanced Alloy Powder
 hbm:item.powder_tungsten, Tungsten Powder
 hbm:item.powder_aluminium, Aluminium Powder
 hbm:item.powder_steel, Steel Powder
@@ -18230,7 +17880,6 @@ hbm:item.bedrock_ore_fragment:1, Redstone Bedrock Ore Fragment
 hbm:item.bedrock_ore_fragment:5, Glowstone Bedrock Ore Fragment
 hbm:item.bedrock_ore_fragment:2902, Bauxite Bedrock Ore Fragment
 hbm:item.bedrock_ore_fragment:2903, Cryolite Bedrock Ore Fragment
-hbm:item.bedrock_ore_fragment:2201, Ilmenite Bedrock Ore Fragment
 hbm:item.bedrock_ore_fragment:9200, hbmmat.uraninite Bedrock Ore Fragment
 hbm:item.bedrock_ore_fragment:9233, Uranium-233 Bedrock Ore Fragment
 hbm:item.bedrock_ore_fragment:9235, Uranium-235 Bedrock Ore Fragment
@@ -18264,7 +17913,6 @@ hbm:item.bedrock_ore_fragment:4100, Niobium Bedrock Ore Fragment
 hbm:item.bedrock_ore_fragment:400, Beryllium Bedrock Ore Fragment
 hbm:item.bedrock_ore_fragment:401, Emerald Bedrock Ore Fragment
 hbm:item.bedrock_ore_fragment:2700, Cobalt Bedrock Ore Fragment
-hbm:item.bedrock_ore_fragment:2701, Lapis Lazuli Bedrock Ore Fragment
 hbm:item.bedrock_ore_fragment:500, Boron Bedrock Ore Fragment
 hbm:item.bedrock_ore_fragment:501, Borax Bedrock Ore Fragment
 hbm:item.bedrock_ore_fragment:5700, Lanthanium Bedrock Ore Fragment
@@ -18601,33 +18249,11 @@ hbm:item.fragment_actinium, Actinium-227 Fragment
 hbm:item.fragment_boron, Boron Fragment
 hbm:item.fragment_meteorite, Meteorite Fragment
 hbm:item.fragment_coltan, Coltan
+hbm:item.chunk_ore:0, Rare Earth Ore Chunk
 hbm:item.chunk_ore:1, Malachite Chunk
 hbm:item.chunk_ore:2, Cryolite Chunk
 hbm:item.chunk_ore:3, Pentlandite Chunk
-hbm:item.chunk_ore:5, Ilmenite Chunk
-hbm:item.chunk_ore:0, Rare Earth Ore Chunk
 hbm:item.chunk_ore:4, Moonstone
-hbm:item.chunk_rich:600, Rich Coal Chunk
-hbm:item.chunk_rich:601, Rich Lignite Chunk
-hbm:item.chunk_rich:1430, Rich Diamond Chunk
-hbm:item.chunk_rich:2600, Rich Iron Chunk
-hbm:item.chunk_rich:7900, Rich Gold Chunk
-hbm:item.chunk_rich:1, Rich Redstone Chunk
-hbm:item.chunk_rich:9200, Rich hbmmat.uraninite Chunk
-hbm:item.chunk_rich:9032, Rich Thorium-232 Chunk
-hbm:item.chunk_rich:2200, Rich Titanium Chunk
-hbm:item.chunk_rich:2900, Rich Copper Chunk
-hbm:item.chunk_rich:7400, Rich Tungsten Chunk
-hbm:item.chunk_rich:1300, Rich Aluminium Chunk
-hbm:item.chunk_rich:8200, Rich Lead Chunk
-hbm:item.chunk_rich:400, Rich Beryllium Chunk
-hbm:item.chunk_rich:2701, Rich Lapis Lazuli Chunk
-hbm:item.chunk_rich:300, Rich Lithium Chunk
-hbm:item.chunk_rich:1600, Rich Sulfur Chunk
-hbm:item.chunk_rich:700, Rich Niter Chunk
-hbm:item.chunk_rich:900, Rich Fluorite Chunk
-hbm:item.chunk_rich:1401, Rich Asbestos Chunk
-hbm:item.chunk_rich:3000, Rich Zinc Chunk
 hbm:item.biomass, Biomass
 hbm:item.biomass_compressed, Compressed Biomass
 hbm:item.bio_wafer, Algae Wafer
@@ -18717,6 +18343,7 @@ hbm:item.plate_steel, Steel Plate
 hbm:item.plate_stainless, Stainless Steel Plate
 hbm:item.plate_lead, Lead Plate
 hbm:item.plate_copper, Copper Plate
+hbm:item.plate_advanced_alloy, Advanced Alloy Plate
 hbm:item.plate_dura_steel, High-Speed Steel Plate
 hbm:item.neutron_reflector, Neutron Reflector
 hbm:item.plate_schrabidium, Schrabidium Plate
@@ -18734,7 +18361,7 @@ hbm:item.plate_bismuth, Bismuth Compound Plate
 hbm:item.plate_euphemium, Euphemium Compound Plate
 hbm:item.plate_dineutronium, Dineutronium Compound Plate
 hbm:item.plate_cn989, Chinesium-989 Plate
-hbm:item.plate_armor_titanium, Titanium Armor Plating
+hbm:item.plate_armor_titanium, Titanium Armor Plate
 hbm:item.plate_armor_ajr, Iron-Shod Armor Plating
 hbm:item.plate_armor_hev, Reactive Armor Plating
 hbm:item.plate_armor_lunar, Lunar Plating
@@ -18752,9 +18379,9 @@ hbm:item.plate_cast:8200, Cast Lead Plate
 hbm:item.plate_cast:4000, Cast Zirconium Plate
 hbm:item.plate_cast:7699, Cast Osmiridium Plate
 hbm:item.plate_cast:30, Cast Steel Plate
+hbm:item.plate_cast:32, Cast Advanced Alloy Plate
 hbm:item.plate_cast:33, Cast High-Speed Steel Plate
 hbm:item.plate_cast:42, Cast Desh Plate
-hbm:item.plate_cast:35, Cast Starmetal Plate
 hbm:item.plate_cast:37, Cast Ferrouranium Plate
 hbm:item.plate_cast:36, Cast Technetium Steel Plate
 hbm:item.plate_cast:43, Cast Cadmium Steel Plate
@@ -18764,7 +18391,6 @@ hbm:item.plate_cast:39, Cast Combine Steel Plate
 hbm:item.plate_cast:50, Cast Weapon Steel Plate
 hbm:item.plate_cast:34, Cast Saturnite Plate
 hbm:item.plate_cast:24001, Cast Stainless Steel Plate
-hbm:item.plate_cast:20006, Cast Custom Metal Demo Plate
 hbm:item.plate_welded:2600, Welded Iron Plate
 hbm:item.plate_welded:2200, Welded Titanium Plate
 hbm:item.plate_welded:2900, Welded Copper Plate
@@ -18777,14 +18403,12 @@ hbm:item.plate_welded:36, Welded Technetium Steel Plate
 hbm:item.plate_welded:43, Welded Cadmium Steel Plate
 hbm:item.plate_welded:39, Welded Combine Steel Plate
 hbm:item.plate_welded:24001, Welded Stainless Steel Plate
-hbm:item.plate_welded:20006, Welded Custom Metal Demo Plate
 hbm:item.shell:2200, Titanium Shell
 hbm:item.shell:2900, Copper Shell
 hbm:item.shell:1300, Aluminium Shell
 hbm:item.shell:30, Steel Shell
 hbm:item.shell:50, Weapon Steel Shell
 hbm:item.shell:34, Saturnite Shell
-hbm:item.shell:20006, Custom Metal Demo Shell
 hbm:item.pipe:2600, Iron Pipe
 hbm:item.pipe:2900, Copper Pipe
 hbm:item.pipe:1300, Aluminium Pipe
@@ -18792,7 +18416,6 @@ hbm:item.pipe:8200, Lead Pipe
 hbm:item.pipe:30, Steel Pipe
 hbm:item.pipe:33, High-Speed Steel Pipe
 hbm:item.pipe:20003, Rubber Pipe
-hbm:item.pipe:20006, Custom Metal Demo Pipe
 hbm:item.bolt:7400, Tungsten Bolt
 hbm:item.bolt:8200, Lead Bolt
 hbm:item.bolt:30, Steel Bolt
@@ -18818,6 +18441,7 @@ hbm:item.wire_fine:4000, Zirconium Wire
 hbm:item.wire_fine:3000, Zinc Wire
 hbm:item.wire_fine:30, Steel Wire
 hbm:item.wire_fine:31, Minecraft Grade Copper Wire
+hbm:item.wire_fine:32, Advanced Alloy Wire
 hbm:item.wire_fine:38, Magnetized Tungsten Wire
 hbm:item.wire_dense:7900, Dense Gold Wire
 hbm:item.wire_dense:12626, Dense Schrabidium Wire
@@ -18828,13 +18452,15 @@ hbm:item.wire_dense:7400, Dense Tungsten Wire
 hbm:item.wire_dense:6000, Dense Neodymium Wire
 hbm:item.wire_dense:4100, Dense Niobium Wire
 hbm:item.wire_dense:31, Dense Minecraft Grade Copper Wire
+hbm:item.wire_dense:32, Dense Advanced Alloy Wire
 hbm:item.wire_dense:35, Dense Starmetal Wire
 hbm:item.wire_dense:48, Dense BSCCO Wire
 hbm:item.wire_dense:38, Dense Magnetized Tungsten Wire
 hbm:item.wire_dense:45, Dense Dineutronium Wire
-hbm:item.wire_dense:20006, Dense Custom Metal Demo Wire
 hbm:item.coil_copper, Copper Coil
 hbm:item.coil_copper_torus, Ring Coil
+hbm:item.coil_advanced_alloy, Super Conducting Coil
+hbm:item.coil_advanced_torus, Super Conducting Ring Coil
 hbm:item.coil_gold, Gold Coil
 hbm:item.coil_gold_torus, Golden Ring Coil
 hbm:item.coil_tungsten, Heating Coil
@@ -18892,7 +18518,6 @@ hbm:item.part_generic:1, Hydraulic Piston
 hbm:item.part_generic:2, Electric Piston
 hbm:item.part_generic:3, Low-Density Element
 hbm:item.part_generic:4, Heavy Duty Element
-hbm:item.part_generic:6, Aviation Grade Sheeting
 hbm:item.part_generic:5, Polarized Lens
 hbm:item.item_expensive:0, Bolted Steel Plating
 hbm:item.item_expensive:1, Heavy Framework
@@ -18904,10 +18529,6 @@ hbm:item.item_expensive:6, Bronze Structural Elements
 hbm:item.item_expensive:7, Plastic Panels
 hbm:item.item_expensive:8, Ultra Fine Gold Dust
 hbm:item.item_expensive:9, Degenerate Matter
-hbm:item.item_expensive:10, Stainless Structural Beam
-hbm:item.item_expensive:11, SAS Module
-hbm:item.item_expensive:12, Astronavigation Unit
-hbm:item.item_expensive:13, CMB Structural Elements
 hbm:item.item_secret:0, Composition SB-26
 hbm:item.item_secret:1, Proprietary Control Unit
 hbm:item.item_secret:2, Selenium Steel
@@ -19004,9 +18625,6 @@ hbm:item.hard_drive_full:8, Hard Drive
 hbm:item.hard_drive_full:9, Hard Drive
 hbm:item.hard_drive_full:10, Hard Drive
 hbm:item.divine_shard, Divine Shard
-hbm:item.demoshape:2600, Iron Custom Shape Demo
-hbm:item.demoshape:30, Steel Custom Shape Demo
-hbm:item.demoshape:20006, Custom Metal Demo Custom Shape Demo
 hbm:item.plant_item:0, Tobacco
 hbm:item.plant_item:1, Rope
 hbm:item.plant_item:2, Mustard Willow Leaf
@@ -19055,6 +18673,12 @@ hbm:item.thruster_small, Small Thruster
 hbm:item.thruster_medium, Medium Thruster
 hbm:item.thruster_large, Large Thruster
 hbm:item.thruster_nuclear, LV-N Nuclear Rocket Engine
+hbm:item.sat_base, Satellite Base
+hbm:item.sat_head_mapper, High-Gain Optical Camera
+hbm:item.sat_head_scanner, M700 Survey Scanner
+hbm:item.sat_head_radar, Radar Dish
+hbm:item.sat_head_laser, Death Ray
+hbm:item.sat_head_resonator, Xenium Resonator
 hbm:item.seg_10, Size 10 Connector
 hbm:item.seg_15, Size 15 Connector
 hbm:item.seg_20, Size 20 Connector
@@ -19081,7 +18705,6 @@ hbm:item.circuit:13, Astrionics Unit
 hbm:item.circuit:14, Avionics Circuit Board
 hbm:item.circuit:5, Printed GaAs Wafer
 hbm:item.circuit:18, Quantum Processing Unit
-hbm:item.circuit:30, Crystal Circuit Board
 hbm:item.circuit:15, Control Unit Casing
 hbm:item.circuit:16, Control Unit
 hbm:item.circuit:17, Advanced Control Unit
@@ -19093,18 +18716,7 @@ hbm:item.circuit:25, Drive Processor (Tier 3)
 hbm:item.circuit:26, GaAs Microchip
 hbm:item.circuit:27, Hafnium Microchip
 hbm:item.circuit:28, Molysite-Etched Microchip
-hbm:item.drive:0, Flash Drive (Empty)
-hbm:item.drive:1, Disk Drive (Empty)
-hbm:item.drive:2, Flash Drive (Broken)
-hbm:item.drive:3, Disk Drive (Broken)
-hbm:item.drive:4, Flash Drive (Flight Simulation Data)
-hbm:item.drive:5, Flash Drive (Particle Simulation Data)
-hbm:item.drive:6, Disk Drive (Flight Data)
-hbm:item.drive:7, Disk Drive (Processed Flight Data)
-hbm:item.drive:8, Disk Drive (Orbital Data)
-hbm:item.drive:9, Disk Drive (Processed Orbital Data)
-hbm:item.drive:10, Klaus
-hbm:item.crt_display, Cathode Ray Tube
+hbm:item.crt_display,  Cathode Ray Tube
 hbm:item.circuit_star_piece:0, SC - Printed Circuit Board
 hbm:item.circuit_star_piece:1, SC - Transistors
 hbm:item.circuit_star_piece:2, SC - Voltage Converter
@@ -19272,7 +18884,6 @@ hbm:item.canister_full:28, Canister: NITAN© 100 Octane Super Fuel
 hbm:item.canister_full:86, Canister: Hydrazine
 hbm:item.canister_full:81, Canister: Seeding Slurry
 hbm:item.canister_full:90, Canister: Solvent
-hbm:item.canister_full:216, Canister: Titanium Tetratchloride
 hbm:item.canister_full:49, Canister: Fracking Solution
 hbm:item.canister_full:129, Canister: Elbow Grease
 hbm:item.canister_napalm, Napalm B
@@ -19284,7 +18895,6 @@ hbm:item.gas_full:57, Gas Tank: Helium-3
 hbm:item.gas_full:164, Gas Tank: Helium-4
 hbm:item.gas_full:39, Gas Tank: Liquid Oxygen
 hbm:item.gas_full:96, Gas Tank: Chlorine Gas
-hbm:item.gas_full:215, Gas Tank: Flue Gas
 hbm:item.gas_full:23, Gas Tank: Natural Gas
 hbm:item.gas_full:24, Gas Tank: Petroleum Gas
 hbm:item.gas_full:100, Gas Tank: Sour Gas
@@ -19303,13 +18913,9 @@ hbm:item.gas_full:156, Gas Tank: Neidon Air
 hbm:item.gas_full:125, Gas Tank: Tekto Air
 hbm:item.gas_full:126, Gas Tank: Phosgene
 hbm:item.gas_full:127, Gas Tank: Mustard Gas
-hbm:item.gas_full:104, Gas Tank: Krypton Gas
 hbm:item.gas_full:40, Gas Tank: Xenon Gas
-hbm:item.gas_full:103, Gas Tank: Argon Gas
-hbm:item.gas_full:102, Gas Tank: Neon Gas
 hbm:item.fluid_tank_empty, Empty Universal Fluid Tank
 hbm:item.fluid_tank_full:211, Universal Fluid Tank: Compressed Air
-hbm:item.fluid_tank_full:214, Universal Fluid Tank: Hot Air Blast
 hbm:item.fluid_tank_full:1, Universal Fluid Tank: Water
 hbm:item.fluid_tank_full:60, Universal Fluid Tank: Heavy Water
 hbm:item.fluid_tank_full:165, Universal Fluid Tank: Hot Heavy Water
@@ -19375,7 +18981,6 @@ hbm:item.fluid_tank_full:15, Universal Fluid Tank: Heating Oil
 hbm:item.fluid_tank_full:108, Universal Fluid Tank: Heavy Heating Oil
 hbm:item.fluid_tank_full:16, Universal Fluid Tank: Reclaimed Industrial Oil
 hbm:item.fluid_tank_full:18, Universal Fluid Tank: Engine Lubricant
-hbm:item.fluid_tank_full:215, Universal Fluid Tank: Flue Gas
 hbm:item.fluid_tank_full:23, Universal Fluid Tank: Natural Gas
 hbm:item.fluid_tank_full:136, Universal Fluid Tank: Coker Gas
 hbm:item.fluid_tank_full:24, Universal Fluid Tank: Petroleum Gas
@@ -19437,7 +19042,7 @@ hbm:item.fluid_tank_full:212, Universal Fluid Tank: Lithium Hydroxide Aerosol
 hbm:item.fluid_tank_full:213, Universal Fluid Tank: Lithium Bicarbonate Aerosol
 hbm:item.fluid_tank_full:119, Universal Fluid Tank: Chloromethane
 hbm:item.fluid_tank_full:120, Universal Fluid Tank: Methanol
-hbm:item.fluid_tank_full:123, Universal Fluid Tank: Polythylene
+hbm:item.fluid_tank_full:123, Universal Fluid Tank: Polyethylene
 hbm:item.fluid_tank_full:122, Universal Fluid Tank: Chloroethane
 hbm:item.fluid_tank_full:88, Universal Fluid Tank: Oxygen-Rich Air
 hbm:item.fluid_tank_full:181, Universal Fluid Tank: Duna Air
@@ -19467,7 +19072,6 @@ hbm:item.fluid_tank_full:201, Universal Fluid Tank: Sodium Aluminate
 hbm:item.fluid_tank_full:202, Universal Fluid Tank: Bauxite Solution
 hbm:item.fluid_tank_full:203, Universal Fluid Tank: Alumina
 hbm:item.fluid_tank_full:204, Universal Fluid Tank: Aqueous Nickel
-hbm:item.fluid_tank_full:216, Universal Fluid Tank: Titanium Tetratchloride
 hbm:item.fluid_tank_full:205, Universal Fluid Tank: Liquid Concrete
 hbm:item.fluid_tank_full:49, Universal Fluid Tank: Fracking Solution
 hbm:item.fluid_tank_full:200, Universal Fluid Tank: Lye
@@ -19501,7 +19105,6 @@ hbm:item.fluid_tank_full:173, Universal Fluid Tank: Modified Booster Pheromone
 hbm:item.fluid_tank_full:1000, Universal Fluid Tank: Custom Fluid Demo
 hbm:item.fluid_tank_lead_empty, Empty Hazardous Material Tank
 hbm:item.fluid_tank_lead_full:211, Hazardous Material Tank: Compressed Air
-hbm:item.fluid_tank_lead_full:214, Hazardous Material Tank: Hot Air Blast
 hbm:item.fluid_tank_lead_full:1, Hazardous Material Tank: Water
 hbm:item.fluid_tank_lead_full:60, Hazardous Material Tank: Heavy Water
 hbm:item.fluid_tank_lead_full:165, Hazardous Material Tank: Hot Heavy Water
@@ -19567,7 +19170,6 @@ hbm:item.fluid_tank_lead_full:15, Hazardous Material Tank: Heating Oil
 hbm:item.fluid_tank_lead_full:108, Hazardous Material Tank: Heavy Heating Oil
 hbm:item.fluid_tank_lead_full:16, Hazardous Material Tank: Reclaimed Industrial Oil
 hbm:item.fluid_tank_lead_full:18, Hazardous Material Tank: Engine Lubricant
-hbm:item.fluid_tank_lead_full:215, Hazardous Material Tank: Flue Gas
 hbm:item.fluid_tank_lead_full:23, Hazardous Material Tank: Natural Gas
 hbm:item.fluid_tank_lead_full:136, Hazardous Material Tank: Coker Gas
 hbm:item.fluid_tank_lead_full:24, Hazardous Material Tank: Petroleum Gas
@@ -19629,7 +19231,7 @@ hbm:item.fluid_tank_lead_full:212, Hazardous Material Tank: Lithium Hydroxide Ae
 hbm:item.fluid_tank_lead_full:213, Hazardous Material Tank: Lithium Bicarbonate Aerosol
 hbm:item.fluid_tank_lead_full:119, Hazardous Material Tank: Chloromethane
 hbm:item.fluid_tank_lead_full:120, Hazardous Material Tank: Methanol
-hbm:item.fluid_tank_lead_full:123, Hazardous Material Tank: Polythylene
+hbm:item.fluid_tank_lead_full:123, Hazardous Material Tank: Polyethylene
 hbm:item.fluid_tank_lead_full:122, Hazardous Material Tank: Chloroethane
 hbm:item.fluid_tank_lead_full:88, Hazardous Material Tank: Oxygen-Rich Air
 hbm:item.fluid_tank_lead_full:181, Hazardous Material Tank: Duna Air
@@ -19661,7 +19263,6 @@ hbm:item.fluid_tank_lead_full:201, Hazardous Material Tank: Sodium Aluminate
 hbm:item.fluid_tank_lead_full:202, Hazardous Material Tank: Bauxite Solution
 hbm:item.fluid_tank_lead_full:203, Hazardous Material Tank: Alumina
 hbm:item.fluid_tank_lead_full:204, Hazardous Material Tank: Aqueous Nickel
-hbm:item.fluid_tank_lead_full:216, Hazardous Material Tank: Titanium Tetratchloride
 hbm:item.fluid_tank_lead_full:205, Hazardous Material Tank: Liquid Concrete
 hbm:item.fluid_tank_lead_full:49, Hazardous Material Tank: Fracking Solution
 hbm:item.fluid_tank_lead_full:200, Hazardous Material Tank: Lye
@@ -19695,7 +19296,6 @@ hbm:item.fluid_tank_lead_full:173, Hazardous Material Tank: Modified Booster Phe
 hbm:item.fluid_tank_lead_full:1000, Hazardous Material Tank: Custom Fluid Demo
 hbm:item.fluid_barrel_empty, Empty Fluid Barrel
 hbm:item.fluid_barrel_full:211, Fluid Barrel: Compressed Air
-hbm:item.fluid_barrel_full:214, Fluid Barrel: Hot Air Blast
 hbm:item.fluid_barrel_full:1, Fluid Barrel: Water
 hbm:item.fluid_barrel_full:60, Fluid Barrel: Heavy Water
 hbm:item.fluid_barrel_full:165, Fluid Barrel: Hot Heavy Water
@@ -19761,7 +19361,6 @@ hbm:item.fluid_barrel_full:15, Fluid Barrel: Heating Oil
 hbm:item.fluid_barrel_full:108, Fluid Barrel: Heavy Heating Oil
 hbm:item.fluid_barrel_full:16, Fluid Barrel: Reclaimed Industrial Oil
 hbm:item.fluid_barrel_full:18, Fluid Barrel: Engine Lubricant
-hbm:item.fluid_barrel_full:215, Fluid Barrel: Flue Gas
 hbm:item.fluid_barrel_full:23, Fluid Barrel: Natural Gas
 hbm:item.fluid_barrel_full:136, Fluid Barrel: Coker Gas
 hbm:item.fluid_barrel_full:24, Fluid Barrel: Petroleum Gas
@@ -19823,7 +19422,7 @@ hbm:item.fluid_barrel_full:212, Fluid Barrel: Lithium Hydroxide Aerosol
 hbm:item.fluid_barrel_full:213, Fluid Barrel: Lithium Bicarbonate Aerosol
 hbm:item.fluid_barrel_full:119, Fluid Barrel: Chloromethane
 hbm:item.fluid_barrel_full:120, Fluid Barrel: Methanol
-hbm:item.fluid_barrel_full:123, Fluid Barrel: Polythylene
+hbm:item.fluid_barrel_full:123, Fluid Barrel: Polyethylene
 hbm:item.fluid_barrel_full:122, Fluid Barrel: Chloroethane
 hbm:item.fluid_barrel_full:88, Fluid Barrel: Oxygen-Rich Air
 hbm:item.fluid_barrel_full:181, Fluid Barrel: Duna Air
@@ -19853,7 +19452,6 @@ hbm:item.fluid_barrel_full:201, Fluid Barrel: Sodium Aluminate
 hbm:item.fluid_barrel_full:202, Fluid Barrel: Bauxite Solution
 hbm:item.fluid_barrel_full:203, Fluid Barrel: Alumina
 hbm:item.fluid_barrel_full:204, Fluid Barrel: Aqueous Nickel
-hbm:item.fluid_barrel_full:216, Fluid Barrel: Titanium Tetratchloride
 hbm:item.fluid_barrel_full:205, Fluid Barrel: Liquid Concrete
 hbm:item.fluid_barrel_full:49, Fluid Barrel: Fracking Solution
 hbm:item.fluid_barrel_full:200, Fluid Barrel: Lye
@@ -19888,7 +19486,6 @@ hbm:item.fluid_barrel_full:1000, Fluid Barrel: Custom Fluid Demo
 hbm:item.fluid_barrel_infinite, Infinite Fluid Barrel
 hbm:item.fluid_pack_empty, Large Fluid Container
 hbm:item.fluid_pack_full:211, Packaged Compressed Air
-hbm:item.fluid_pack_full:214, Packaged Hot Air Blast
 hbm:item.fluid_pack_full:1, Packaged Water
 hbm:item.fluid_pack_full:60, Packaged Heavy Water
 hbm:item.fluid_pack_full:165, Packaged Hot Heavy Water
@@ -19954,7 +19551,6 @@ hbm:item.fluid_pack_full:15, Packaged Heating Oil
 hbm:item.fluid_pack_full:108, Packaged Heavy Heating Oil
 hbm:item.fluid_pack_full:16, Packaged Reclaimed Industrial Oil
 hbm:item.fluid_pack_full:18, Packaged Engine Lubricant
-hbm:item.fluid_pack_full:215, Packaged Flue Gas
 hbm:item.fluid_pack_full:23, Packaged Natural Gas
 hbm:item.fluid_pack_full:136, Packaged Coker Gas
 hbm:item.fluid_pack_full:24, Packaged Petroleum Gas
@@ -20016,7 +19612,7 @@ hbm:item.fluid_pack_full:212, Packaged Lithium Hydroxide Aerosol
 hbm:item.fluid_pack_full:213, Packaged Lithium Bicarbonate Aerosol
 hbm:item.fluid_pack_full:119, Packaged Chloromethane
 hbm:item.fluid_pack_full:120, Packaged Methanol
-hbm:item.fluid_pack_full:123, Packaged Polythylene
+hbm:item.fluid_pack_full:123, Packaged Polyethylene
 hbm:item.fluid_pack_full:122, Packaged Chloroethane
 hbm:item.fluid_pack_full:88, Packaged Oxygen-Rich Air
 hbm:item.fluid_pack_full:181, Packaged Duna Air
@@ -20046,7 +19642,6 @@ hbm:item.fluid_pack_full:201, Packaged Sodium Aluminate
 hbm:item.fluid_pack_full:202, Packaged Bauxite Solution
 hbm:item.fluid_pack_full:203, Packaged Alumina
 hbm:item.fluid_pack_full:204, Packaged Aqueous Nickel
-hbm:item.fluid_pack_full:216, Packaged Titanium Tetratchloride
 hbm:item.fluid_pack_full:205, Packaged Liquid Concrete
 hbm:item.fluid_pack_full:49, Packaged Fracking Solution
 hbm:item.fluid_pack_full:200, Packaged Lye
@@ -20082,8 +19677,31 @@ hbm:item.pipette, Pipette
 hbm:item.pipette_boron, Boron Pipette
 hbm:item.pipette_laboratory, Laboratory Grade Pipette
 hbm:item.siphon, Siphon
+hbm:item.battery_generic, Battery (LEGACY)
+hbm:item.battery_red_cell, Redstone Power Cell (LEGACY)
+hbm:item.battery_red_cell_6, Sixfold Redstone Power Cell (LEGACY)
+hbm:item.battery_red_cell_24, 24-Fold Redstone Power Cell (LEGACY)
+hbm:item.battery_advanced, Advanced Battery (LEGACY)
+hbm:item.battery_advanced_cell, Advanced Power Cell (LEGACY)
+hbm:item.battery_advanced_cell_4, Quadruple Advanced Power Cell (LEGACY)
+hbm:item.battery_advanced_cell_12, Twelvefold Advanced Power Cell (LEGACY)
+hbm:item.battery_lithium, Lithium-Ion Battery (LEGACY)
+hbm:item.battery_lithium_cell, Lithium-Ion Power Cell (LEGACY)
+hbm:item.battery_lithium_cell_3, Triple Lithium-Ion Power Cell (LEGACY)
+hbm:item.battery_lithium_cell_6, Sixfold Lithium-Ion Power Cell (LEGACY)
+hbm:item.battery_schrabidium, Schrabidium Battery (LEGACY)
+hbm:item.battery_schrabidium_cell, Schrabidium Power Cell (LEGACY)
+hbm:item.battery_schrabidium_cell_2, Double Schrabidium Power Cell (LEGACY)
+hbm:item.battery_schrabidium_cell_4, Quadruple Schrabidium Power Cell (LEGACY)
 hbm:item.battery_spark, Spark Battery
 hbm:item.battery_trixite, Off-Brand Spark Battery
+hbm:item.battery_spark_cell_6, Spark Power Cell (LEGACY)
+hbm:item.battery_spark_cell_25, Spark Arcane Car Battery (LEGACY)
+hbm:item.battery_spark_cell_100, Spark Arcane Energy Storage Array (LEGACY)
+hbm:item.battery_spark_cell_1000, Spark Arcane Mass-Energy Void (LEGACY)
+hbm:item.battery_spark_cell_2500, Spark Arcane Dirac Sea (LEGACY)
+hbm:item.battery_spark_cell_10000, Spark Solid Space-Time Crystal (LEGACY)
+hbm:item.battery_spark_cell_power, Spark Ludicrous Physics-Defying Energy Storage Unit (LEGACY)
 hbm:item.battery_pack:0, Redstone Battery
 hbm:item.battery_pack:0, Redstone Battery
 hbm:item.battery_pack:1, Lead-Acid Battery
@@ -20123,11 +19741,20 @@ hbm:item.cube_power, Electronium Cube
 hbm:item.core_angel, Angelic Core
 hbm:item.battery_potato, Potato Battery
 hbm:item.battery_potatos, PotatOS
+hbm:item.battery_sc_uranium, Self-Charging Uranium-238 Battery (LEGACY)
+hbm:item.battery_sc_technetium, Self-Charging Technetium-99 Battery (LEGACY)
+hbm:item.battery_sc_plutonium, Self-Charging Plutonium-238 Battery (LEGACY)
+hbm:item.battery_sc_polonium, Self-Charging Polonium-210 Battery (LEGACY)
+hbm:item.battery_sc_gold, Self-Charging Gold-198 Battery (LEGACY)
+hbm:item.battery_sc_lead, Self-Charging Lead-209 Battery (LEGACY)
+hbm:item.battery_sc_americium, Self-Charging Americium-241 Battery (LEGACY)
 hbm:item.hev_battery, Suit Battery
 hbm:item.fusion_core, Fusion Core
+hbm:item.energy_core, Makeshift Energy Core
 hbm:item.blueprints, Blueprints
 hbm:item.blueprint_folder:0, Blueprint Booklet
 hbm:item.blueprint_folder:1, Blueprint Booklet
+hbm:item.template_folder, Machine Template Folder
 hbm:item.bobmazon, Bobmazon
 hbm:item.bobmazon_hidden, Hidden Catalog
 hbm:item.stamp_stone_flat, Flat Stamp (Stone)
@@ -20178,7 +19805,6 @@ hbm:item.mold:8, Foundry Mold
 hbm:item.mold:9, Foundry Mold
 hbm:item.mold:10, Foundry Mold
 hbm:item.mold:11, Foundry Mold
-hbm:item.mold:13, Foundry Mold
 hbm:item.mold:21, Foundry Mold
 hbm:item.mold:12, Foundry Mold
 hbm:item.mold:16, Foundry Mold
@@ -20190,102 +19816,101 @@ hbm:item.mold:25, Foundry Mold
 hbm:item.mold:26, Foundry Mold
 hbm:item.mold:27, Foundry Mold
 hbm:item.mold:28, Foundry Mold
-hbm:item.mold:100, Foundry Mold
-hbm:item.scraps:0, Stone Scraps
-hbm:item.scraps:699, Carbon Scraps
-hbm:item.scraps:2600, Iron Scraps
-hbm:item.scraps:7900, Gold Scraps
-hbm:item.scraps:1, Redstone Scraps
-hbm:item.scraps:2, Obsidian Scraps
-hbm:item.scraps:2601, Hematite Scraps
-hbm:item.scraps:2602, Wrought Iron Scraps
-hbm:item.scraps:2603, Pig Iron Scraps
-hbm:item.scraps:2604, Meteoric Iron Scraps
-hbm:item.scraps:2901, Malachite Scraps
-hbm:item.scraps:2993, Conglomerate Scraps
-hbm:item.scraps:9200, hbmmat.uraninite Scraps
-hbm:item.scraps:9233, Uranium-233 Scraps
-hbm:item.scraps:9235, Uranium-235 Scraps
-hbm:item.scraps:9238, Uranium-238 Scraps
-hbm:item.scraps:9032, Thorium-232 Scraps
-hbm:item.scraps:9400, Plutonium Scraps
-hbm:item.scraps:9401, Reactor-Grade Plutonium Scraps
-hbm:item.scraps:9438, Plutonium-238 Scraps
-hbm:item.scraps:9439, Plutonium-239 Scraps
-hbm:item.scraps:9440, Plutonium-240 Scraps
-hbm:item.scraps:9441, Plutonium-241 Scraps
-hbm:item.scraps:9501, Reactor-Grade Americium Scraps
-hbm:item.scraps:9541, Americium-241 Scraps
-hbm:item.scraps:9542, Americium-242 Scraps
-hbm:item.scraps:9337, Neptunium-237 Scraps
-hbm:item.scraps:8410, Polonium-210 Scraps
-hbm:item.scraps:4399, Technetium-99 Scraps
-hbm:item.scraps:8826, Radium-226 Scraps
-hbm:item.scraps:8927, Actinium-227 Scraps
-hbm:item.scraps:2760, Cobalt-60 Scraps
-hbm:item.scraps:7998, Gold-198 Scraps
-hbm:item.scraps:8209, Lead-209 Scraps
-hbm:item.scraps:12626, Schrabidium Scraps
-hbm:item.scraps:12627, Solinium Scraps
-hbm:item.scraps:12600, Ferric Schrabidate Scraps
-hbm:item.scraps:12601, Schraranium Scraps
-hbm:item.scraps:12836, Ghiorsium-336 Scraps
-hbm:item.scraps:13800, Australium Scraps
-hbm:item.scraps:13895, Tasmanite Scraps
-hbm:item.scraps:13851, Ayerite Scraps
-hbm:item.scraps:2200, Titanium Scraps
-hbm:item.scraps:2900, Copper Scraps
-hbm:item.scraps:7400, Tungsten Scraps
-hbm:item.scraps:1300, Aluminium Scraps
-hbm:item.scraps:8200, Lead Scraps
-hbm:item.scraps:8300, Bismuth Scraps
-hbm:item.scraps:3300, Arsenic Scraps
-hbm:item.scraps:7300, Tantalum Scraps
-hbm:item.scraps:6000, Neodymium Scraps
-hbm:item.scraps:4100, Niobium Scraps
-hbm:item.scraps:400, Beryllium Scraps
-hbm:item.scraps:2700, Cobalt Scraps
-hbm:item.scraps:500, Boron Scraps
-hbm:item.scraps:501, Borax Scraps
-hbm:item.scraps:5700, Lanthanium Scraps
-hbm:item.scraps:4000, Zirconium Scraps
-hbm:item.scraps:1100, Sodium Scraps
-hbm:item.scraps:3800, Strontium Scraps
-hbm:item.scraps:2000, Calcium Scraps
-hbm:item.scraps:300, Lithium Scraps
-hbm:item.scraps:4800, Cadmium Scraps
-hbm:item.scraps:1400, Silicon Scraps
-hbm:item.scraps:1401, Asbestos Scraps
-hbm:item.scraps:7699, Osmiridium Scraps
-hbm:item.scraps:2800, Nickel Scraps
-hbm:item.scraps:3100, Gallium Scraps
-hbm:item.scraps:3000, Zinc Scraps
-hbm:item.scraps:7200, Hafnium Scraps
-hbm:item.scraps:7700, Iridium Scraps
-hbm:item.scraps:30, Steel Scraps
-hbm:item.scraps:31, Minecraft Grade Copper Scraps
-hbm:item.scraps:33, High-Speed Steel Scraps
-hbm:item.scraps:42, Desh Scraps
-hbm:item.scraps:35, Starmetal Scraps
-hbm:item.scraps:37, Ferrouranium Scraps
-hbm:item.scraps:36, Technetium Steel Scraps
-hbm:item.scraps:43, Cadmium Steel Scraps
-hbm:item.scraps:46, Bismuth Bronze Scraps
-hbm:item.scraps:47, Arsenic Bronze Scraps
-hbm:item.scraps:48, BSCCO Scraps
-hbm:item.scraps:38, Magnetized Tungsten Scraps
-hbm:item.scraps:39, Combine Steel Scraps
-hbm:item.scraps:45, Dineutronium Scraps
-hbm:item.scraps:40, Flux Scraps
-hbm:item.scraps:41, Slag Scraps
-hbm:item.scraps:44, Poisonous Mud Scraps
-hbm:item.scraps:49, Gunmetal Scraps
-hbm:item.scraps:50, Weapon Steel Scraps
-hbm:item.scraps:34, Saturnite Scraps
-hbm:item.scraps:24000, Gallium Arsenide Scraps
-hbm:item.scraps:24001, Stainless Steel Scraps
-hbm:item.scraps:24002, Mineral-Rich Magma Scraps
-hbm:item.scraps:20006, Custom Metal Demo Scraps
+hbm:item.scraps:0, Foundry Scraps
+hbm:item.scraps:699, Foundry Scraps
+hbm:item.scraps:2600, Foundry Scraps
+hbm:item.scraps:7900, Foundry Scraps
+hbm:item.scraps:1, Foundry Scraps
+hbm:item.scraps:2, Foundry Scraps
+hbm:item.scraps:2601, Foundry Scraps
+hbm:item.scraps:2602, Foundry Scraps
+hbm:item.scraps:2603, Foundry Scraps
+hbm:item.scraps:2604, Foundry Scraps
+hbm:item.scraps:2901, Foundry Scraps
+hbm:item.scraps:2993, Foundry Scraps
+hbm:item.scraps:9200, Foundry Scraps
+hbm:item.scraps:9233, Foundry Scraps
+hbm:item.scraps:9235, Foundry Scraps
+hbm:item.scraps:9238, Foundry Scraps
+hbm:item.scraps:9032, Foundry Scraps
+hbm:item.scraps:9400, Foundry Scraps
+hbm:item.scraps:9401, Foundry Scraps
+hbm:item.scraps:9438, Foundry Scraps
+hbm:item.scraps:9439, Foundry Scraps
+hbm:item.scraps:9440, Foundry Scraps
+hbm:item.scraps:9441, Foundry Scraps
+hbm:item.scraps:9501, Foundry Scraps
+hbm:item.scraps:9541, Foundry Scraps
+hbm:item.scraps:9542, Foundry Scraps
+hbm:item.scraps:9337, Foundry Scraps
+hbm:item.scraps:8410, Foundry Scraps
+hbm:item.scraps:4399, Foundry Scraps
+hbm:item.scraps:8826, Foundry Scraps
+hbm:item.scraps:8927, Foundry Scraps
+hbm:item.scraps:2760, Foundry Scraps
+hbm:item.scraps:7998, Foundry Scraps
+hbm:item.scraps:8209, Foundry Scraps
+hbm:item.scraps:12626, Foundry Scraps
+hbm:item.scraps:12627, Foundry Scraps
+hbm:item.scraps:12600, Foundry Scraps
+hbm:item.scraps:12601, Foundry Scraps
+hbm:item.scraps:12836, Foundry Scraps
+hbm:item.scraps:13800, Foundry Scraps
+hbm:item.scraps:13895, Foundry Scraps
+hbm:item.scraps:13851, Foundry Scraps
+hbm:item.scraps:2200, Foundry Scraps
+hbm:item.scraps:2900, Foundry Scraps
+hbm:item.scraps:7400, Foundry Scraps
+hbm:item.scraps:1300, Foundry Scraps
+hbm:item.scraps:8200, Foundry Scraps
+hbm:item.scraps:8300, Foundry Scraps
+hbm:item.scraps:3300, Foundry Scraps
+hbm:item.scraps:7300, Foundry Scraps
+hbm:item.scraps:6000, Foundry Scraps
+hbm:item.scraps:4100, Foundry Scraps
+hbm:item.scraps:400, Foundry Scraps
+hbm:item.scraps:2700, Foundry Scraps
+hbm:item.scraps:500, Foundry Scraps
+hbm:item.scraps:501, Foundry Scraps
+hbm:item.scraps:5700, Foundry Scraps
+hbm:item.scraps:4000, Foundry Scraps
+hbm:item.scraps:1100, Foundry Scraps
+hbm:item.scraps:3800, Foundry Scraps
+hbm:item.scraps:2000, Foundry Scraps
+hbm:item.scraps:300, Foundry Scraps
+hbm:item.scraps:4800, Foundry Scraps
+hbm:item.scraps:1400, Foundry Scraps
+hbm:item.scraps:1401, Foundry Scraps
+hbm:item.scraps:7699, Foundry Scraps
+hbm:item.scraps:2800, Foundry Scraps
+hbm:item.scraps:3100, Foundry Scraps
+hbm:item.scraps:3000, Foundry Scraps
+hbm:item.scraps:7200, Foundry Scraps
+hbm:item.scraps:7700, Foundry Scraps
+hbm:item.scraps:30, Foundry Scraps
+hbm:item.scraps:31, Foundry Scraps
+hbm:item.scraps:32, Foundry Scraps
+hbm:item.scraps:33, Foundry Scraps
+hbm:item.scraps:42, Foundry Scraps
+hbm:item.scraps:35, Foundry Scraps
+hbm:item.scraps:37, Foundry Scraps
+hbm:item.scraps:36, Foundry Scraps
+hbm:item.scraps:43, Foundry Scraps
+hbm:item.scraps:46, Foundry Scraps
+hbm:item.scraps:47, Foundry Scraps
+hbm:item.scraps:48, Foundry Scraps
+hbm:item.scraps:38, Foundry Scraps
+hbm:item.scraps:39, Foundry Scraps
+hbm:item.scraps:45, Foundry Scraps
+hbm:item.scraps:40, Foundry Scraps
+hbm:item.scraps:41, Foundry Scraps
+hbm:item.scraps:44, Foundry Scraps
+hbm:item.scraps:49, Foundry Scraps
+hbm:item.scraps:50, Foundry Scraps
+hbm:item.scraps:34, Foundry Scraps
+hbm:item.scraps:24000, Foundry Scraps
+hbm:item.scraps:24001, Foundry Scraps
+hbm:item.scraps:24002, Foundry Scraps
 hbm:item.upgrade_muffler, Muffler
 hbm:item.upgrade_template, Machine Upgrade Template
 hbm:item.upgrade_speed_1, Speed Upgrade Mk.I
@@ -20346,7 +19971,6 @@ hbm:item.siren_track:21, Siren Track
 hbm:item.siren_track:22, Siren Track
 hbm:item.fluid_identifier_multi, Multi Fluid Identifier
 hbm:item.fluid_icon:211, Compressed Air
-hbm:item.fluid_icon:214, Hot Air Blast
 hbm:item.fluid_icon:1, Water
 hbm:item.fluid_icon:60, Heavy Water
 hbm:item.fluid_icon:165, Hot Heavy Water
@@ -20419,7 +20043,6 @@ hbm:item.fluid_icon:15, Heating Oil
 hbm:item.fluid_icon:108, Heavy Heating Oil
 hbm:item.fluid_icon:16, Reclaimed Industrial Oil
 hbm:item.fluid_icon:18, Engine Lubricant
-hbm:item.fluid_icon:215, Flue Gas
 hbm:item.fluid_icon:23, Natural Gas
 hbm:item.fluid_icon:136, Coker Gas
 hbm:item.fluid_icon:24, Petroleum Gas
@@ -20481,7 +20104,7 @@ hbm:item.fluid_icon:212, Lithium Hydroxide Aerosol
 hbm:item.fluid_icon:213, Lithium Bicarbonate Aerosol
 hbm:item.fluid_icon:119, Chloromethane
 hbm:item.fluid_icon:120, Methanol
-hbm:item.fluid_icon:123, Polythylene
+hbm:item.fluid_icon:123, Polyethylene
 hbm:item.fluid_icon:122, Chloroethane
 hbm:item.fluid_icon:88, Oxygen-Rich Air
 hbm:item.fluid_icon:181, Duna Air
@@ -20519,7 +20142,6 @@ hbm:item.fluid_icon:201, Sodium Aluminate
 hbm:item.fluid_icon:202, Bauxite Solution
 hbm:item.fluid_icon:203, Alumina
 hbm:item.fluid_icon:204, Aqueous Nickel
-hbm:item.fluid_icon:216, Titanium Tetratchloride
 hbm:item.fluid_icon:205, Liquid Concrete
 hbm:item.fluid_icon:49, Fracking Solution
 hbm:item.fluid_icon:200, Lye
@@ -20563,7 +20185,6 @@ hbm:item.fluid_icon:172, Booster Pheromone
 hbm:item.fluid_icon:173, Modified Booster Pheromone
 hbm:item.fluid_icon:1000, Custom Fluid Demo
 hbm:item.fluid_duct:211, Fluid Duct: Compressed Air
-hbm:item.fluid_duct:214, Fluid Duct: Hot Air Blast
 hbm:item.fluid_duct:1, Fluid Duct: Water
 hbm:item.fluid_duct:60, Fluid Duct: Heavy Water
 hbm:item.fluid_duct:165, Fluid Duct: Hot Heavy Water
@@ -20630,7 +20251,6 @@ hbm:item.fluid_duct:15, Fluid Duct: Heating Oil
 hbm:item.fluid_duct:108, Fluid Duct: Heavy Heating Oil
 hbm:item.fluid_duct:16, Fluid Duct: Reclaimed Industrial Oil
 hbm:item.fluid_duct:18, Fluid Duct: Engine Lubricant
-hbm:item.fluid_duct:215, Fluid Duct: Flue Gas
 hbm:item.fluid_duct:23, Fluid Duct: Natural Gas
 hbm:item.fluid_duct:136, Fluid Duct: Coker Gas
 hbm:item.fluid_duct:24, Fluid Duct: Petroleum Gas
@@ -20692,7 +20312,7 @@ hbm:item.fluid_duct:212, Fluid Duct: Lithium Hydroxide Aerosol
 hbm:item.fluid_duct:213, Fluid Duct: Lithium Bicarbonate Aerosol
 hbm:item.fluid_duct:119, Fluid Duct: Chloromethane
 hbm:item.fluid_duct:120, Fluid Duct: Methanol
-hbm:item.fluid_duct:123, Fluid Duct: Polythylene
+hbm:item.fluid_duct:123, Fluid Duct: Polyethylene
 hbm:item.fluid_duct:122, Fluid Duct: Chloroethane
 hbm:item.fluid_duct:88, Fluid Duct: Oxygen-Rich Air
 hbm:item.fluid_duct:181, Fluid Duct: Duna Air
@@ -20730,7 +20350,6 @@ hbm:item.fluid_duct:201, Fluid Duct: Sodium Aluminate
 hbm:item.fluid_duct:202, Fluid Duct: Bauxite Solution
 hbm:item.fluid_duct:203, Fluid Duct: Alumina
 hbm:item.fluid_duct:204, Fluid Duct: Aqueous Nickel
-hbm:item.fluid_duct:216, Fluid Duct: Titanium Tetratchloride
 hbm:item.fluid_duct:205, Fluid Duct: Liquid Concrete
 hbm:item.fluid_duct:49, Fluid Duct: Fracking Solution
 hbm:item.fluid_duct:200, Fluid Duct: Lye
@@ -20774,6 +20393,7 @@ hbm:item.chemistry_set_boron, Laboratory Glassware (Boron Glass)
 hbm:item.blowtorch, Blowtorch
 hbm:item.acetylene_torch, Acetylene Welding Torch
 hbm:item.boltgun, Pneumatic Rivet Gun
+hbm:item.overfuse, Singularity Screwdriver
 hbm:item.arc_electrode:0, Graphite Electrode
 hbm:item.arc_electrode:1, Lanthanium Electrode
 hbm:item.arc_electrode:2, Desh Electrode
@@ -20817,6 +20437,7 @@ hbm:item.ams_catalyst_thorium, Thorium Reaction Catalyst
 hbm:item.ams_catalyst_tungsten, Tungsten Reaction Catalyst
 hbm:item.blades_steel, Steel Shredder Blades
 hbm:item.blades_titanium, Titanium Shredder Blades
+hbm:item.blades_advanced_alloy, Advanced Shredder Blades
 hbm:item.blades_desh, Desh Shredder Blades
 hbm:item.thermo_element, Thermoelectric Element
 hbm:item.catalytic_converter, Catalytic Converter
@@ -20897,8 +20518,8 @@ hbm:item.rod_zirnox:8, ZIRNOX LES Fuel Rod
 hbm:item.rod_zirnox:9, ZIRNOX Lithium Rod
 hbm:item.rod_zirnox:10, ZIRNOX ZFB MOX Fuel Rod
 hbm:item.rod_zirnox_natural_uranium_fuel_depleted, Depleted ZIRNOX Natural Uranium Fuel Rod
-hbm:item.rod_zirnox_uranium_fuel_depleted, Depleted ZIRNOX Uranium Fuel Rod
-hbm:item.rod_zirnox_thorium_fuel_depleted, Depleted ZIRNOX Thorium Fuel Rod
+hbm:item.rod_zirnox_uranium_fuel_depleted,  Depleted ZIRNOX Uranium Fuel Rod
+hbm:item.rod_zirnox_thorium_fuel_depleted,  Depleted ZIRNOX Thorium Fuel Rod
 hbm:item.rod_zirnox_mox_fuel_depleted, Depleted ZIRNOX MOX Fuel Rod
 hbm:item.rod_zirnox_plutonium_fuel_depleted, Depleted ZIRNOX Plutonium Fuel Rod
 hbm:item.rod_zirnox_u233_fuel_depleted, Depleted ZIRNOX Uranium-233 Fuel Rod
@@ -20937,22 +20558,13 @@ hbm:item.waste_plate_sa326:0, Depleted HES-326 Plate Fuel
 hbm:item.waste_plate_sa326:1, Depleted HES-326 Plate Fuel
 hbm:item.waste_plate_pu238be:0, Depleted Pu238Be Plate Fuel
 hbm:item.waste_plate_pu238be:1, Depleted Pu238Be Plate Fuel
-hbm:item.pile_rod_uranium, Chicago Pile Uranium Rod (LEGACY)
-hbm:item.pile_rod_pu239, Chicago Pile Bred Uranium Rod (LEGACY)
-hbm:item.pile_rod_plutonium, Chicago Pile Plutonium Rod (LEGACY)
-hbm:item.pile_rod_source, Chicago Pile Ra226Be Neutron Source (LEGACY)
-hbm:item.pile_rod_boron, Chicago Pile Control Rod (LEGACY)
-hbm:item.pile_rod_lithium, Chicago Pile Lithium Cell (LEGACY)
-hbm:item.pile_rod_detector, Chicago Pile Control & Detector Rod (LEGACY)
-hbm:item.pile_rod:0, Chicago Pile Ra226Be Neutron source
-hbm:item.pile_rod:1, Chicago Pile Po210Be Neutron source
-hbm:item.pile_rod:2, Chicago Pile Zirconium Rod
-hbm:item.pile_rod:3, Chicago Pile Natural Uranium Rod
-hbm:item.pile_rod:4, Chicago Pile Plutonium-239 Rod
-hbm:item.pile_rod:5, Chicago Pile RGP Rod
-hbm:item.pile_rod:6, Chicago Pile Nuclear Waste Rod
-hbm:item.pile_rod:7, Chicago Pile Natural Thorium Rod
-hbm:item.pile_rod:8, Chicago Pile Thorium Fuel Rod
+hbm:item.pile_rod_uranium, Chicago Pile Uranium Rod
+hbm:item.pile_rod_pu239, Chicago Pile Bred Uranium Rod
+hbm:item.pile_rod_plutonium, Chicago Pile Plutonium Rod
+hbm:item.pile_rod_source, Chicago Pile Ra226Be Neutron Source
+hbm:item.pile_rod_boron, Chicago Pile Control Rod
+hbm:item.pile_rod_lithium, Chicago Pile Lithium Cell
+hbm:item.pile_rod_detector, Chicago Pile Control & Detector Rod
 hbm:item.plate_fuel_u233, HEU-233 Plate Fuel
 hbm:item.plate_fuel_u235, HEU-235 Plate Fuel
 hbm:item.plate_fuel_mox, MOX Plate Fuel
@@ -21558,8 +21170,6 @@ hbm:item.power_net_tool, Cable Network Analysis Tool
 hbm:item.analysis_tool, Analysis Tool
 hbm:item.coupling_tool, item.coupling_tool.name
 hbm:item.settings_tool, Settings Tool
-hbm:item.rtty_pager, Redstone-over-Radio Pager
-hbm:item.rtty_designator, Redstone-over-Radio Designator
 hbm:item.dosimeter, Dosimeter
 hbm:item.geiger_counter, Handheld Geiger Counter
 hbm:item.digamma_diagnostic, Digamma Diagnostic
@@ -21616,7 +21226,6 @@ hbm:item.missile_soyuz:0, Soyuz-FG
 hbm:item.missile_soyuz:1, Soyuz-FG
 hbm:item.missile_soyuz:2, Soyuz-FG
 hbm:item.missile_soyuz_lander, Orbital Module
-hbm:item.missile_lambda, Lambda-98
 hbm:item.missile_custom, Custom Missile
 hbm:item.rocket_custom, Orbital Rocket
 hbm:item.mp_thruster_10_kerosene, Size 10 Liquid Fuel Thruster
@@ -21759,28 +21368,22 @@ hbm:item.rp_l_20, Landing Legs
 hbm:item.rp_c_20, Landing Capsule
 hbm:item.rp_sc_20, Orbital Station
 hbm:item.rp_pod_20, Drop Pod
-hbm:item.satellite:12, Space Laboratory - 0G Assembler
-hbm:item.satellite:13, Space Laboratory - Sensor Relay
-hbm:item.sat_chip, Satellite ID-Chip
-hbm:item.sat_mapper, Spy Satellite
+hbm:item.sat_mapper, Surface Mapping Satellite
 hbm:item.sat_scanner, Satellite with Depth-Resource Scanning Module
 hbm:item.sat_radar, Radar Survey Satellite
 hbm:item.sat_laser, Orbital Death Ray
-hbm:item.sat_foeq, Relay Satellite
+hbm:item.sat_foeq, PEAF - Mk.I FOEQ Duna Probe with experimental Nuclear Propulsion
 hbm:item.sat_resonator, Xenium Resonator Satellite
 hbm:item.sat_miner, Asteroid Mining Ship
 hbm:item.sat_lunar_miner, Lunar Mining Ship
 hbm:item.sat_gerald, Gerald The Construction Android
-hbm:item.sat_precision_laser, Orbital Precision Laser
-hbm:item.sat_detector, Wideband Radio Emission Detector Satellite
-hbm:item.sat_ray_scan, Narrowband Emission Scanning Satellite
-hbm:item.sat_science, Space Laboratory
 hbm:item.sat_dyson_relay, Satellite Dyson Relay
-hbm:item.sat_war, item.sat_war.name
+hbm:item.sat_chip, Satellite ID-Chip
+hbm:item.sat_interface, Satellite Control Interface
 hbm:item.sat_coord, Satellite Designator
 hbm:item.sat_designator, Satellite Laser Designator
 hbm:item.sat_relay, Satellite Radar Relay
-hbm:item.orbital_assembly:0, Orbital Assembly: Crystal Circuit Board
+hbm:item.sat_war, item.sat_war.name
 hbm:item.gun_b92, §9B92 Energy Pistol§r
 hbm:item.crucible, Crucible
 hbm:item.gun_debug, item.gun_debug.name
@@ -21814,7 +21417,7 @@ hbm:item.gun_star_f, Target Pistol
 hbm:item.gun_star_f_akimbo, Target Pistols
 hbm:item.gun_g3, Assault Rifle
 hbm:item.gun_g3_zebra, Zebra Rifle
-hbm:item.gun_mk108, Grenade Machinegun
+hbm:item.gun_stinger, FIM-92 Stinger
 hbm:item.gun_chemthrower, Chemthrower
 hbm:item.gun_amat, Anti-Materiel Rifle
 hbm:item.gun_amat_subtlety, Subtlety
@@ -21838,7 +21441,6 @@ hbm:item.gun_stg77, StG 77
 hbm:item.gun_tau, Tau Cannon
 hbm:item.gun_fatman, Fat Man
 hbm:item.gun_lasrifle, Laser Rifle
-hbm:item.gun_stinger, FIM-92 Stinger
 hbm:item.gun_coilgun, Coilgun
 hbm:item.gun_hangman, Hangman
 hbm:item.gun_mas36, South Star
@@ -22031,13 +21633,7 @@ hbm:item.ammo_shell:1, 240mm HE Shell
 hbm:item.ammo_shell:2, 240mm APFSDS-T
 hbm:item.ammo_shell:3, 240mm APFSDS-DU
 hbm:item.ammo_shell:4, 240mm W9 Nuclear Shell
-hbm:item.ammo_dgk, Goalkeeper Twin CIWS 100 Round Belt
-hbm:item.ammo_railgun:0, T-APFSDS
-hbm:item.ammo_railgun:1, DU-APFSDS
-hbm:item.ammo_railgun:2, Nuclear Sabot
-hbm:item.ammo_railgun:3, Desh APFSDS
-hbm:item.ammo_railgun:4, Starmetal APFSDS
-hbm:item.ammo_railgun:5, Fluid APFSDS
+hbm:item.ammo_dgk, Goalkeeper Twin CIWS 200 Round Belt
 hbm:item.ammo_arty:0, 16" Artillery Shell
 hbm:item.ammo_arty:1, 16" Artillery Shell (The Factorio Special)
 hbm:item.ammo_arty:2, 16" High Explosive Artillery Shell
@@ -22065,37 +21661,51 @@ hbm:item.stick_dynamite_fishing, Stick of Fishing Dynamite
 hbm:item.stick_tnt, Stick of TNT
 hbm:item.stick_semtex, Stick of Semtex
 hbm:item.stick_c4, Stick of C-4
-hbm:item.grenade_shell:0, Compact Grenade Shell
-hbm:item.grenade_shell:1, Stick Grenade Shell
-hbm:item.grenade_shell:2, High-Tech Grenade Shell
-hbm:item.grenade_shell:3, Nuclear Grenade Shell
-hbm:item.grenade_filling:0, Gunpowder Grenade Charge
-hbm:item.grenade_filling:1, High-Explosive Grenade Charge
-hbm:item.grenade_filling:2, Demolition Grenade Charge
-hbm:item.grenade_filling:3, Incendiary Grenade Charge
-hbm:item.grenade_filling:4, White Phosphorus Grenade Charge
-hbm:item.grenade_filling:5, Cluster Grenade Charge
-hbm:item.grenade_filling:6, EMP Grenade Charge
-hbm:item.grenade_filling:7, Plasma Grenade Charge
-hbm:item.grenade_filling:8, Laser Grenade Charge
-hbm:item.grenade_filling:9, Heavy Cluster Grenade Charge
-hbm:item.grenade_filling:10, Nuclear Grenade Charge
-hbm:item.grenade_filling:11, Nuclear Demolition Grenade Charge
-hbm:item.grenade_filling:12, Schrabidium Grenade Charge
-hbm:item.grenade_fuze:0, Timed Grenade Fuze, 3s
-hbm:item.grenade_fuze:1, Timed Grenade Fuze, 7s
-hbm:item.grenade_fuze:2, Timed Grenade Fuze, 15s
-hbm:item.grenade_fuze:3, Impact Grenade Fuze
-hbm:item.grenade_fuze:4, Airburst Grenade Fuze
-hbm:item.grenade_extra:0, Grenade Extra - Glue
-hbm:item.grenade_extra:1, Grenade Extra - Proximity Fuze
-hbm:item.grenade_extra:2, Grenade Extra - Fragmentation Sleeve
-hbm:item.grenade_extra:3, Grenade Extra - Triplex
-hbm:item.grenade_universal, Grenade
+hbm:item.grenade_generic, Grenade
+hbm:item.grenade_strong, Enhanced Grenade
+hbm:item.grenade_frag, Frag Grenade
+hbm:item.grenade_fire, Flame Frag Grenade
+hbm:item.grenade_shrapnel, Shrapnel Grenade
+hbm:item.grenade_cluster, Cluster Bomb
+hbm:item.grenade_flare, Signal Flare
+hbm:item.grenade_electric, Lightning Bomb
+hbm:item.grenade_poison, Poison Grenade
+hbm:item.grenade_gas, Gas Grenade
+hbm:item.grenade_cloud, Jar of Corrosive Fumes
+hbm:item.grenade_pink_cloud, Jar of Pink Cloud
+hbm:item.grenade_smart, Smart Grenade
+hbm:item.grenade_mirv, MIRV Grenade
+hbm:item.grenade_breach, Breaching Grenade
+hbm:item.grenade_burst, Digger Grenade
+hbm:item.grenade_pulse, Impulse Grenade
+hbm:item.grenade_plasma, Plasma Grenade
+hbm:item.grenade_tau, Tau Grenade
+hbm:item.grenade_schrabidium, Schrabidium Grenade
+hbm:item.grenade_nuke, Mark VI Drill Grenade
 hbm:item.grenade_lemon, Combustible Lemon
-hbm:item.disperser_canister_empty, Disperser Canister
+hbm:item.grenade_gascan, Tossable Gas Can
+hbm:item.grenade_kyiv, The Kyiv Special
+hbm:item.grenade_mk2, Mk 2 Grenade "Ambassador Pineapple"
+hbm:item.grenade_aschrab, Tossable Antischrabidium Cell
+hbm:item.grenade_nuclear, Nuka Grenade
+hbm:item.grenade_zomg, Negative Energy Pair Annihilation Grenade
+hbm:item.grenade_black_hole, Black Hole Grenade
+hbm:item.grenade_if_generic, IF - Grenade
+hbm:item.grenade_if_he, IF - HE Grenade
+hbm:item.grenade_if_bouncy, IF - Bouncy Grenade
+hbm:item.grenade_if_sticky, IF - Sticky Grenade
+hbm:item.grenade_if_impact, IF - Impact Grenade
+hbm:item.grenade_if_incendiary, IF - Incendiary Grenade
+hbm:item.grenade_if_toxic, IF - Toxic Grenade
+hbm:item.grenade_if_concussion, IF - Concussion Grenade
+hbm:item.grenade_if_brimstone, IF - Tossable Brimstone Mine
+hbm:item.grenade_if_mystery, IF - M.-Grenade
+hbm:item.grenade_if_spark, IF - S.-Grenade
+hbm:item.grenade_if_hopwire, IF - Vortex Hopwire
+hbm:item.grenade_if_null, IF - Null Grenade
+hbm:item.nuclear_waste_pearl, Nuclear Waste Pearl
+hbm:item.disperser_canister_empty,  Disperser Canister
 hbm:item.disperser_canister:211, Disperser Canister: Compressed Air
-hbm:item.disperser_canister:214, Disperser Canister: Hot Air Blast
 hbm:item.disperser_canister:1, Disperser Canister: Water
 hbm:item.disperser_canister:60, Disperser Canister: Heavy Water
 hbm:item.disperser_canister:2, Disperser Canister: Steam
@@ -22126,7 +21736,6 @@ hbm:item.disperser_canister:179, Disperser Canister: Desulfurized Light Oil
 hbm:item.disperser_canister:65, Disperser Canister: Cracked Light Oil
 hbm:item.disperser_canister:99, Disperser Canister: Vacuum Light Oil
 hbm:item.disperser_canister:18, Disperser Canister: Engine Lubricant
-hbm:item.disperser_canister:215, Disperser Canister: Flue Gas
 hbm:item.disperser_canister:23, Disperser Canister: Natural Gas
 hbm:item.disperser_canister:136, Disperser Canister: Coker Gas
 hbm:item.disperser_canister:24, Disperser Canister: Petroleum Gas
@@ -22169,7 +21778,7 @@ hbm:item.disperser_canister:212, Disperser Canister: Lithium Hydroxide Aerosol
 hbm:item.disperser_canister:213, Disperser Canister: Lithium Bicarbonate Aerosol
 hbm:item.disperser_canister:119, Disperser Canister: Chloromethane
 hbm:item.disperser_canister:120, Disperser Canister: Methanol
-hbm:item.disperser_canister:123, Disperser Canister: Polythylene
+hbm:item.disperser_canister:123, Disperser Canister: Polyethylene
 hbm:item.disperser_canister:122, Disperser Canister: Chloroethane
 hbm:item.disperser_canister:88, Disperser Canister: Oxygen-Rich Air
 hbm:item.disperser_canister:181, Disperser Canister: Duna Air
@@ -22196,7 +21805,6 @@ hbm:item.disperser_canister:138, Disperser Canister: Cholesterol Solution
 hbm:item.disperser_canister:201, Disperser Canister: Sodium Aluminate
 hbm:item.disperser_canister:203, Disperser Canister: Alumina
 hbm:item.disperser_canister:204, Disperser Canister: Aqueous Nickel
-hbm:item.disperser_canister:216, Disperser Canister: Titanium Tetratchloride
 hbm:item.disperser_canister:205, Disperser Canister: Liquid Concrete
 hbm:item.disperser_canister:200, Disperser Canister: Lye
 hbm:item.disperser_canister:126, Disperser Canister: Phosgene
@@ -22223,11 +21831,15 @@ hbm:item.disperser_canister:159, Disperser Canister: Heavy Whipping Cream
 hbm:item.disperser_canister:172, Disperser Canister: Booster Pheromone
 hbm:item.disperser_canister:173, Disperser Canister: Modified Booster Pheromone
 hbm:item.disperser_canister:1000, Disperser Canister: Custom Fluid Demo
-hbm:item.glyphid_gland_empty, Glyphid's Fluid Gland
+hbm:item.glyphid_gland_empty,  Glyphid's Fluid Gland
 hbm:item.glyphid_gland:75, Sulfuric Acid Gland
 hbm:item.glyphid_gland:172, Booster Pheromone Gland
 hbm:item.ullapool_caber, Ullapool Caber
 hbm:item.weaponized_starblaster_cell, §cRigged Star Blaster Energy Cell§r
+hbm:item.cape_radiation, Cape (Radiation)
+hbm:item.cape_gasmask, Cape (Gas Mask)
+hbm:item.cape_schrabidium, Cape (Schrabidic)
+hbm:item.cape_hidden, Hidden Cape
 hbm:item.dwarven_pickaxe, Dwarven Pickaxe
 hbm:item.schrabidium_sword, Schrabidium Sword
 hbm:item.schrabidium_hammer, Schrabidium Hammer
@@ -22266,21 +21878,21 @@ hbm:item.starmetal_pickaxe, Starmetal Pickaxe
 hbm:item.starmetal_axe, Starmetal Axe
 hbm:item.starmetal_shovel, Starmetal Shovel
 hbm:item.starmetal_hoe, Starmetal Hoe
-hbm:item.alloy_sword, Advanced Alloy Sword (LEGACY)
-hbm:item.alloy_pickaxe, Advanced Alloy Pickaxe (LEGACY)
-hbm:item.alloy_axe, Advanced Alloy Axe (LEGACY)
-hbm:item.alloy_shovel, Advanced Alloy Shovel (LEGACY)
-hbm:item.alloy_hoe, Advanced Alloy Hoe (LEGACY)
+hbm:item.alloy_sword, Advanced Alloy Sword
+hbm:item.alloy_pickaxe, Advanced Alloy Pickaxe
+hbm:item.alloy_axe, Advanced Alloy Axe
+hbm:item.alloy_shovel, Advanced Alloy Shovel
+hbm:item.alloy_hoe, Advanced Alloy Hoe
 hbm:item.cmb_sword, CMB Steel Sword
 hbm:item.cmb_pickaxe, CMB Steel Pickaxe
 hbm:item.cmb_axe, CMB Steel Axe
 hbm:item.cmb_shovel, CMB Steel Shovel
 hbm:item.cmb_hoe, CMB Steel Hoe
-hbm:item.desh_sword, Desh Sword
-hbm:item.desh_pickaxe, Desh Pickaxe
-hbm:item.desh_axe, Desh Axe
-hbm:item.desh_shovel, Desh Shovel
-hbm:item.desh_hoe, Desh Hoe
+hbm:item.desh_sword, Worker's Alloy Sword
+hbm:item.desh_pickaxe, Worker's Alloy Pickaxe
+hbm:item.desh_axe, Worker's Alloy Axe
+hbm:item.desh_shovel, Worker's Alloy Shovel
+hbm:item.desh_hoe, Worker's Alloy Hoe
 hbm:item.elec_sword, Stunstick
 hbm:item.elec_pickaxe, Impact Drill
 hbm:item.elec_axe, Electric Chainsaw
@@ -22288,6 +21900,9 @@ hbm:item.elec_shovel, Spiral Drill
 hbm:item.dnt_sword, dinuatureum sword
 hbm:item.smashing_hammer, Smashing Hammer
 hbm:item.centri_stick, Centrifuge on a Stick
+hbm:item.drax, Terra Drill (LEGACY)
+hbm:item.drax_mk2, Hardened Terra Drill (LEGACY)
+hbm:item.drax_mk3, Schrabidic Terra Drill (LEGACY)
 hbm:item.bismuth_pickaxe, Bismuth Pickaxe
 hbm:item.bismuth_axe, Bismuth Axe
 hbm:item.volcanic_pickaxe, Molten Pickaxe
@@ -22303,6 +21918,11 @@ hbm:item.wrench, Pipe Wrench
 hbm:item.wrench_archineer, Archineer's Wrench
 hbm:item.wrench_flipped, Blade on a Wrench
 hbm:item.memespoon, §eMarket Gardener
+hbm:item.weapon_saw, Doctor Assisted Homicide
+hbm:item.weapon_bat, Richard's Default
+hbm:item.weapon_bat_nail, The Cliché
+hbm:item.weapon_golf_club, Russian Mobster's Club
+hbm:item.weapon_pipe_rusty, The Attitude Adjuster
 hbm:item.weapon_pipe_lead, The Manual Override
 hbm:item.reer_graar, The Reer Graar
 hbm:item.stopsign, Stop Sign Battle Axe
@@ -22393,8 +22013,6 @@ hbm:item.marshmallow:0, Marshmallow on a Stick
 hbm:item.marshmallow:1, Marshmallow on a Stick
 hbm:item.cheese, Cheese
 hbm:item.cheese_quesadilla, Cheese Quesadilla
-hbm:item.cookie_uranium, Uranium Cookie
-hbm:item.digamma_croissant, Digamma Croissant
 hbm:item.glyphid_meat, Glyphid Meat
 hbm:item.glyphid_meat_grilled, Grilled Glyphid Meat
 hbm:item.egg_glyphid, Glyphid Egg
@@ -22469,8 +22087,6 @@ hbm:item.coin_maskman, Maskman Coin
 hbm:item.coin_worm, Balls-O-Tron Coin
 hbm:item.coin_ufo, UFO Coin
 hbm:item.coin_airliner, Airliner Coin
-hbm:item.claude, Claude
-hbm:item.coin_token, Vending Machine Token
 hbm:item.medal_liquidator, Liquidator Medal
 hbm:item.v1, V1
 hbm:item.protection_charm, Charm of Protection
@@ -22492,10 +22108,10 @@ hbm:item.chocolate_milk, Chocolate Milk
 hbm:item.cbt_device, CBT Device
 hbm:item.cigarette, FFI-Brand Cigarette
 hbm:item.crackpipe, Health Pipe
-hbm:item.joint, Joint
 hbm:item.bdcl, BDCL
 hbm:item.glass_smilk, Strawberry Milk Glass
 hbm:item.glass_empty, Empty Glass
+hbm:item.strawberry, Strawberry
 hbm:item.mint_leaves, Mint Leaves
 hbm:item.teaseeds, Tea Seeds
 hbm:item.tea_leaf, Tea Leaf
@@ -22609,10 +22225,10 @@ hbm:item.titanium_helmet, Titanium Helmet
 hbm:item.titanium_plate, Titanium Chestplate
 hbm:item.titanium_legs, Titanium Leggings
 hbm:item.titanium_boots, Titanium Boots
-hbm:item.alloy_helmet, Advanced Alloy Helmet (LEGACY)
-hbm:item.alloy_plate, Advanced Alloy Chestplate (LEGACY)
-hbm:item.alloy_legs, Advanced Alloy Leggings (LEGACY)
-hbm:item.alloy_boots, Advanced Alloy Boots (LEGACY)
+hbm:item.alloy_helmet, Advanced Alloy Helmet
+hbm:item.alloy_plate, Advanced Alloy Chestplate
+hbm:item.alloy_legs, Advanced Alloy Leggings
+hbm:item.alloy_boots, Advanced Alloy Boots
 hbm:item.custom_tnt, Custom Nuke Explosive Charge
 hbm:item.custom_nuke, Custom Nuke Nuclear Rod
 hbm:item.custom_hydro, Custom Nuke Hydrogen Rod
@@ -22648,8 +22264,7 @@ hbm:item.ncrpa_helmet, NCR Ranger Power Armor Helmet
 hbm:item.ncrpa_plate, NCR Ranger Power Armor Chestplate
 hbm:item.ncrpa_legs, NCR Ranger Power Armor Leggings
 hbm:item.ncrpa_boots, NCR Ranger Power Armor Boots
-hbm:item.bj_eyepatch, Eyepatch with Thermal Sensor
-hbm:item.bj_helmet, Lunar Cybernetic Helmet
+hbm:item.bj_helmet, Eyepatch with Thermal Sensor
 hbm:item.bj_plate, Lunar Cybernetic Plating
 hbm:item.bj_plate_jetpack, Lunar Cybernetic Plating (Winged)
 hbm:item.bj_legs, Lunar Cybernetic Leg Replacements
@@ -22816,6 +22431,7 @@ hbm:item.solinium_kit, Solinium Kit
 hbm:item.multi_kit, Multi Purpose Bomb Kit
 hbm:item.custom_kit, Custom Nuke Kit
 hbm:item.missile_kit, Missile Kit
+hbm:item.grenade_kit, Grenade Kit
 hbm:item.hazmat_kit, Hazmat Kit
 hbm:item.hazmat_red_kit, Advanced Hazmat Kit
 hbm:item.hazmat_grey_kit, High-Performance Hazmat Kit
@@ -22845,8 +22461,6 @@ hbm:item.record_gs, item.record_gs.name
 hbm:item.record_gp, item.record_gp.name
 hbm:item.record_el, item.record_el.name
 hbm:item.record_glass, item.record_glass.name
-hbm:item.record_bf, item.record_bf.name
-hbm:item.record_box, item.record_box.name
 hbm:item.book_guide:1, Guide Book
 hbm:item.book_guide:3, Guide Book
 hbm:item.book_lore, item.book_lore.name
@@ -22919,10 +22533,8 @@ hbm:item.conveyor_wand:1, Express Conveyor Belt
 hbm:item.conveyor_wand:2, Double-Lane Conveyor Belt
 hbm:item.conveyor_wand:3, Triple-Lane Conveyor Belt
 hbm:item.swarm_member, Dyson Swarm Member
-hbm:item.template_folder, Machine Template Folder
 hbm:item.nothing, Nothing
 hbm:item.broken_item, Broken Item
-hbm:item.rtty_card, RTTY Card (Tier 2)
 OpenBlocks:hangglider, Hang Glider
 OpenBlocks:generic:0, Glider Wing
 OpenBlocks:generic:1, Beam
@@ -30107,7 +29719,6 @@ gregtech:gt.meta.nugget:290, oredict.nuggetCopper
 gregtech:gt.meta.nugget:300, oredict.nuggetZinc
 gregtech:gt.meta.nugget:310, oredict.nuggetGallium
 gregtech:gt.meta.nugget:320, oredict.nuggetGermanium
-gregtech:gt.meta.nugget:330, oredict.nuggetArsenic
 gregtech:gt.meta.nugget:370, oredict.nuggetRubidium
 gregtech:gt.meta.nugget:380, oredict.nuggetStrontium
 gregtech:gt.meta.nugget:390, oredict.nuggetYttrium
@@ -30132,7 +29743,6 @@ gregtech:gt.meta.nugget:770, oredict.nuggetIridium
 gregtech:gt.meta.nugget:780, oredict.nuggetPlatinum
 gregtech:gt.meta.nugget:800, oredict.nuggetMercury
 gregtech:gt.meta.nugget:820, oredict.nuggetLead
-gregtech:gt.meta.nugget:830, oredict.nuggetBismuth
 gregtech:gt.meta.nugget:850, oredict.nuggetAstatine
 gregtech:gt.meta.nugget:945, oredict.nuggetPlutonium243
 gregtech:gt.meta.nugget:950, oredict.nuggetAmericium
@@ -30816,7 +30426,6 @@ gregtech:gt.meta.ingot:280, oredict.ingotNickel
 gregtech:gt.meta.ingot:300, oredict.ingotZinc
 gregtech:gt.meta.ingot:310, oredict.ingotGallium
 gregtech:gt.meta.ingot:320, oredict.ingotGermanium
-gregtech:gt.meta.ingot:330, oredict.ingotArsenic
 gregtech:gt.meta.ingot:370, oredict.ingotRubidium
 gregtech:gt.meta.ingot:380, oredict.ingotStrontium
 gregtech:gt.meta.ingot:390, oredict.ingotYttrium
@@ -30843,7 +30452,6 @@ gregtech:gt.meta.ingot:770, oredict.ingotIridium
 gregtech:gt.meta.ingot:780, oredict.ingotPlatinum
 gregtech:gt.meta.ingot:800, oredict.ingotMercury
 gregtech:gt.meta.ingot:820, oredict.ingotLead
-gregtech:gt.meta.ingot:830, oredict.ingotBismuth
 gregtech:gt.meta.ingot:850, oredict.ingotAstatine
 gregtech:gt.meta.ingot:945, oredict.ingotPlutonium243
 gregtech:gt.meta.ingot:950, oredict.ingotAmericium

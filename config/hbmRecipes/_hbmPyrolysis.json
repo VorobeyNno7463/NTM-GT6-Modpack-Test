@@ -91,7 +91,7 @@
       "duration": 60
     },
     {
-      "inputFluid": ["SYNGAS",430],
+      "inputFluid": ["SYNGAS",260],
       "outputItem": ["hbm:item.solid_fuel"],
       "duration": 60
     },
@@ -1761,13 +1761,6 @@
       "duration": 10
     },
     {
-      "inputFluid": ["SYNGAS",2000],
-      "inputItem": ["dict","dustTungsten"],
-      "outputFluid": ["SPENTSTEAM",1000],
-      "outputItem": ["hbm:item.ingot_tungsten_carbide"],
-      "duration": 300
-    },
-    {
       "inputFluid": ["STEAM",500],
       "inputItem": ["dict","gemCoal"],
       "outputFluid": ["SYNGAS",1000],
@@ -1836,12 +1829,6 @@
       "inputFluid": ["GAS",12000],
       "outputFluid": ["HYDROGEN",8000],
       "outputItem": ["hbm:item.ingot_graphite"],
-      "duration": 60
-    },
-    {
-      "inputFluid": ["TITANIUM_TETRACHLORIDE",1000],
-      "outputFluid": ["CHLORINE",125],
-      "outputItem": ["hbm:item.ingot_titanium",5],
       "duration": 60
     }
   ]

@@ -933,7 +933,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,5377],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",6,3000],
+        ["hbm:item.bedrock_ore_fragment",6,7400],
         ["hbm:item.bedrock_ore",1,3329]
       ]
     },
@@ -1091,7 +1091,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,1556],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,2201],
+        ["hbm:item.bedrock_ore_fragment",18,2200],
         ["hbm:item.bedrock_ore",1,3348]
       ]
     },
@@ -1286,7 +1286,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,5390],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",6,2201],
+        ["hbm:item.bedrock_ore_fragment",6,2200],
         ["hbm:item.bedrock_ore",1,3342]
       ]
     },
@@ -1340,6 +1340,15 @@
         ["hbm:item.ore_separated",1,5],
         ["hbm:item.ore_separated",1,5],
         ["hbm:item.ore_separated",1,5]
+      ]
+    },
+    {
+      "input": ["dict","oreNetherThorium"],
+      "output": [
+        ["hbm:item.powder_thorium"],
+        ["hbm:item.powder_thorium"],
+        ["hbm:item.powder_uranium"],
+        ["minecraft:gravel"]
       ]
     },
     {
@@ -1680,6 +1689,15 @@
       ]
     },
     {
+      "input": ["dict","oreThorium"],
+      "output": [
+        ["hbm:item.powder_thorium"],
+        ["hbm:item.powder_thorium"],
+        ["hbm:item.powder_uranium"],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,4395],
       "output": [
         ["hbm:item.bedrock_ore_fragment",9,7400],
@@ -1819,7 +1837,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,4394],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",9,2201],
+        ["hbm:item.bedrock_ore_fragment",9,2200],
         ["hbm:item.bedrock_ore",1,3370]
       ]
     },
@@ -2780,7 +2798,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,1044],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,2201]
+        ["hbm:item.bedrock_ore_fragment",18,2200]
       ]
     },
     {
@@ -3617,8 +3635,8 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,2836],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,2201],
-        ["hbm:item.bedrock_ore_fragment",18,2201],
+        ["hbm:item.bedrock_ore_fragment",18,2200],
+        ["hbm:item.bedrock_ore_fragment",18,2200],
         ["hbm:item.bedrock_ore",1,3348]
       ]
     },
@@ -3633,7 +3651,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,788],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,2201]
+        ["hbm:item.bedrock_ore_fragment",18,2200]
       ]
     },
     {
@@ -4151,6 +4169,15 @@
       ]
     },
     {
+      "input": ["dict","oreNetherThorium232"],
+      "output": [
+        ["hbm:item.powder_thorium"],
+        ["hbm:item.powder_thorium"],
+        ["hbm:item.powder_uranium"],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
       "input": ["item","hbm:item.bedrock_ore",1,2832],
       "output": [
         ["hbm:item.bedrock_ore_fragment",18,20000],
@@ -4603,7 +4630,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,2580],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,2201],
+        ["hbm:item.bedrock_ore_fragment",18,2200],
         ["hbm:item.bedrock_ore",1,3348]
       ]
     },
@@ -4708,6 +4735,15 @@
       "input": ["item","hbm:item.bedrock_ore",1,267],
       "output": [
         ["hbm:item.bedrock_ore",1,779],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
+      "input": ["dict","oreNetherTh232"],
+      "output": [
+        ["hbm:item.powder_thorium"],
+        ["hbm:item.powder_thorium"],
+        ["hbm:item.powder_uranium"],
         ["minecraft:gravel"]
       ]
     },
@@ -4967,7 +5003,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,4365],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",9,2701],
+        ["hbm:item.bedrock_ore_fragment",9,1101],
         ["hbm:item.bedrock_ore",1,3341]
       ]
     },
@@ -5123,7 +5159,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,4360],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",9,2701],
+        ["hbm:item.bedrock_ore_fragment",9,1101],
         ["hbm:item.bedrock_ore",1,3336]
       ]
     },
@@ -5510,7 +5546,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,4361],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",9,2201],
+        ["hbm:item.bedrock_ore_fragment",9,2200],
         ["hbm:item.bedrock_ore",1,3337]
       ]
     },
@@ -5692,6 +5728,15 @@
       "output": [
         ["hbm:item.bedrock_ore",1,796],
         ["hbm:item.bedrock_ore",1,796],
+        ["minecraft:gravel"]
+      ]
+    },
+    {
+      "input": ["dict","oreTh232"],
+      "output": [
+        ["hbm:item.powder_thorium"],
+        ["hbm:item.powder_thorium"],
+        ["hbm:item.powder_uranium"],
         ["minecraft:gravel"]
       ]
     },
@@ -6755,7 +6800,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,2068],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",18,2201],
+        ["hbm:item.bedrock_ore_fragment",18,2200],
         ["hbm:item.bedrock_ore",1,3348]
       ]
     },
@@ -7220,7 +7265,7 @@
       "input": ["dict","oreTitanium"],
       "output": [
         ["hbm:item.powder_titanium"],
-        ["hbm:item.chunk_ore",2,5],
+        ["hbm:item.powder_titanium"],
         ["hbm:item.powder_iron"],
         ["minecraft:gravel"]
       ]
@@ -7413,7 +7458,7 @@
     {
       "input": ["item","hbm:item.bedrock_ore",1,4378],
       "output": [
-        ["hbm:item.bedrock_ore_fragment",9,2201],
+        ["hbm:item.bedrock_ore_fragment",9,2200],
         ["hbm:item.bedrock_ore",1,3354]
       ]
     },

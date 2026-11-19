@@ -179,7 +179,7 @@
     {
       "name": "fus.stellar",
       "inputFluid": [
-        ["STELLAR_FLUX",5]
+        ["STELLAR_FLUX",10]
       ],
       "outputItem": [
         ["single",["hbm:item.powder_gold"]]

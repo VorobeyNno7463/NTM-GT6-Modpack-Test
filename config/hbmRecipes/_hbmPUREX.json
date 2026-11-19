@@ -17,102 +17,41 @@
       "power": 1000
     },
     {
-      "name": "purex.flashgold",
+      "name": "purex.pilepu",
       "inputItem": [
-        ["dict","billetGold198"],
-        ["item","hbm:item.pellet_charged"]
-      ],
-      "inputFluid": [
-        ["AMAT",1000]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.billet_balefire_gold",2]]
-      ],
-      "duration": 600,
-      "power": 1000
-    },
-    {
-      "name": "purex.flashlead",
-      "inputItem": [
-        ["dict","billetLead209"],
-        ["item","hbm:item.billet_balefire_gold"]
-      ],
-      "inputFluid": [
-        ["AMAT",1000]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.billet_flashlead"]]
-      ],
-      "duration": 600,
-      "power": 1000
-    },
-    {
-      "name": "purex.pilepu239",
-      "inputItem": [
-        ["item","hbm:item.pile_rod",1,4]
-      ],
-      "inputFluid": [
-        ["SULFURIC_ACID",100]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.billet_pu239",2]],
-        ["single",["hbm:item.billet_uranium"]]
-      ],
-      "duration": 40,
-      "power": 100,
-      "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pile"
-    },
-    {
-      "name": "purex.pilergp",
-      "inputItem": [
-        ["item","hbm:item.pile_rod",1,5]
+        ["item","hbm:item.pile_rod_plutonium"]
       ],
       "inputFluid": [
         ["SULFURIC_ACID",100]
       ],
       "outputItem": [
         ["single",["hbm:item.billet_pu_mix",2]],
-        ["single",["hbm:item.billet_nuclear_waste"]]
+        ["single",["hbm:item.billet_uranium"]],
+        ["single",["hbm:item.plate_iron",2]]
       ],
       "duration": 40,
       "power": 100,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pile"
+      "autoSwitchGroup": "autoswitch.pile"
     },
     {
-      "name": "purex.pilethorium",
+      "name": "purex.pilepu239",
       "inputItem": [
-        ["item","hbm:item.pile_rod",1,8]
+        ["item","hbm:item.pile_rod_pu239"]
       ],
       "inputFluid": [
         ["SULFURIC_ACID",100]
       ],
       "outputItem": [
-        ["single",["hbm:item.billet_thorium_fuel",2]],
-        ["single",["hbm:item.billet_nuclear_waste"]]
+        ["single",["hbm:item.billet_pu239"]],
+        ["single",["hbm:item.billet_pu_mix"]],
+        ["single",["hbm:item.billet_uranium"]],
+        ["single",["hbm:item.plate_iron",2]]
       ],
       "duration": 40,
       "power": 100,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pile"
-    },
-    {
-      "name": "purex.pilewaste",
-      "inputItem": [
-        ["item","hbm:item.pile_rod",1,6]
-      ],
-      "inputFluid": [
-        ["SULFURIC_ACID",100]
-      ],
-      "outputItem": [
-        ["single",["hbm:item.billet_nuclear_waste",2]],
-        ["single",["hbm:item.billet_polonium"]]
-      ],
-      "duration": 40,
-      "power": 100,
-      "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pile"
+      "autoSwitchGroup": "autoswitch.pile"
     },
     {
       "name": "purex.zirnoxnu",
@@ -132,7 +71,7 @@
       "duration": 100,
       "power": 1000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.zirnox"
+      "autoSwitchGroup": "autoswitch.zirnox"
     },
     {
       "name": "purex.zirnoxmeu",
@@ -152,7 +91,7 @@
       "duration": 100,
       "power": 1000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.zirnox"
+      "autoSwitchGroup": "autoswitch.zirnox"
     },
     {
       "name": "purex.zirnoxthmeu",
@@ -172,7 +111,7 @@
       "duration": 100,
       "power": 1000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.zirnox"
+      "autoSwitchGroup": "autoswitch.zirnox"
     },
     {
       "name": "purex.zirnoxmox",
@@ -192,7 +131,7 @@
       "duration": 100,
       "power": 1000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.zirnox"
+      "autoSwitchGroup": "autoswitch.zirnox"
     },
     {
       "name": "purex.zirnoxmep",
@@ -211,7 +150,7 @@
       "duration": 100,
       "power": 1000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.zirnox"
+      "autoSwitchGroup": "autoswitch.zirnox"
     },
     {
       "name": "purex.zirnoxheu233",
@@ -231,7 +170,7 @@
       "duration": 100,
       "power": 1000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.zirnox"
+      "autoSwitchGroup": "autoswitch.zirnox"
     },
     {
       "name": "purex.zirnoxheu235",
@@ -251,7 +190,7 @@
       "duration": 100,
       "power": 1000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.zirnox"
+      "autoSwitchGroup": "autoswitch.zirnox"
     },
     {
       "name": "purex.zirnoxles",
@@ -271,7 +210,7 @@
       "duration": 100,
       "power": 1000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.zirnox"
+      "autoSwitchGroup": "autoswitch.zirnox"
     },
     {
       "name": "purex.zirnoxzfbmox",
@@ -291,7 +230,7 @@
       "duration": 100,
       "power": 1000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.zirnox"
+      "autoSwitchGroup": "autoswitch.zirnox"
     },
     {
       "name": "purex.platemox",
@@ -311,7 +250,7 @@
       "duration": 100,
       "power": 1500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.plate"
+      "autoSwitchGroup": "autoswitch.plate"
     },
     {
       "name": "purex.platepu238be",
@@ -331,7 +270,7 @@
       "duration": 100,
       "power": 1500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.plate"
+      "autoSwitchGroup": "autoswitch.plate"
     },
     {
       "name": "purex.platepu239",
@@ -351,7 +290,7 @@
       "duration": 100,
       "power": 1500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.plate"
+      "autoSwitchGroup": "autoswitch.plate"
     },
     {
       "name": "purex.platera226be",
@@ -371,7 +310,7 @@
       "duration": 100,
       "power": 1500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.plate"
+      "autoSwitchGroup": "autoswitch.plate"
     },
     {
       "name": "purex.platesa326",
@@ -391,7 +330,7 @@
       "duration": 100,
       "power": 1500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.plate"
+      "autoSwitchGroup": "autoswitch.plate"
     },
     {
       "name": "purex.plateu233",
@@ -411,7 +350,7 @@
       "duration": 100,
       "power": 1500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.plate"
+      "autoSwitchGroup": "autoswitch.plate"
     },
     {
       "name": "purex.plateu235",
@@ -431,7 +370,7 @@
       "duration": 100,
       "power": 1500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.plate"
+      "autoSwitchGroup": "autoswitch.plate"
     },
     {
       "name": "purex.pwrmeu",
@@ -451,7 +390,7 @@
       "duration": 100,
       "power": 2500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pwr"
+      "autoSwitchGroup": "autoswitch.pwr"
     },
     {
       "name": "purex.pwrheu233",
@@ -471,7 +410,7 @@
       "duration": 100,
       "power": 2500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pwr"
+      "autoSwitchGroup": "autoswitch.pwr"
     },
     {
       "name": "purex.pwrheu235",
@@ -491,7 +430,7 @@
       "duration": 100,
       "power": 2500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pwr"
+      "autoSwitchGroup": "autoswitch.pwr"
     },
     {
       "name": "purex.pwrmen",
@@ -511,7 +450,7 @@
       "duration": 100,
       "power": 2500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pwr"
+      "autoSwitchGroup": "autoswitch.pwr"
     },
     {
       "name": "purex.pwrhen237",
@@ -531,7 +470,7 @@
       "duration": 100,
       "power": 2500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pwr"
+      "autoSwitchGroup": "autoswitch.pwr"
     },
     {
       "name": "purex.pwrmox",
@@ -551,7 +490,7 @@
       "duration": 100,
       "power": 2500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pwr"
+      "autoSwitchGroup": "autoswitch.pwr"
     },
     {
       "name": "purex.pwrmep",
@@ -571,7 +510,7 @@
       "duration": 100,
       "power": 2500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pwr"
+      "autoSwitchGroup": "autoswitch.pwr"
     },
     {
       "name": "purex.pwrhep239",
@@ -591,7 +530,7 @@
       "duration": 100,
       "power": 2500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pwr"
+      "autoSwitchGroup": "autoswitch.pwr"
     },
     {
       "name": "purex.pwrhep241",
@@ -611,7 +550,7 @@
       "duration": 100,
       "power": 2500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pwr"
+      "autoSwitchGroup": "autoswitch.pwr"
     },
     {
       "name": "purex.pwrmea",
@@ -631,7 +570,7 @@
       "duration": 100,
       "power": 2500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pwr"
+      "autoSwitchGroup": "autoswitch.pwr"
     },
     {
       "name": "purex.pwrhea242",
@@ -651,7 +590,7 @@
       "duration": 100,
       "power": 2500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pwr"
+      "autoSwitchGroup": "autoswitch.pwr"
     },
     {
       "name": "purex.pwrhes326",
@@ -671,7 +610,7 @@
       "duration": 100,
       "power": 2500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pwr"
+      "autoSwitchGroup": "autoswitch.pwr"
     },
     {
       "name": "purex.pwrhes327",
@@ -691,7 +630,7 @@
       "duration": 100,
       "power": 2500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pwr"
+      "autoSwitchGroup": "autoswitch.pwr"
     },
     {
       "name": "purex.pwrbfbam",
@@ -711,7 +650,7 @@
       "duration": 100,
       "power": 2500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pwr"
+      "autoSwitchGroup": "autoswitch.pwr"
     },
     {
       "name": "purex.pwrbfpu241",
@@ -731,7 +670,7 @@
       "duration": 100,
       "power": 2500,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.pwr"
+      "autoSwitchGroup": "autoswitch.pwr"
     },
     {
       "name": "purex.thoriumsalt",
@@ -772,7 +711,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzhes",
@@ -794,7 +733,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzmes",
@@ -816,7 +755,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzles",
@@ -838,7 +777,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzhen",
@@ -860,7 +799,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzmeu",
@@ -882,7 +821,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzmep",
@@ -904,7 +843,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzlead",
@@ -926,7 +865,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzboron",
@@ -948,7 +887,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzdu",
@@ -970,7 +909,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watznaqadah",
@@ -992,7 +931,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watznaqadria",
@@ -1014,7 +953,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.icf",
@@ -1108,7 +1047,7 @@
       "duration": 200,
       "power": 50000,
       "nameWrapper": "purex.schrab",
-      "autoSwitchGroup": "..autoswitch.schrab"
+      "autoSwitchGroup": "autoswitch.schrab"
     },
     {
       "name": "purex.schrabpwr",
@@ -1127,7 +1066,7 @@
       "duration": 200,
       "power": 50000,
       "nameWrapper": "purex.schrab",
-      "autoSwitchGroup": "..autoswitch.schrab"
+      "autoSwitchGroup": "autoswitch.schrab"
     },
     {
       "name": "purex.schrabmen",
@@ -1146,7 +1085,7 @@
       "duration": 200,
       "power": 50000,
       "nameWrapper": "purex.schrab",
-      "autoSwitchGroup": "..autoswitch.schrab"
+      "autoSwitchGroup": "autoswitch.schrab"
     },
     {
       "name": "purex.watzpu241",
@@ -1168,7 +1107,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzamf",
@@ -1190,7 +1129,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzamrg",
@@ -1212,7 +1151,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzcmf",
@@ -1234,7 +1173,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzcmrg",
@@ -1256,7 +1195,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzbk247",
@@ -1278,7 +1217,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzcf251",
@@ -1300,7 +1239,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzcf252",
@@ -1322,7 +1261,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     },
     {
       "name": "purex.watzes253",
@@ -1344,7 +1283,7 @@
       "duration": 60,
       "power": 10000,
       "nameWrapper": "purex.recycle",
-      "autoSwitchGroup": "..autoswitch.watz"
+      "autoSwitchGroup": "autoswitch.watz"
     }
   ]
 }

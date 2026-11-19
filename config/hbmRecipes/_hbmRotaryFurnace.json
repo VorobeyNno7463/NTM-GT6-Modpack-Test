@@ -110,15 +110,6 @@
       "output": ["Aluminum",216],
       "duration": 40,
       "steam": 200
-    },
-    {
-      "inputs": [
-        ["item","hbm:item.powder_flux"]
-      ],
-      "fluid": ["TITANIUM_TETRACHLORIDE",1000],
-      "output": ["Titanium",288],
-      "duration": 40,
-      "steam": 100
     }
   ]
 }
